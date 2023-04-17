@@ -1,0 +1,1000 @@
+['Located'] Part-Whole
+['Located'] Located
+[] unknown
+['Near'] unknown
+['Located'] Ownership
+['Use', 'Located'] Ownership
+['Family'] Family
+['Located', 'Part-Whole'] Part-Whole
+['Located'] Located
+['Near'] Near
+['Unknown', 'Near', 'Located', 'Part-Whole'] Located
+['Family'] Family
+['Part-Whole'] Part-Whole
+['Located'] unknown
+['Located', 'Part-Whole'] Located
+['Near', 'Located'] Located
+['Use', 'Located'] unknown
+['Use'] Part-Whole
+['Located'] Located
+['Located'] Located
+['Located'] unknown
+['Located'] Part-Whole
+['Use'] Part-Whole
+['Located', 'Part-Whole'] Located
+['Located', 'Part-Whole'] unknown
+['Unknown'] Part-Whole
+[] General-Special
+['Social', 'Located'] Part-Whole
+[] Use
+['Social'] unknown
+['Social'] Family
+['Family'] unknown
+[] Located
+['Family'] unknown
+['Located'] Located
+['Use'] Located
+['Located', 'Part-Whole'] Part-Whole
+['Family'] Family
+['Near', 'Social', 'Located'] Near
+['Social'] Social
+['Unknown'] unknown
+['Create', 'Located'] Social
+['Located'] unknown
+['Located', 'Part-Whole'] unknown
+['Located'] Located
+[] Located
+['Part-Whole'] Located
+['Located', 'Part-Whole'] unknown
+['General-Spicial'] General-Special
+['Near'] Located
+['Family'] Family
+['Use'] unknown
+['Unknown', 'Located', 'Part-Whole'] Part-Whole
+['Use'] unknown
+['Use', 'Social', 'Located', 'Part-Whole'] Use
+['Unknown'] unknown
+['Create'] Located
+['Located'] Part-Whole
+['Use', 'Social'] Use
+['Located'] Part-Whole
+['Located'] Located
+['Use'] Part-Whole
+['Use', 'Located'] Part-Whole
+['Social', 'Family'] unknown
+['Social'] unknown
+['Located'] unknown
+['Near', 'Located'] Located
+[] unknown
+['Unknown'] Part-Whole
+['Use', 'Social', 'Located'] unknown
+['Unknown', 'Social'] unknown
+['Located'] Part-Whole
+['Social'] Social
+[] Social
+['Use'] Use
+['Unknown'] unknown
+[] Part-Whole
+['Unknown'] Part-Whole
+['Located'] Located
+['Use', 'Located'] Located
+[] Located
+['Social'] unknown
+['Social'] Part-Whole
+[] unknown
+[] unknown
+['Located'] Located
+['Located', 'Family'] unknown
+['Use'] Part-Whole
+['Family'] Family
+[] unknown
+['Family'] Part-Whole
+['Create', 'Located'] unknown
+['Use', 'Owership', 'Part-Whole'] unknown
+[] Located
+['Located', 'Part-Whole'] Part-Whole
+['Use'] unknown
+['Use', 'Social'] Ownership
+['Family', 'Part-Whole'] Part-Whole
+[] Located
+['Located'] Part-Whole
+['Use'] Family
+['Located'] Located
+['Use', 'Located', 'Family', 'Part-Whole'] unknown
+['Unknown', 'Social', 'Located', 'Owership', 'General-Spicial', 'Family'] Social
+['Use', 'Social'] Social
+['Use'] Create
+['Located'] unknown
+['Use', 'Located', 'Part-Whole'] Located
+['Family'] unknown
+['Create', 'Located'] unknown
+['General-Spicial'] Located
+['Unknown', 'Social', 'Owership', 'Part-Whole'] unknown
+[] Family
+['Family'] Family
+['Located', 'Part-Whole'] unknown
+['Located'] Located
+['Social'] Social
+['Unknown'] Part-Whole
+['Create'] Family
+['Located'] Located
+['Social'] General-Special
+['Social'] unknown
+['Use', 'Near', 'Located', 'Part-Whole'] Located
+['Use'] Family
+['Located', 'Family'] unknown
+['Unknown'] Part-Whole
+['Use', 'Family'] Family
+['Use', 'Located', 'Part-Whole'] Located
+['Use', 'Family'] unknown
+['Use', 'Located', 'Family'] Part-Whole
+['Unknown'] unknown
+[] Part-Whole
+['Use', 'Located'] Located
+[] Located
+['Create', 'Use', 'Near', 'Social', 'Owership'] Family
+[] unknown
+['Located', 'Part-Whole'] Part-Whole
+['Located', 'General-Spicial'] unknown
+['Use', 'Located', 'Family'] Part-Whole
+['Located'] Near
+['Unknown'] Part-Whole
+['Use'] General-Special
+['Create'] Part-Whole
+[] Part-Whole
+['Located'] Located
+['Use'] unknown
+['Located', 'Part-Whole'] unknown
+['Located'] Part-Whole
+['Social'] Ownership
+['Unknown', 'Near', 'Social', 'Located'] unknown
+['Located'] Located
+['Use'] Use
+['Use'] Use
+['Located'] Located
+['Located', 'Part-Whole'] Located
+['Located', 'Part-Whole'] unknown
+['Use', 'Located'] unknown
+['Located'] Part-Whole
+['Located', 'Family'] unknown
+['Located'] Part-Whole
+['Create'] unknown
+['Located'] Ownership
+['Family'] Family
+['Social'] unknown
+['Family'] Family
+['Located', 'Part-Whole'] unknown
+[] Located
+['Social'] Family
+[] Located
+['Located'] unknown
+['Located', 'Part-Whole'] Part-Whole
+[] Part-Whole
+['Family'] Family
+['Create', 'Use'] Located
+['Located', 'Part-Whole'] Located
+[] Located
+['Part-Whole'] Located
+['Use', 'Social'] unknown
+['Create'] General-Special
+['Use'] unknown
+['Located'] unknown
+['Create', 'Use', 'Located'] unknown
+['Located'] Use
+[] Located
+[] Located
+['Located'] Family
+[] Use
+['Part-Whole'] General-Special
+['Located'] Part-Whole
+['Located'] unknown
+['Located'] Located
+['Unknown'] Create
+[] Part-Whole
+[] Part-Whole
+[] Social
+['Use', 'Located'] Located
+['Create', 'Located'] Family
+['Family'] Family
+['Located'] unknown
+['Located', 'Owership', 'Part-Whole'] Part-Whole
+['Located'] Located
+['Near'] Near
+['Create', 'Use'] Create
+['Social'] Social
+['Use'] Create
+['Part-Whole'] Near
+[] unknown
+['Unknown'] Located
+['Located'] Located
+['Create', 'Use', 'Near', 'Social', 'Located'] Social
+['Located'] Located
+['Located'] Located
+['Create', 'Use', 'Near', 'Part-Whole'] Part-Whole
+['Located', 'General-Spicial'] unknown
+['Family'] Part-Whole
+['Use'] Part-Whole
+['Create', 'Use', 'Located', 'Owership'] Social
+['Use', 'Social'] Use
+['Located'] Located
+['Use'] Part-Whole
+['Located', 'Part-Whole'] Located
+['Use', 'Near', 'Located'] unknown
+['Create'] Use
+['Use'] Located
+['Use', 'Located', 'Part-Whole'] unknown
+['Part-Whole'] Located
+['Use'] Part-Whole
+['Located'] Near
+['Use', 'Social', 'Part-Whole'] unknown
+['Near', 'Located'] Near
+['Use'] General-Special
+['Use'] Use
+['Unknown'] unknown
+['Social'] Family
+['Located'] Located
+['Unknown'] Part-Whole
+['Create', 'Use'] unknown
+['Family'] Family
+[] Located
+['Unknown'] Create
+[] unknown
+['Located', 'Part-Whole'] unknown
+['Create', 'Located'] unknown
+['Create'] Create
+['Family'] unknown
+['Located'] unknown
+['Family'] Family
+['Located'] Near
+['Part-Whole'] General-Special
+['Use'] Located
+['Part-Whole'] Located
+['Use'] unknown
+['Unknown', 'Near', 'Located', 'Owership', 'Part-Whole'] Located
+['Use', 'Social', 'Located', 'Part-Whole'] unknown
+['Family'] Family
+['Create'] unknown
+['Family'] Family
+['Located', 'Owership'] Located
+['Owership'] Located
+['Use', 'Part-Whole'] unknown
+['Located'] unknown
+['Located'] Part-Whole
+['Use'] Part-Whole
+['Located'] unknown
+['Social'] Located
+['Create', 'Use', 'Located', 'Part-Whole'] unknown
+['Social'] Social
+['Located', 'Part-Whole'] Located
+['Located'] Located
+['Social'] unknown
+[] unknown
+['Family'] Part-Whole
+['Owership'] General-Special
+['Use'] Social
+['Located'] Located
+['Near'] Part-Whole
+['Located'] Located
+['Use', 'Located', 'Part-Whole'] Ownership
+['Near', 'Located'] Located
+['Located'] unknown
+['Located'] unknown
+['Use', 'Located'] Ownership
+['Use'] Part-Whole
+['Near', 'Located'] Near
+['Social'] General-Special
+['Social'] Social
+['Social'] unknown
+['Located'] Part-Whole
+['Use'] Located
+['Create'] unknown
+['Use', 'Located', 'Part-Whole'] unknown
+['Create', 'Use', 'Located'] unknown
+['Create'] Located
+['Located'] unknown
+['Located'] Ownership
+['Use'] Part-Whole
+['Located', 'Owership'] Located
+[] Located
+[] Use
+['Use', 'Located'] Ownership
+['Use', 'Located'] Use
+['Use'] Located
+['Social'] unknown
+['Located', 'Part-Whole'] Located
+['Located'] Located
+[] unknown
+['Social'] unknown
+['Unknown'] Located
+['Social', 'Located'] Located
+['Located'] Located
+['Located'] unknown
+['Use'] unknown
+[] unknown
+['Unknown'] Social
+['Located'] Located
+['Located', 'Part-Whole'] Located
+['Located'] Located
+['Use'] Part-Whole
+['Use'] Part-Whole
+['Unknown'] Social
+['Located'] Part-Whole
+['Part-Whole'] Located
+['Located', 'Part-Whole'] Located
+['Create', 'Use'] unknown
+['Use', 'Located'] unknown
+['Located', 'Part-Whole'] Located
+['Family'] unknown
+['Use'] unknown
+['Create'] Located
+['Use', 'Located'] unknown
+['Part-Whole'] unknown
+['Located'] Located
+['Use'] Use
+['Part-Whole'] Ownership
+['Family'] Family
+['Use'] Located
+[] Located
+['Located'] Part-Whole
+['Located'] unknown
+['Located', 'Part-Whole'] Near
+['Use', 'Located', 'Part-Whole'] Located
+['Use'] Use
+['Use'] Use
+['Use', 'Located'] Use
+['Unknown'] unknown
+['Located'] Part-Whole
+['Family'] Family
+['Located', 'Part-Whole'] Located
+[] Ownership
+['Use'] Use
+[] Part-Whole
+[] Part-Whole
+[] unknown
+['Create', 'Use', 'Family'] Social
+['Unknown', 'Located'] unknown
+['Located'] Part-Whole
+['Near', 'Located'] unknown
+['Located'] Located
+['Unknown'] Part-Whole
+['Located'] Located
+['Unknown'] Ownership
+['Family'] unknown
+['Near'] Ownership
+['Located'] unknown
+['Located'] General-Special
+['Create'] unknown
+[] Located
+['Use'] unknown
+['Create'] Located
+['Social'] unknown
+['Create'] Part-Whole
+['Unknown', 'Social', 'Located'] unknown
+[] Located
+['Near'] Located
+[] Located
+['Located'] Ownership
+['Part-Whole'] Part-Whole
+['Located'] Part-Whole
+['Located'] Part-Whole
+['Part-Whole'] Located
+['Unknown', 'Located', 'Family', 'Part-Whole'] unknown
+['Use', 'Social', 'Located'] Social
+[] Located
+['Use'] Use
+['Unknown'] unknown
+[] Part-Whole
+['Located'] Located
+[] Use
+['Located'] Part-Whole
+['Family'] Part-Whole
+['Located'] Located
+['Use'] Located
+['Family'] Family
+['Create', 'Use', 'Located'] unknown
+['Use'] Part-Whole
+['Social'] unknown
+['Located', 'Part-Whole'] Part-Whole
+[] Located
+['Use', 'Social'] unknown
+['Near'] Part-Whole
+['Use', 'Located'] Located
+['Use'] Use
+[] Use
+['Use', 'Social'] Social
+['Located'] unknown
+['Located'] Ownership
+['Social'] Social
+['Located'] Create
+['Social', 'Family'] Part-Whole
+[] Located
+['Located'] Part-Whole
+['Located', 'Part-Whole'] Located
+['Located'] Located
+['Located', 'Family'] Located
+['Use', 'Located'] unknown
+['Located'] unknown
+['Located'] Ownership
+['Use', 'Located'] unknown
+['Located'] Located
+[] General-Special
+['Unknown'] Family
+['Use'] unknown
+['Located'] Located
+['Near'] unknown
+['Located'] Located
+['Use'] Use
+[] unknown
+['Located'] Part-Whole
+['Near'] Located
+[] unknown
+['Use'] unknown
+['Social'] General-Special
+['Use', 'Owership'] Part-Whole
+['Located'] Located
+['Unknown'] Part-Whole
+['Owership'] Family
+[] Social
+['Unknown', 'Located', 'Part-Whole'] unknown
+['Located'] Located
+['Located'] unknown
+['Social', 'Located'] unknown
+[] General-Special
+['Near', 'Located'] Located
+['Create'] unknown
+['Social', 'Located'] Part-Whole
+['Social'] Family
+['Family'] Family
+['Located'] Located
+['Located'] Located
+[] Located
+['Part-Whole'] Part-Whole
+['Create'] unknown
+['Create'] Part-Whole
+['Located'] Part-Whole
+['Use'] Ownership
+['Located', 'Part-Whole'] Near
+['Located'] Located
+['Unknown', 'Create', 'Near', 'Located', 'Part-Whole'] Part-Whole
+['Use'] Ownership
+['Located'] Located
+['Use', 'Located'] Part-Whole
+['Near'] Located
+['Near'] Near
+['Unknown', 'Use', 'Located', 'Owership', 'Family'] Family
+['Located', 'Part-Whole'] unknown
+['Social'] Part-Whole
+['Located'] unknown
+['Use'] Ownership
+['Located'] Located
+['Located', 'Part-Whole'] Located
+['Use'] Part-Whole
+['Unknown'] Part-Whole
+['Part-Whole'] Near
+['General-Spicial'] Part-Whole
+['Family'] Family
+['Located'] Use
+[] Part-Whole
+['Located'] Near
+['Use'] unknown
+[] Located
+['Create'] Located
+[] unknown
+['Located'] unknown
+['Located'] Located
+['Near', 'Part-Whole'] Part-Whole
+['Family'] unknown
+['Located'] unknown
+['Use'] Use
+['Social'] Family
+['Create', 'Located'] Located
+['Create', 'Use', 'Social'] General-Special
+['Located', 'Part-Whole'] Family
+['Social'] Social
+['Near', 'Located'] Social
+['Use', 'Located'] unknown
+['Create', 'Use', 'Family'] unknown
+['Social'] Family
+['Social'] unknown
+['Near', 'Social', 'Located'] Near
+[] Ownership
+['Located'] Near
+['Located'] Located
+['Part-Whole'] Part-Whole
+['Near', 'Located'] Ownership
+['Part-Whole'] Ownership
+['Located'] Part-Whole
+['Social'] Social
+['Use', 'Located', 'Owership', 'Family', 'Part-Whole'] Located
+['Located'] unknown
+[] Located
+['Located'] unknown
+['Located'] unknown
+['Social'] Part-Whole
+['Located', 'Part-Whole'] unknown
+['Located'] Located
+['Located'] unknown
+['Create'] Part-Whole
+[] Located
+[] Located
+[] Use
+['Create'] Use
+['Part-Whole'] Part-Whole
+['Create'] unknown
+['Social'] Social
+[] Part-Whole
+['Create', 'Use', 'Located', 'Family', 'Part-Whole'] unknown
+['Use', 'Part-Whole'] Part-Whole
+['Create', 'Use', 'Located'] unknown
+['Located'] Located
+['Family'] Family
+['Use'] unknown
+['Use', 'General-Spicial', 'Part-Whole'] Located
+[] Ownership
+['Family'] Family
+['Located'] Part-Whole
+['Located'] Located
+['Use', 'Located'] Located
+['Part-Whole'] Part-Whole
+[] Located
+['Use'] Part-Whole
+['Family'] unknown
+['Use', 'Social', 'Located'] General-Special
+['Located'] unknown
+['Use'] Located
+['Social'] unknown
+['Located'] Near
+['Social'] Social
+['Create'] Part-Whole
+['Use'] Located
+['Use'] unknown
+['Unknown'] Ownership
+['Create', 'Use', 'Part-Whole'] unknown
+['Part-Whole'] General-Special
+[] unknown
+['Create', 'Near'] Part-Whole
+['Located'] Use
+['Located'] unknown
+[] Located
+['Use'] Use
+[] Located
+['Use'] unknown
+['Part-Whole'] Part-Whole
+['Part-Whole'] General-Special
+['Owership'] Ownership
+[] Part-Whole
+[] Located
+['Use'] Located
+['Create', 'Use'] unknown
+['Located', 'Part-Whole'] unknown
+['Create'] Ownership
+['Use'] Located
+['Create'] unknown
+['Unknown', 'Located', 'Owership'] Ownership
+['Use'] Ownership
+['Use'] Social
+['Use', 'Social', 'Located', 'Part-Whole'] Part-Whole
+['Near'] unknown
+['Social'] Part-Whole
+['Use', 'Family'] Social
+['Part-Whole'] unknown
+['Located'] unknown
+[] Located
+['Unknown'] unknown
+['Located'] Located
+['Located'] unknown
+['Located'] unknown
+[] Part-Whole
+['Located'] Part-Whole
+['Located'] Part-Whole
+['Social'] Part-Whole
+['Located'] Located
+['Use'] unknown
+['Use'] Part-Whole
+['Part-Whole'] General-Special
+['Located', 'Part-Whole'] unknown
+['Located'] Part-Whole
+['Part-Whole'] Part-Whole
+['Located', 'Family'] unknown
+['Use', 'Located', 'Family'] unknown
+[] Social
+['Located'] unknown
+['Part-Whole'] Part-Whole
+[] Located
+['Located'] Located
+[] unknown
+['Unknown', 'Create', 'Use', 'Located'] Social
+['Create'] unknown
+[] Family
+['Family'] Family
+['Unknown'] Located
+['Use', 'Part-Whole'] unknown
+['Create'] unknown
+['Create', 'Use', 'Social'] Part-Whole
+['Located'] Located
+['Located', 'Part-Whole'] unknown
+[] Part-Whole
+['Use'] Part-Whole
+['Social'] Use
+['Social'] unknown
+['Social'] Social
+['Located'] unknown
+['Unknown'] unknown
+['Located'] Located
+['Create', 'Social'] Part-Whole
+['Located', 'Owership', 'Family'] unknown
+['Located'] Near
+['Social'] Family
+['Family'] Part-Whole
+[] Part-Whole
+['Social'] Ownership
+['Use', 'Located'] Use
+[] Located
+['Use'] unknown
+['Family'] Family
+['Part-Whole'] Part-Whole
+['Create', 'Use', 'Located'] unknown
+['Use'] unknown
+['Social'] Social
+['Located'] Located
+['Located'] unknown
+['Use', 'Social', 'Part-Whole'] Use
+['Located'] Part-Whole
+['Use', 'Located', 'Owership', 'Family'] Part-Whole
+['Use'] Part-Whole
+['Located'] Located
+['Use', 'Located'] Located
+['Social', 'Part-Whole'] Part-Whole
+['Part-Whole'] Part-Whole
+['Located', 'Part-Whole'] unknown
+['General-Spicial'] Located
+['Located'] Part-Whole
+['Located'] unknown
+['Located', 'Part-Whole'] unknown
+['Create', 'Located', 'General-Spicial'] Part-Whole
+['Unknown'] Part-Whole
+['Use'] Located
+['Create', 'Use', 'Located'] unknown
+[] Part-Whole
+['Create'] Part-Whole
+['Located', 'Part-Whole'] Part-Whole
+['Owership', 'Family'] unknown
+['Located'] unknown
+['Unknown', 'Create', 'Use'] unknown
+['Unknown'] Part-Whole
+['Part-Whole'] Part-Whole
+['Part-Whole'] Near
+['Near', 'Social', 'Located'] unknown
+['Part-Whole'] Part-Whole
+['Use', 'Located', 'Owership'] unknown
+['Use'] Located
+['Unknown'] Part-Whole
+['Unknown', 'Create', 'Use', 'Social', 'Located', 'Part-Whole'] Use
+['Near'] Part-Whole
+['Located'] Part-Whole
+[] unknown
+['Unknown'] General-Special
+['Unknown'] Part-Whole
+['Located'] Located
+['Located', 'Part-Whole'] Part-Whole
+[] General-Special
+['Unknown', 'Use'] Use
+['Create', 'Use', 'Located'] unknown
+['Located', 'Owership'] Family
+['Social'] Family
+['Use'] Use
+['Unknown'] unknown
+['Located'] Located
+['Located'] Located
+[] Located
+['Social'] Create
+['Use', 'Located'] Use
+['Use', 'Located', 'Family'] Part-Whole
+['Unknown', 'Located', 'Part-Whole'] unknown
+['Located'] Located
+['Unknown'] Social
+['Located'] Located
+['Located'] Near
+['Family'] Family
+['Located'] Ownership
+['Part-Whole'] Located
+['Create'] Part-Whole
+[] unknown
+['Unknown'] Family
+['Family'] unknown
+['Use', 'Near'] Near
+['Located'] Located
+['Create'] unknown
+['Located'] Located
+['Use'] Part-Whole
+['Social'] Social
+['Use', 'Located'] Use
+['Use', 'Part-Whole'] Use
+['Located', 'Part-Whole'] Located
+['Use', 'Located', 'Family'] unknown
+['Create'] Located
+['Use', 'Located'] unknown
+['Use', 'Located', 'Family'] unknown
+['Located'] Part-Whole
+['Use', 'Part-Whole'] Use
+['Use'] Use
+['Create', 'Located'] Part-Whole
+[] General-Special
+['Use', 'Part-Whole'] unknown
+['Create', 'Use', 'Located'] unknown
+[] Located
+['Owership'] Ownership
+['Create'] Part-Whole
+['Family'] Part-Whole
+['Unknown'] Part-Whole
+['Use'] Part-Whole
+['Located'] Located
+['Located'] Located
+['Use', 'Part-Whole'] unknown
+['Located'] unknown
+['Use', 'Social'] unknown
+['Use', 'Part-Whole'] Social
+['Use'] Social
+['Create', 'Use', 'Located', 'Part-Whole'] unknown
+['Use', 'Located'] Part-Whole
+['Part-Whole'] Part-Whole
+['Located'] unknown
+['Located'] Located
+['Located'] Part-Whole
+[] Part-Whole
+[] Located
+['Near'] unknown
+['Create', 'Use', 'Located', 'General-Spicial'] Located
+['Located', 'Part-Whole'] Part-Whole
+['Located'] Located
+['Family'] Family
+[] Located
+['Located'] Located
+['Use', 'Located'] Located
+['Create'] unknown
+['Create', 'Use', 'Located'] unknown
+['Part-Whole'] Part-Whole
+['Social'] Family
+['Located'] Located
+['Part-Whole'] Located
+['Located'] Located
+['Located'] Located
+['Social'] Use
+['Part-Whole'] Located
+['Unknown'] Part-Whole
+[] unknown
+['Family'] Family
+['Located'] unknown
+['Located', 'Part-Whole'] unknown
+['Family'] unknown
+['Near', 'Located'] Near
+['Located'] Near
+['Social'] General-Special
+['Create'] Located
+['Located', 'Part-Whole'] Create
+['Located'] Family
+['Located'] unknown
+['Unknown'] Part-Whole
+['Unknown'] Part-Whole
+['Located'] unknown
+['Use'] Located
+['Use'] Use
+['Use'] Located
+['Near', 'Located'] Part-Whole
+['Create'] Located
+['Create', 'Use', 'Social', 'Located'] unknown
+[] Located
+['Family'] Family
+['Unknown', 'Part-Whole'] Part-Whole
+['Create', 'Use', 'Located'] unknown
+['Use', 'Owership'] Use
+['Create'] Located
+['Social'] Family
+[] General-Special
+['Social'] Family
+['Located', 'Owership'] unknown
+[] Social
+['Located'] Located
+['Located'] Located
+['Use'] Located
+['Located', 'Owership'] unknown
+['Unknown'] Part-Whole
+['Located'] unknown
+['Part-Whole'] Family
+['Part-Whole'] unknown
+['Family'] General-Special
+['Unknown'] Part-Whole
+['Unknown'] Create
+['Part-Whole'] Located
+['Social'] unknown
+['Social'] Family
+['Located'] Located
+[] unknown
+['Family'] unknown
+['Family'] unknown
+['Family'] Part-Whole
+[] unknown
+['Use'] Part-Whole
+['Located'] Located
+[] unknown
+['Located'] Located
+[] unknown
+['Family'] Family
+['Use', 'Located', 'Part-Whole'] Part-Whole
+['Create', 'Use', 'Located'] unknown
+['Create', 'Use'] unknown
+['Use', 'Located'] unknown
+['Create'] Near
+['Create', 'Use', 'Social', 'Located'] unknown
+['Located'] Ownership
+['Located'] Located
+['Create', 'Use', 'Located'] unknown
+['Located'] unknown
+[] Located
+['Use', 'Located'] Use
+[] Located
+['Create'] Part-Whole
+['Use', 'Social'] Part-Whole
+['Use'] Use
+['Located'] unknown
+['Create'] Use
+['Located', 'Part-Whole'] Located
+['Located'] unknown
+['Create'] unknown
+['Create', 'Use', 'Near', 'Located'] unknown
+[] unknown
+['Social'] Family
+['Located', 'Part-Whole'] Located
+['Unknown'] General-Special
+['Social'] Social
+['Unknown'] Social
+['Located'] General-Special
+['Located', 'Part-Whole'] Located
+['Located', 'Part-Whole'] unknown
+['Located', 'Part-Whole'] unknown
+['Create'] Social
+['Located'] Located
+['Located'] Part-Whole
+['Create'] unknown
+['Create', 'Use', 'Located'] unknown
+['Family'] unknown
+[] unknown
+['Use', 'Located'] Ownership
+['Located'] General-Special
+['Located'] unknown
+['Use'] Ownership
+[] General-Special
+['Located'] General-Special
+['Owership'] Family
+[] Part-Whole
+['Located'] Use
+['Use'] Family
+['Unknown', 'Use', 'Located'] unknown
+['Located'] Located
+['Located', 'Part-Whole'] unknown
+['Use'] Social
+[] Part-Whole
+['Social'] unknown
+['Create', 'Located', 'Part-Whole'] Near
+['Social'] Social
+['Located'] Located
+['Use'] Located
+['Create'] Family
+[] General-Special
+['Located', 'Part-Whole'] Near
+[] Family
+['Located'] Located
+[] Located
+['Located'] Located
+['Unknown', 'Use', 'Social', 'Located'] unknown
+['Located', 'Owership', 'Part-Whole'] unknown
+['Use'] unknown
+['Use'] Ownership
+['Located'] Located
+['Near', 'Located'] Located
+[] Family
+['Located', 'Owership'] unknown
+['Create'] Located
+['Located'] Located
+['Use', 'Located', 'Part-Whole'] Family
+['Unknown'] unknown
+['Social'] Family
+[] Located
+['Use', 'Located'] Social
+['Located'] Located
+['Located'] Part-Whole
+['Create', 'Use'] Use
+['Part-Whole'] unknown
+['Create', 'Use', 'Located'] Part-Whole
+['Located'] unknown
+['Use', 'Located'] Located
+['Social'] Social
+[] Located
+['Unknown', 'Create', 'Located'] Located
+['Create', 'Located', 'Owership'] unknown
+[] Located
+['Part-Whole'] Part-Whole
+['Located'] Part-Whole
+['Located', 'Part-Whole'] unknown
+['Located'] General-Special
+['Located'] unknown
+['Located'] Part-Whole
+['Use'] Part-Whole
+['Located'] Located
+['Use', 'Near', 'Located', 'Part-Whole'] General-Special
+['Located', 'Owership', 'Part-Whole'] Located
+['Use', 'Located', 'Family', 'Part-Whole'] Part-Whole
+['Use'] Use
+['Use', 'Part-Whole'] Part-Whole
+['Social', 'Located'] Social
+['Use', 'Owership'] Located
+[] General-Special
+['Use', 'Located'] unknown
+['Use'] Part-Whole
+['Located'] Part-Whole
+['Located'] Located
+['Part-Whole'] unknown
+['Use'] Part-Whole
+['Use'] Ownership
+[] General-Special
+['Part-Whole'] Located
+['Use', 'Located'] Located
+['Located'] unknown
+['Create', 'Use', 'Located'] unknown
+['Near', 'Located', 'Part-Whole'] Located
+['Near'] Social
+['Social'] Family
+['Owership', 'Family', 'Part-Whole'] unknown
+['Located'] Part-Whole
+['Located'] Part-Whole
+['Social'] Part-Whole
+['Located', 'Family'] unknown
+['Use'] Part-Whole
+[] Located
+['Social'] unknown
+['Owership', 'Part-Whole'] Located
+['Create', 'Use', 'Family'] unknown
+[] Family
+['Located'] Located
+['Use', 'Located'] Located
+['Located'] Located
+[] Part-Whole
+['Use', 'Family'] Part-Whole
+['Family'] Family
+['Unknown'] Part-Whole
+[] Part-Whole
+['Use', 'Social', 'Located', 'Part-Whole'] Part-Whole
+['Part-Whole'] Part-Whole
+['Use'] Located
+['Located'] Located
+['Create'] unknown
+['Use', 'Located'] Ownership
+['Family'] unknown
+[] unknown
+['Unknown', 'Use', 'Part-Whole'] Located
+['Part-Whole'] General-Special
+['Part-Whole'] Part-Whole
+['Use', 'Located', 'Family'] unknown
+['Located'] Located
+['Part-Whole'] Part-Whole
+['Part-Whole'] Part-Whole
+['Owership', 'Family'] unknown
+['Located'] Located
+['Located'] Located
+['Unknown', 'Use', 'Located'] unknown
+['Located', 'Part-Whole'] Part-Whole
+[] Part-Whole
+['Unknown'] Ownership
+[] General-Special
+['Use'] unknown
+['Use'] Part-Whole
+['Located'] Part-Whole
+['Social'] Part-Whole
+['Social'] Part-Whole
+['Social'] Part-Whole
+['Unknown'] General-Special
+[] Create
+['Use'] Social
+['Located'] Located
+['Part-Whole'] unknown
+['Located'] Located

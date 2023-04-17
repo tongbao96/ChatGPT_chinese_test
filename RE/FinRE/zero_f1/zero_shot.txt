@@ -1,0 +1,1000 @@
+{'text': '月劲牌投资曾接手了GL亚洲毛里求斯第二有限公司持有的美尔雅全部债权,包括<N>万元人民币,<N>万美元及利息合同和担保美尔雅文件下的所有权利和权益。', 'predict': "relation tags: ['持有']\nrelation: 劲牌投资持有美尔雅的全部债权，包括金额为<N>万元人民币和<N>万美元的利息合同和担保文件的所有权利和权益。"}
+{'text': '华东医药同时公告,公司控股子公司杭州中美华东制药有限公司出资<N>万元独家受让杭州华东医药集团生物工程研究所有限公司他克莫司新药技术。', 'predict': "relation tags: ['注资', '拥有', '收购', '被注资', '被拥有', '被收购']\nrelation: 杭州中美华东制药有限公司注资<N>万元，拥有杭州华东医药集团生物工程研究所有限公司的他克莫司新药技术。"}
+{'text': '面对媒体质疑港口监管疏漏,他在发布会上称,天津港是个区域的概念,发生爆炸事故的瑞海国际物流公司是一家民营企业,坐落在天津港区域范围内。', 'predict': 'relation: 坐落在（被拥有） \nentity 1: 瑞海国际物流公司\nentity 2: 天津港'}
+{'text': '安朗杰全球高级副总裁兼亚太地区总裁余锋表示,安防业务是英格索兰最赚钱的业务,分拆上市后,新公司将会有更多资金支持技术研发。', 'predict': 'Relation: 分拆上市。'}
+{'text': '回查此前的停牌公告,ST九发仅书面函询控股股东及重组方郑州瑞茂通,此次针对沈仁荣的函询应是针对本报报道而作出的反馈。', 'predict': '九发和郑州瑞茂通之间可能存在着重组或者合作的关系，但具体的关系需要进一步的分析和了解。此次函询可能是针对媒体报道而作出的反馈，涉及到的问题可能与注资、拥有、纠纷、签约等方面有关。'}
+{'text': '信捷电气和开润股份<N>月<N>日上市', 'predict': "relation tags：['unknown', '注资', '拥有', '纠纷', '自己', '增持', '重组', '买资', '签约', '持股', '交易', '入股', '转让', '成立', '分析', '合作', '帮助', '发行', '商讨', '合并', '竞争', '订单', '减持', '合资', '收购', '借壳', '欠款', '被发行', '被转让', '被成立', '被注资', '被持股', '被拥有', '被收购', '被帮助', '被借壳', '被买资', '被欠款', '被增持', '拟收购', '被减持', '被分析', '被入股', '被拟收购']\nsentence：信捷电气计划收购开润股份\nentity：信捷电气，开润股份\nrelation：拟收购"}
+{'text': '财务公司注册资本为人民币<N>亿元,其中,美的集团出资人民币<N>.<N>亿元,占注册资本的<N>%,美的电器出资人民币<N>亿元,占注册资本的<N>%。', 'predict': "relation tags: ['注资', '拥有']\nrelation: 美的电器注资财务公司人民币<N>亿元，拥有注册资本的<N>%；美的集团注资财务公司人民币<N>.<N>亿元，拥有注册资本的<N>%。"}
+{'text': '中航惠腾是目前国内能量产风机叶片仅有的几家企业之一,也是金风科技的配套商。', 'predict': "relation tags: ['配套']\nrelation: 中航惠腾是金风科技的配套商。"}
+{'text': '雨润控股集团董事长祝义材表示,“国家开发银行比较务实,签了协议后,这部分贷款很快就会落实,这笔贷款将用于雨润集团正在大力推进的农产品物流基地建设”。', 'predict': "relation tags: ['签约', '注资']\nrelation: 国家开发银行与雨润集团签署协议，注资雨润集团的农产品物流基地建设。"}
+{'text': '青山纸业今日公告,<N>月<N>日收到公司股东福建省盐业公司增持公司股份的书面函告,', 'predict': '福建省盐业公司拥有青山纸业的股份，并计划增持这些股份。这是一种持股关系。'}
+{'text': '针对“中冶收购公司、发行股份等方式注入锌业股份实现整体上市的事项。', 'predict': 'relation: 注资，收购\nentity: 锌业股份，中冶'}
+{'text': '但是,<N>月<N>日星美联合却发布澄清公告,一方面承认了在前段时间,SMI公司与美国星光传媒进行了引进战略投资者方面的商谈,并就重组星美系签署过框架性协议;', 'predict': "relation tags: ['合作', '签约', '重组']\nentity: SMI公司，美国星光传媒，星美系\nrelation: SMI公司与美国星光传媒在引进战略投资者方面进行了商谈，并签署了重组星美系的框架性协议。"}
+{'text': '备受市场质疑的中国宝安石墨烯项目又有了新进展,公司今日披露,控股子公司深圳市贝特瑞新能源材料股份有限公司投入开发的石墨烯项目产品开发及中试取得重大进展。', 'predict': "relation: '拥有'\nentity 1: 中国宝安\nentity 2: 深圳市贝特瑞新能源材料股份有限公司\n\n根据句子中提到的信息，可以判断出中国宝安是拥有深圳市贝特瑞新能源材料股份有限公司的控股子公司，因此它们之间的关系是拥有。句子中还提到了该公司投入开发的石墨烯项目产品开发及中试取得重大进展，但这并不涉及到它们之间的关系。"}
+{'text': '上海联合产权交易所项目信息显示,上海上食肉类有限公司公开挂牌转让上海荷美尔食品有限公司<N>.<N>%股权,挂牌价为<N>万元。', 'predict': '被转让'}
+{'text': '而根据*ST北生已公开的债务,欠债包括广厦建设集团的<N>.<N>万元,以及工商银行北海分行等<N>家银行<N>.<N>亿元贷款。', 'predict': "relation tags: ['欠款', '被拥有']\n\nrelation: *ST北生欠款<N>.<N>亿元，其中包括广厦建设集团<N>万元和工商银行北海分行等<N>家银行<N>亿元贷款。工商银行北海分行是北生的债权人，拥有北生的贷款。"}
+{'text': '获准在英参与投资一个世界上最昂贵的核电项目两周后,中国广核集团(下称“中广核”)与法国电力集团果然与英国政府签下该项目的最终投资协议。', 'predict': 'relation: 签约'}
+{'text': '但截至发稿时止,茂业国际以及渤海物流仍未发布相关公告。', 'predict': 'relation: 未知 (unknown)'}
+{'text': '而就在本月<N>日,上述四方又再次签署了《增资扩股补充协议》,约定宋都控股无需根据原协议约定向平安置业无偿转让所持宋都集团的股权或以现金的方式予以补偿。', 'predict': "relation tags: ['签署', '增资扩股', '补充协议', '控股', '转让', '持股', '补偿']\nrelation: \n宋都控股与平安置业、宋都集团、中信泰富在本月<N>日签署了《增资扩股补充协议》。根据协议，宋都控股无需向平安置业无偿转让其持有的宋都集团股权，也无需以现金方式进行补偿。"}
+{'text': '这似乎透露出凯恩股份进行股权收购是其大股东凯恩集团主导下的行为,而凯恩电池<N>年实现的<N>万元的净利润也不一定就是纯粹的主营业务收入。', 'predict': 'relation: 被收购'}
+{'text': '周一,美国辉瑞正式宣布与爱尔兰肉毒杆菌制造商艾尔建合并,并购规模<N>亿美元,为史上第二大并购案。', 'predict': 'relation: 合并'}
+{'text': '北京联合信源音视频技术有限公司持有<N>万股,持有其<N>.<N>%股权,联合信源是公司与中科院计算技术研究所等业界精英单位共同发起成立的高科技公司,联合', 'predict': '拥有：北京联合信源音视频技术有限公司持有<N>万股和<N>.<N>%股权。'}
+{'text': '<N>年,金健米业将其持有的在湘鄂情减资后所有股份<N>万元出资以<N>万元转让给孟凯所控制的深圳湘鄂情。。', 'predict': 'Relation: 转让\nEntity 1: 金健米业\nEntity 2: 深圳湘鄂情\nTags: 减持, 转让, 持股'}
+{'text': '人和实际控制人,以*ST宏盛两家控股子公司宏普国际发展有限公司和安曼电子有限公司的名义,先后在上海银行、中国银行、交通银行和中信银行申请开立进口信用证,', 'predict': 'relation: 申请开立进口信用证\n\nExplanation: The sentence describes how the person and the actual controller of *ST Hongsheng used the names of two subsidiary companies to apply for import letters of credit at Shanghai Bank, Bank of China, Industrial and Commercial Bank of China, and China CITIC Bank. The relation between the entities mentioned in the sentence is that they are the banks where the credit letters were applied for.'}
+{'text': '云南红一位内部人士曾对记者证实,云南红的确与通葡股份有过接触,不过是在浏阳河接洽之后。', 'predict': 'Relation: 未知 (unknown)\n\nThe sentence mentions that an insider from Yunnan Hong has confirmed that there has been contact between Yunnan Hong and Tongpu Gufen. However, the nature of this contact is not specified, so the relation tag remains unknown.'}
+{'text': '因此,在东航和上航联合重组后,如何整合旗下的三家货运航空公司为一家,也一直是东航在进行的工作,这需要东航与其他股东洽谈新的货运航空的股权分配。', 'predict': 'relation: 合并'}
+{'text': '青岛啤酒并购山东银麦之后,行业集中度进一步提高,可并购的资源越来越少,这也将使得啤酒巨头间的竞争将越发激烈。', 'predict': "relation tags: ['并购', '竞争']\nrelation: 青岛啤酒并购了山东银麦，这导致了行业的集中度进一步提高，但是由于可并购的资源越来越少，啤酒巨头之间的竞争将变得更加激烈。"}
+{'text': '澳大利亚经济在全球经济哀鸿遍野之际逆流而上、全球初级产品市场和股市显著上扬都给中铝增持力拓股份的反对者们增添了底气。', 'predict': 'relation: 增持\nentity 1: 中铝\nentity 2: 力拓股份'}
+{'text': '<N>月<N>日,《证券日报》记者独家采访了《叶问<N>》投资方上海快鹿集团(以下简称:快鹿集团),', 'predict': "relation tags: ['注资']\nsentence: 上海快鹿集团可能是《叶问<N>》电影的投资方之一，进行了注资。"}
+{'text': '龙湖、保利、百仕达等国内多家实力派房地产开发商,就在人们以为这块抢手的低密度用地将在这些知名房企中产生时,此前一直默默无闻的北京大龙(系大龙地产子公司,', 'predict': '未提到明确的关系标签，但是可以看出这句话在描述不同的房地产开发商争夺一块低密度用地的情况。其中提到了龙湖、保利、百仕达等多家实力派房地产开发商，但是最终该用地被北京大龙地产子公司获得。因此，可以说这句话涉及到了竞争、拥有、被持股等关系。'}
+{'text': '若此次交易未能进行,华润三九整体搬迁至观澜工业园后整体将科技办公大楼出租,按照目前租约水平,预计每年将获得约<N>万元的租金收入。', 'predict': "relation tags: ['拟租赁', '搬迁至', '出租']\nrelation: 华润三九拟搬迁至观澜工业园，并计划将科技办公大楼出租，预计每年可获得约<N>万元的租金收入。"}
+{'text': '总投资逾<N>亿元、由宝龙地产与天津新金融共同投资开发的“天津宝龙国际中心”于日前开工。', 'predict': '关系：合作'}
+{'text': '<N>日晚,王老吉方负责人徐夏及加多宝方负责人胡鹿机在派出所呆了一晚上,直到第二天两方总公司给出处理意见后才离开。', 'predict': "relation tags: ['纠纷', '合作', '处理意见']\nrelation: 王老吉方和加多宝方因为某种纠纷在派出所呆了一晚上，直到第二天两方总公司给出处理意见后才离开。可能是因为商业合作方面的问题。"}
+{'text': '<N>年<N>月,通过国有股权无偿划转,上海上实有限公司将上海医药有限公司<N>%股份收入囊中;<N>年<N>月,上实医药董事长吕明方出任上海医药董事长。', 'predict': "relation tags: ['拥有']\nrelation: 上海上实有限公司拥有上海医药有限公司<N>%股份。"}
+{'text': '<N>年<N>月,万洲国际完成对美国史密斯菲尔德食品公司的收购后,', 'predict': "relation tags: ['收购', '被收购']\n\nThe relation between the entities in the sentence is '收购' (acquisition). Specifically, it states that in a certain year and month, Wan Zhou International completed the acquisition of the American Smithfield Food Company. Therefore, the relation between the entities is that the American Smithfield Food Company was acquired by Wan Zhou International."}
+{'text': '波鸿集团董事长董平介绍,收购所需的资金<N>%为波鸿自筹、<N>%来自银行贷款,待并购全部手续完成,威斯卡特将从加拿大退市,并将在香港上市。', 'predict': 'relation：拟收购\n\n因为句子中提到了波鸿集团将收购威斯卡特，并且正在筹资，所以可以推断出它们之间的关系是拟收购。'}
+{'text': '金奶牛龙净环保和大部分已披露年报的上市公司都没有强制性地约束“盈利应当分红”并且明确给与股东现金分红的预期,民生银行如此将分红政策光明正大并将其制度化,', 'predict': 'relation: unknown'}
+{'text': '公司控股火电企业整体燃煤价格仍在高位运行,其中靖远第二发电有限公司和国投曲靖发电有限公司坑口燃煤价格同比出现较大幅度增长。', 'predict': '关系标签：未知\n\n由于句子中没有明确的关系词或动词，因此无法确定实体之间的关系。'}
+{'text': '本报讯 恒星科技今日披露,根据风神股份于<N>年<N>月<N>日发布的非公开发行股票发行结果暨股份变动公告,', 'predict': '根据这句话，我们可以确定恒星科技和风神股份之间存在股份变动的关系，但具体的关系需要进一步的信息才能确定。可能涉及到被发行、被转让、被持股、被拥有、被收购等关系标签。'}
+{'text': '据了解,在该项目尚未开工之前,哈空调已于去年<N>月与华电宁夏灵武电厂签下订单,将为灵武电厂生产世界上首批两套百万千瓦超超临界空冷机组。', 'predict': 'relation: 签约'}
+{'text': '资产为国投公司核心电力资产,本次重大资产重组完成后,公司将获得雅砻江流域水能资源全流域开发、天津北疆发电厂循环经济项目等多个具有长期发展潜力的优质项目,', 'predict': "relation tags: ['重组', '持有']\nrelation: 国投公司将进行重大资产重组，获得了雅砻江流域水能资源全流域开发和天津北疆发电厂循环经济项目等优质项目，意味着公司将持有这些资产。"}
+{'text': '至此,五矿发展结束了漫长的减持之路,将其所持的宁波联合股份“清零”。', 'predict': 'relation：被减持\nentity 1：五矿发展\nentity 2：宁波联合股份'}
+{'text': '他以<N>年银基开始总代理的永福酱酒为例,作为一个还未起来的新品牌,五粮液当年就要求银基完成数百吨的销量,这导致银基拿到货以后,', 'predict': 'unknown'}
+{'text': '滴滴也因此成为了唯一一家腾讯、阿里巴巴和百度共同投资的企业。', 'predict': '滴滴 - 被投资\n腾讯、阿里巴巴、百度 - 注资\n百度 - 拥有（持股）'}
+{'text': '投行奥本海默的分析师约翰·斯托尔茨福斯在周一接受CNBC采访时表示,自美国总统大选以来,苹果公司的投资者情绪已经发生了转变,', 'predict': '无关联关系。'}
+{'text': '海越股份董事会日前决定,全资设立浙江天越创业投资有限公司和浙江海越创业投资有限公司,注册资本各为<N>亿元。', 'predict': 'relation: 成立'}
+{'text': '中航投资为控股型公司,其通过子公司中航证券、中航信托、中航财务分别经营证券、租赁及财务公司业务,中航投资母公司则主要经营财务性实业股权投资业务。', 'predict': "Relation: unknown. The sentence provides information about the business operations of Zhonghang Investment and its subsidiaries, including Zhonghang Securities, Zhonghang Trust, and Zhonghang Finance. The sentence also mentions that Zhonghang Investment's parent company mainly engages in financial and industrial equity investment business. However, there is no clear relation mentioned between the entities mentioned in the sentence, i.e., Zhonghang Trust and Zhonghang Investment."}
+{'text': '昨日市场传来的进一步消息称,美国银行计划将所持建设银行<N>%股权的至少一半出售给由美国、马来西亚和中东等国主权财富基金和机构组成的团体,', 'predict': '被转让'}
+{'text': '宝钢股份为本次合并的合并方暨存续方,武钢股份为本次合并的被合并方暨非存续方;', 'predict': 'relation: 合并'}
+{'text': '本报讯停牌数日的南京新百今日发布公告称,三胞集团将受让金鹰系持有的南京新百<N>%股权成为南京新百第一大股东,', 'predict': 'relation：被转让'}
+{'text': '目前,中国平安保险股份有限公司及其关联子公司共持有平安银行<N>.<N>亿股股份,约占平安银行总股本的<N>%。', 'predict': "relation tags: ['持股', '拥有']\nrelation: 中国平安保险股份有限公司及其关联子公司持有平安银行约占总股本的<N>%。"}
+{'text': '据了解,中银消费金融公司注册资金<N>亿元,由中国银行、百联集团以及上海陆家嘴金融发展有限公司合资组建,出资比例依次为<N>%、<N>%和<N>%。', 'predict': 'relation: 合资\n\nThe sentence states that the registered capital of China Bank Consumer Finance Company is N billion yuan, and it is jointly established by China Bank, Bailian Group, and Shanghai Lujiazui Financial Development Co., Ltd. The proportion of contributions is <N>%, <N>%, and <N>% respectively. The relation between Shanghai Lujiazui Financial Development Co., Ltd. and China Bank Consumer Finance Company is a joint venture.'}
+{'text': '油及天然气生产商伍德赛德石油公司公告,其与中国石油天然气公司于<N>年<N>月签订的一份非约束性的液化天然气框架协议已于200<N>年<N>月<N>日过期而失效,', 'predict': 'relation: 合作\n\nThe announcement by Woodside Petroleum, an oil and gas producer, states that it had signed a non-binding liquefied natural gas framework agreement with China National Petroleum Corporation in <N> year <N> month, which expired and became invalid on <N> year <N> month <N> day. Therefore, the relation between the two entities is cooperation.'}
+{'text': '记者统计发现,攀钢钢钒从<N>月<N>日至今的<N>个交易日中成交额共计6<N>.<N>亿元,其中中海信托首次举牌攀钢钢钒便占去了1<N>.<N>亿元,', 'predict': '关系：举牌'}
+{'text': '秋气肃杀,昨日<N>家基金公司同时宣布调换基金经理,包括广发、交银、民生加银和华富。', 'predict': 'relation: 未知'}
+{'text': '产管理委员会办公室及国资控股的开平市工业资产经营公司、开平市装饰工程开发公司三个月内无将公司股份进行股权转让、资产重组以及实施其他对公司有重大影响事项。', 'predict': "relation tags: ['股权转让', '资产重组', '其他影响事项']\nrelation: 产管理委员会办公室及国资控股要求开平市工业资产经营公司和开平市装饰工程开发公司在未来三个月内不得进行股权转让、资产重组以及实施其他对公司有重大影响事项。"}
+{'text': '深国商今日披露的权益变动报告书显示,百利亚太投资有限公司拟收购原大股东所持<N>万股深国商可流通B股,', 'predict': 'relation: 被拟收购\nentity: 深国商，百利亚太投资有限公司'}
+{'text': '记者尝试使用其他银行信用卡进行京东白条还款时发现,工商银行、农业银行、建设银行等国内主流银行的储蓄卡和信用卡均可为白条付款。', 'predict': "relation tags: ['付款']\nrelation: 农业银行、工商银行等银行可为京东白条提供付款服务。"}
+{'text': '中国证券网讯金马股份<N>月<N>日晚公告称,拟通过发行股份和现金支付的方式,收购金浙勇、铁牛集团等2<N>名股东合计持有的永康众泰汽车有限公司<N>%股权,', 'predict': 'relation: 被收购'}
+{'text': '中成股份<N>月<N>日与KIWIRA煤电有限公司签署了总价<N>.<N>亿美元的《基畏那煤矿设计采购施工总承包合同》,', 'predict': "relation tags: ['签约']\nrelation: 中成股份与KIWIRA煤电有限公司签署了基畏那煤矿设计采购施工总承包合同，总价为N亿美元。"}
+{'text': '这位负责人告诉记者,格力电器确实收到个别美国用户反映格力除湿机可能存在安全隐患一事,', 'predict': "relation tags：['unknown', '注资', '拥有', '纠纷', '自己', '增持', '重组', '买资', '签约', '持股', '交易', '入股', '转让', '成立', '分析', '合作', '帮助', '发行', '商讨', '合并', '竞争', '订单', '减持', '合资', '收购', '借壳', '欠款', '被发行', '被转让', '被成立', '被注资', '被持股', '被拥有', '被收购', '被帮助', '被借壳', '被买资', '被欠款', '被增持', '拟收购', '被减持', '被分析', '被入股', '被拟收购']\nsentence：格力电器表示，此前美国媒体报道称，格力因为产品质量问题，已被美国消费者委员会列为“不良品牌”。\nentity：格力，格力电器，美国消费者委员会\nrelation：被列为"}
+{'text': '中新网<N>月1<N>日电今日,加多宝与广药王老吉关于红罐外包装、装潢权一案于上午<N>点在广东省高级人民法院四楼大法庭开庭审理。', 'predict': 'relation: 纠纷'}
+{'text': '公告显示,公司于<N>月<N>日就收购上海晨炎信息技术有限公司<N>%股权事宜与DSTFHoldingsLtd签署了《股权转让协议》。', 'predict': "relation tags: ['签约', '收购', '股权转让']\nrelation: 公司与DSTF Holdings Ltd签署了股权转让协议，涉及收购上海晨炎信息技术有限公司的N%股权。"}
+{'text': '而在与巢湖达成协议、意图控股国通管业后,京博才停止卖出,改为不断加仓,并成为了国通管业的第三大股东。', 'predict': 'Relation: 持股\nEntity 1: 京博\nEntity 2: 国通管业'}
+{'text': '本报讯美菱电器今日公告,该公司将作为意向受让方参与美菱集团<N>%国有产权的竞标,并已经授权公司经营班子办理公开受让相关事宜。', 'predict': '拟收购'}
+{'text': '<N>年中国婴幼儿奶粉市场份额的排名中,前三名依次是美赞臣、贝因美和达能,雅士利列第七。', 'predict': "relation tags: ['排名']\nrelation: 贝因美排名第二，美赞臣排名第一。"}
+{'text': '在广日股份与广钢股份目前的钢铁资产进行置换后,广日集团将受让广钢集团所持广钢股份的股权,', 'predict': 'relation: 股权转让'}
+{'text': 'BP官方向第一财经记者透露,<N>月<N>日,公司宣布与中石油已经签署了第二个页岩气勘探、开发和生产的产品分成合同。', 'predict': "relation tags: ['签约', '合作']\nrelation: BP与中石油签署了页岩气勘探、开发和生产的产品分成合同，表示双方将合作开发该项目。"}
+{'text': '据了解,这些股票为<N>.<N>万名员工所有,并由深圳市新豪时投资、深圳市景傲、深圳市江南实业代持。', 'predict': "relation tags: ['拥有', '代持']\n\nentity: <N>.<N>万名员工，深圳市新豪时投资，深圳市景傲，深圳市江南实业\n\nrelation: 深圳市景傲和深圳市江南实业代持这些股票，而这些股票实际上属于<N>.<N>万名员工所有。"}
+{'text': '正泰新能源开发有限公司(以下简称正泰)隶属于正泰集团,', 'predict': '拥有'}
+{'text': '公开信息显示,滴滴已经获得腾讯、苹果、保利地产及富士康等重要产业投资方的入股。', 'predict': "relation tags: ['注资', '拥有', '持股', '入股']\n\n保利地产和苹果是滴滴的重要产业投资方，通过注资方式入股滴滴，拥有一定的持股比例。"}
+{'text': '<N>月<N>日,南京银行发布公告称,三股东南京高科将所持公司的<N>.<N>亿股股份质押给华泰证券,期限<N>年。', 'predict': 'Relation: 拥有\n\nExplanation: 根据这个句子，南京高科是南京银行的三股东，持有南京银行的股份。南京高科将其持有的公司股份质押给华泰证券，这意味着南京高科仍然拥有这些股份，但是如果未来无法履行质押协议，华泰证券有权利处置这些股份。因此，南京高科与南京银行之间的关系是拥有。'}
+{'text': '我们判断,冀东水泥看中的或许是秦岭水泥的资源和市场,这一收购将有助于其区域市场领先战略的实现。', 'predict': 'Relation: 被收购\nEntity 1: 秦岭水泥\nEntity 2: 冀东水泥'}
+{'text': '商报讯高油价与节能减排重压,让美国波音与中国商飞这两大飞机制造领域的对手化敌为友,联手提炼“地沟油”。', 'predict': "relation tags: ['合作']\nrelation: 美国波音与中国商飞在高油价和节能减排的压力下，选择合作，联手提炼“地沟油”。"}
+{'text': '小肥羊变“洋”羊重蹈可口可乐收购汇源覆辙?', 'predict': 'relation: 被收购'}
+{'text': '<N>月又出售铝加工企业股权、中铝河南铝业有限公司及中铝青岛轻金属有限公司的债权。', 'predict': "relation tags: ['转让', '持股', '债权']\n\nThe sentence suggests that the subject has sold the equity of an aluminum processing company and the debt of two other companies, namely 中铝河南铝业有限公司 and 中铝青岛轻金属有限公司. However, it is unclear who the subject is and to whom they have sold these assets. Therefore, the relation tags that could apply are '转让' (transfer of ownership) and '持股' (holding of shares) for the equity of the aluminum processing company, and '债权' (debt) for the debt of the two other companies."}
+{'text': '其中,平安证券现任总经理杨志群、副总经理郭世邦,均将回归平安银行,担任常务副行长、董事长助理职务。', 'predict': "relation tags: ['担任']\nrelation: 杨志群和郭世邦将回归平安银行，担任常务副行长和董事长助理职务。"}
+{'text': '<N>月<N><N>日,<N>世纪经济报道记者了解到,四川广汉士达炭素股份有限公司(下称:士达炭素)目前已经被<N>家债权机构告上法庭,涉及贷款金额共计<N>.<N>亿元。', 'predict': 'relation: 被告上法庭\nentity: 四川广汉士达炭素股份有限公司'}
+{'text': '夏普、LG和索尼等外资彩电企业也将在国内推出带有网络功能的电视产品。', 'predict': "relation tags: ['推出']\nrelation: LG和夏普等外资彩电企业将在国内推出带有网络功能的电视产品。"}
+{'text': '昨天,南航集团公司党组书记、股份公司总经理谭万庚向记者透露:“南航可能在<N>月份引进第一架B<N>”。', 'predict': "relation tags: ['拟购买']\nrelation: 南航拟购买第一架B<N>。"}
+{'text': '随着迪士尼正式落户上海,“迪士尼概念股”界龙实业备受关注。', 'predict': "relation tags: ['拥有', '持股', '备受关注']\nrelation: 界龙实业持有迪士尼概念股，备受关注。"}
+{'text': '在投资者对SST光明控股股东股权重新收归国有而对公司股改和重组充满期待时,SST光明今天却曝出当地工商银行正在追债的消息。', 'predict': 'Relation: 欠款 (owing money)\n\nEntity 1: SST光明控股 (SST Guangming Holdings)\n\nEntity 2: 工商银行 (Industrial and Commercial Bank of China)'}
+{'text': '去年<N>月,开滦集团拿出<N>.<N>亿元认购了开滦股份的公开增发;在终止公告中,开滦集团表示,自身正常生产经营对资金的需求,是做出这一决定的原因之一。', 'predict': "relation tags: ['认购']\nrelation: 开滦集团认购了开滦股份的公开增发。"}
+{'text': '根据公告,交易完成后,IBM中国公司以<N>.<N>%的持股比例,成为四川长虹的第二大股东;长虹集团对四川长虹的持股比例将从<N>.<N>%减少至<N>.<N>%,', 'predict': '拥有-被减持-长虹集团；持股-增持-IBM中国公司'}
+{'text': '张裕A表示,截至目前,公司没有就投资恒丰银行事项向恒丰银行支付投资款项,终止投资符合双方在股权认购协议书中的约定,不存在其他相关的法律义务和风险。', 'predict': 'relation：注资/被注资'}
+{'text': '<N>年<N>月,李宁公司因与非凡中国交换股权,受到“向房地产转型”的质疑时,李宁称“专注体育目标不变”。', 'predict': "relation tags: ['交换股权']\nentity: 李宁公司, 非凡中国\nrelation: 李宁公司与非凡中国进行了股权交换。"}
+{'text': '中粮集团旗下目前主要有上市公司中粮地产和非上市公司中粮置业两家地产公司,', 'predict': '拥有'}
+{'text': '攀钢集团等四家注资单位承诺,通过本次重大资产重组获得的攀钢钢钒股份,将自获得之日起<N>个月内不转让或不流通。', 'predict': 'relation: 被注资'}
+{'text': '其中,中航国际将以现金<N>亿元认购<N>,<N>,<N>股,扣除发行费用之后,将投入到公司赣州中航城项目、三期项目之中,', 'predict': '拥有'}
+{'text': '海润光伏总裁杨怀进在光伏行业中也有着一定的号召力:他自己曾是尚德电力的创始人之一,同时也在晶澳太阳能及多家光伏企业担任过高管。', 'predict': "relation tags: ['担任', '创始人']\nrelation: 杨怀进担任海润光伏总裁，同时也是尚德电力的创始人之一，在晶澳太阳能及多家光伏企业担任过高管。"}
+{'text': '今年<N>月<N>日,在现场无人竞价的情况下,前后历时十余分钟,远洋地产旗下子公司北京远乾置业有限公司一举获得上述两幅地块,', 'predict': '关系：拥有'}
+{'text': '应该说可口可乐、百事可乐这样的巨头永远不会落在市场的后面,主打“健康”牌也成了两大饮料巨头的市场战略方向。', 'predict': "relation tags: ['竞争']\nrelation: 可口可乐和百事可乐在市场上一直保持着竞争关系，而主打“健康”牌也是两大饮料巨头的市场战略方向之一。"}
+{'text': '凯迪投资副总经理兼凯迪矿业董事曹戈的配偶厉荣于<N>年<N>月<N>日买入<N>股,<N>年<N>月<N>日卖出<N>股;', 'predict': "relation tags: ['买入', '卖出']\nrelation: 厉荣买入凯迪投资和凯迪矿业的股票，之后在某个时间卖出了一些股票。"}
+{'text': '另一方面,根据广汽集团同日公布的私有化骏威汽车的时间表显示,骏威股份的最后交易日期为<N>月<N>日,并将在<N>月<N>日正式撤销其在联交所的上市地位。', 'predict': "relation tags: ['私有化', '撤销上市']\nrelation: 广汽集团私有化骏威汽车，骏威股份最后交易日期为<N>月<N>日，将在<N>月<N>日撤销在联交所的上市地位。"}
+{'text': '而随着业绩的下滑,经过一系列收购,四川奇峰和四川宏信两家川企成为ST东源的大股东。', 'predict': "relation tags: ['拥有', '被收购']\nrelation: 四川奇峰和四川宏信两家川企被收购成为ST东源的大股东。"}
+{'text': '在总统数码港和数码港置业评估注入完成后,海印股份公司将择机进行江南粮油城的注入或转让。', 'predict': "relation tags: ['注入', '转让']\nentity: 海印股份公司，江南粮油城\nrelation: 海印股份公司计划将江南粮油城进行注入或转让，具体时间还未确定。"}
+{'text': '日前,生产红罐装王老吉的加多宝集团召开了一个新闻发布会,呼吁有关国有企业要尊重加多宝的知识产权,严格遵守国家法律法规。', 'predict': "relation tags: ['未提及']\nsentence: 该句话中没有明确的实体和关系，只是加多宝集团呼吁国有企业尊重知识产权，遵守法律法规。"}
+{'text': '正如诺华公司首席执行官乔·希门尼斯最近在公司第三季度财报发布会中所说的那样,自从<N>月份获得批准以来,Kisqali已经成功地拿下了总处方量的<N>%。', 'predict': 'relation: unknown'}
+{'text': '甚至一位接近承销商的知情人士还透露:“农行这次A股战略配售比例为<N>%,其中中国人寿为最大买家”。', 'predict': "Relation tags: ['买资']\n\nRelation: 中国人寿以买资的形式成为农行这次A股战略配售中的最大买家。"}
+{'text': '阿里巴巴集团旗下支付宝网络技术有限公司将为东航官方网站在线机票业务提供直销支付服务。', 'predict': "relation tags: ['合作']\nrelation: 阿里巴巴集团旗下支付宝网络技术有限公司和东航官方网站合作，支付宝将为东航官方网站提供直销支付服务。"}
+{'text': '此外,其他与之相关的旅游、商业板块也“利益均沾”,北京旅游、王府井也出现了不同程度的上涨。', 'predict': 'relation: unknown'}
+{'text': '据悉,这是阿里巴巴集团成立十年来的首起海外收购案,也意味着阿里巴巴已展开进军美国的第一次实质性部署,加速全球扩张的步伐。', 'predict': "relation tags: ['成立', '收购', '进军', '扩张']\nrelation: 阿里巴巴集团成立十年来首次海外收购，意味着阿里巴巴正加速全球扩张，进军美国市场。"}
+{'text': '即便最终达成合作,怎样开展与力拓的合作也是中铝目前需要筹备的课程。', 'predict': 'Relation: 合作\nEntity 1: 中铝\nEntity 2: 力拓'}
+{'text': 'ST东航和*ST上航联姻进入实质性操作阶段', 'predict': "relation tags: ['合并']\nrelation: ST东航和*ST上航正在进行合并。"}
+{'text': '中国第三大石油公司中海油昨宣布,公司已于<N>月<N>日与图洛石油公司签署销售和购买协议,以收购该公司在乌干达<N>、<N>和<N>A勘探区各<N>/<N>的权益。', 'predict': "relation tags: ['收购']\nrelation: 中海油收购了图洛石油公司在乌干达N、N和NA勘探区各N/N的权益。"}
+{'text': '信息披露方面,未持续披露沈阳凯联物资有限公司诉中诚资产管理有限公司和西藏金珠有限公司债权案;', 'predict': "relation tags: ['纠纷']\nrelation: 沈阳凯联物资有限公司诉中诚资产管理有限公司和西藏金珠有限公司债权案存在纠纷。"}
+{'text': '同时,农行A股的路演也将在今天展开,A股的路演将由股权资本市场部或者销售团队负责,而除了主承销商外,农行还邀请了包括国信、华泰和太平洋证券在内的分销商,', 'predict': 'entity_relation: \n\n- 农行 - 拟邀请 - 国信、华泰和太平洋证券等分销商\n\nrelation: 拟邀请'}
+{'text': '从神州泰岳到洋河股份、汉王科技,再到碧水源、国民技术和海普瑞,中小盘股的“新贵们”演绎着高价发行、继而暴跌的种种疯狂。', 'predict': "relation tags：['发行', '暴跌']\nsentence：海普瑞和汉王科技等中小盘股发行时价格高昂，但随后却出现了暴跌现象。\nentity：海普瑞，汉王科技\nrelation：发行 -> 暴跌"}
+{'text': '本报讯美菱电器今日公告,该公司将作为意向受让方参与美菱集团<N>%国有产权的竞标,并已经授权公司经营班子办理公开受让相关事宜。', 'predict': 'relation: 拟收购\nentity 1: 美菱电器\nentity 2: 美菱集团'}
+{'text': '长生生物<N>月<N>日午间公告称,已与江苏海州经济开发区管理委员会签署战略合作框架协议,双方就长生生物拟在连云港海州开发区投资疫苗及生物制药的研发生产项目达', 'predict': "relation tags: ['合作', '拟投资']\nrelation: 长生生物与江苏海州经济开发区管理委员会签署战略合作框架协议，双方拟在连云港海州开发区合作投资疫苗及生物制药的研发生产项目。"}
+{'text': '<N>月<N>日,东方明珠、兆驰股份、<N>元和<N>元。', 'predict': '抱歉，无法确定实体之间的关系。请提供更多上下文或信息。'}
+{'text': '红罐王老吉,你分得清吗?”红遍天下的红罐王老吉正陷入内乱,因为租赁期限之争,加多宝集团只能无奈地看着广药集团将商标再许给广粮实业,而广粮与其近似的包装,', 'predict': '可能涉及的关系标签有：纠纷、持股、转让、签约、合作、竞争、商讨、被持股、被转让、被成立、被注资、被拥有、被帮助。具体而言，加多宝集团与广药集团之间可能存在商标租赁期限的纠纷，而广药集团将商标许给广粮实业，可能涉及到签约、持股、转让等关系。此外，广药集团与广粮实业的近似包装可能引起竞争，需要商讨合作。'}
+{'text': '同方股份日前公告,国资委已同意公司控股股东——清华控股有限公司(下称清华控股)将所持<N>万股同方股份转让给刘益谦。', 'predict': "relation tags: ['转让', '持股']\nentity: 清华控股有限公司, 同方股份, 刘益谦\nrelation: 清华控股有限公司持有同方股份股份，并将其转让给刘益谦。"}
+{'text': '中海油与壳牌签订合同勘探南海莺歌海两区块', 'predict': '关系标签：签约\n\n该句话中，壳牌和中海油之间的关系是签约。他们签订了一份合同，合作勘探南海莺歌海两个区块。'}
+{'text': '韶钢松山透露,<N>年至<N>年,韶钢加大淘汰落后产能的力度,已经淘汰了<N>座<N>m<N>级高炉和<N>座<N>吨转炉。', 'predict': "relation tags: ['淘汰']\n\nsentence: 该公司计划通过增持股份的方式，提高其在目标公司的持股比例，以加强其对目标公司的控制力。\n\nentity: 目标公司，该公司\n\nrelation: 增持"}
+{'text': '商报讯高油价与节能减排重压,让美国波音与中国商飞这两大飞机制造领域的对手化敌为友,联手提炼“地沟油”。', 'predict': 'relation: 合作'}
+{'text': '通过并购或借壳重组,天舟文化、中创信测等上市公司上演了一出出“点石成金”的造富神话。', 'predict': 'relation tags: [\'重组\', \'借壳\', \'上市\']\n\nThe sentence suggests that companies such as Tianzhou Culture and Zhongchuang Xince achieved great success by going public through mergers and acquisitions or reverse takeovers. This process is commonly known as "restructuring" or "shell acquisition."'}
+{'text': '对于*ST三联的困境,*ST三联副董事长孙一丁曾表示,即使*ST三联出现了资金断裂,国美也不会再输血。', 'predict': "relation tags: ['拒绝输血']\n\nentity 1: 国美\nentity 2: *ST三联\n\nrelation: 国美拒绝为*ST三联输血。"}
+{'text': '举一个在这方面做得比较好的日化企业的例子,即上海家化佰草集与法国著名化妆品超市丝芙兰的合作。', 'predict': 'relation: 合作'}
+{'text': '金海岸集团是罗顿发展大股东,持股<N>.<N>%,而李维通过旗下海南罗衡机电持有金海岸集团<N>%的股权,任公司董事长,其余<N>%分别由昂建、苏晓萌持有。', 'predict': "relation tags: ['持股', '拥有']\nrelation: 海南罗衡机电持有金海岸集团<N>%的股权。"}
+{'text': '就深圳的欢乐谷来说,香港迪士尼的建成,不仅没有影响深圳欢乐谷的客流量,反而增加了客流量,从香港迪士尼乐园开园起,深圳欢乐谷每年保持<N>%的增长率。', 'predict': 'relation: 竞争'}
+{'text': '<N>月<N><N>日,<N>世纪经济报道记者了解到,四川广汉士达炭素股份有限公司(下称:士达炭素)目前已经被<N>家债权机构告上法庭,涉及贷款金额共计<N>.<N>亿元。', 'predict': "relation tags: ['被告上法庭', '涉及贷款金额']\nrelation: 四川广汉士达炭素股份有限公司(士达炭素)被<N>家债权机构告上法庭，涉及贷款金额共计<N>亿元。"}
+{'text': '新华社休斯敦<N>月<N>日电通用电气公司日前宣布完成对美国第三大油服公司贝克休斯的并购交易,按营业收入计算,并购后的新公司将成为世界第二大油服公司。', 'predict': "relation tags: ['并购']\nrelation: 通用电气公司完成了对贝克休斯的并购交易，新公司将成为世界第二大油服公司。"}
+{'text': '此次股权转让比天音控股在赣州城投的账面投资成本溢价<N>.<N>亿元。', 'predict': 'Relation: 股权转让\nEntity 1: 天音控股\nEntity 2: 赣州城投\nRelation tag: 被转让'}
+{'text': '此外,英特药业还控股了浙江省医疗器械有限公司、浙江英特药房有限公司、医疗器械和中成药,扩大了销售规模,分散了经营风险,巩固了公司在医药流通领域的竞争力。', 'predict': "relation tags: ['控股', '扩大', '分散', '巩固', '竞争力']\nrelation: 英特药业控股了浙江英特药房有限公司，扩大了销售规模，分散了经营风险，巩固了公司在医药流通领域的竞争力。"}
+{'text': '而咨询公司IDC和Gartner则预测,201<N>年,Symbian的市场份额将会进一步降至<N>%和<N>.<N>%,Android将会迎头赶上诺基亚。。', 'predict': '[诺基亚, 拥有, Symbian]\n[IDC, 分析, 市场份额]'}
+{'text': '兴业多策略灵活配置混合:参加兴业银行费率优惠活动的公告', 'predict': "relation tags: ['签约', '参加']\nrelation: 兴业多策略灵活配置混合基金签约参加了兴业银行的费率优惠活动。"}
+{'text': '公开的数据表明,200<N>年,新飞冰箱年销量为<N>万台,位居行业第二,仅次于海尔,而<N>年,新飞市场份额已跌出国内品牌前<N>位。', 'predict': 'Relation: 竞争\n\nEntities: 新飞，海尔\n\nExplanation: The sentence talks about the competition between two companies, 新飞 and 海尔, in the refrigerator industry. In 200<N>年, 新飞 ranked second in terms of annual sales, with only 海尔 ahead of them. However, by <N>年, 新飞 had dropped out of the top <N> domestic brands, indicating that they faced tough competition from other companies in the industry. Therefore, the relation between the entities is 竞争 (competition).'}
+{'text': '早前,广粮推出了王老吉固元粥、王老吉莲子绿豆爽,这些产品外包装设计和宣传广告与其相似。', 'predict': 'relation: 拥有\n\n王老吉是广粮旗下的品牌之一，因此可以说广粮拥有王老吉。'}
+{'text': '<N>阳光资产管理股份有限公司阳光资管—工商银行—阳光资产—国企改革资产管理产品C<N>.<N>', 'predict': "relation tags: ['unknown', 'investment', 'ownership', 'dispute', 'self', 'increase holdings', 'restructuring', 'purchase funds', 'signing', 'holding', 'transaction', 'equity participation', 'transfer', 'establishment', 'analysis', 'cooperation', 'assistance', 'issuance', 'discussion', 'merger', 'competition', 'order', 'reduce holdings', 'joint venture', 'acquisition', 'shell merger', 'debt', 'issued', 'transferred', 'established', 'funded', 'owned', 'acquired', 'helped', 'shell merger plan', 'reducing holdings', 'analyzed', 'equity participation plan', 'planned acquisition', 'planned joint venture']\nThe sentence you provided doesn't contain any clear relation between the entities mentioned. Can you please provide more information or context about the relation you are looking for?"}
+{'text': '在行业中,伊利、光明长期占据国内前三位置,而且是百亿级俱乐部的三大巨头。', 'predict': "relation tags：['竞争']\nsentence：伊利和光明在行业中竞争激烈。\nentity：伊利，光明\nrelation：竞争"}
+{'text': '自<N>月开始,启德教育集团的核心产品已在京东商城全面上线。', 'predict': "relation tags：['unknown', '注资', '拥有', '纠纷', '自己', '增持', '重组', '买资', '签约', '持股', '交易', '入股', '转让', '成立', '分析', '合作', '帮助', '发行', '商讨', '合并', '竞争', '订单', '减持', '合资', '收购', '借壳', '欠款', '被发行', '被转让', '被成立', '被注资', '被持股', '被拥有', '被收购', '被帮助', '被借壳', '被买资', '被欠款', '被增持', '拟收购', '被减持', '被分析', '被入股', '被拟收购']\nsentence：启德教育集团在<N>年完成了与某知名企业的战略合作，双方将共同开展教育行业的探索和创新。\nentity：启德教育集团，某知名企业\nrelation：合作"}
+{'text': '<N>年,锦龙股份先后于<N>月<N>日、东莞市金银珠宝实业公司所持有的东莞证券<N>%、<N>%的股权。', 'predict': 'relation tags: [\'持股\', \'被持股\', \'被拥有\', \'被转让\']\n\nThe relation between the entities "东莞证券" and "锦龙股份" is that "东莞证券" held a certain percentage of shares in "锦龙股份", and these shares were subsequently transferred to "锦龙股份". Therefore, the relation between these entities can be described as "东莞证券被持股/被拥有/被转让" by "锦龙股份".'}
+{'text': '根据富通目前的价格,中国平安对富通投资浮亏已经超过<N>%。', 'predict': 'relation: 注资'}
+{'text': '一架俄罗斯天桥货运航空公司的波音<N>货运飞机上周在上海因故障被迫放弃起飞,该飞机上装有通用电气公司(以下简称GE)最畅销发动机GEnx。', 'predict': 'relation: 未知 (unknown)'}
+{'text': '交易完成后,黑石集团在希尔顿中的股权将减少至约<N>%,海航集团则有望成为希尔顿的单一最大股东。', 'predict': 'relation：减持'}
+{'text': '为了安抚民众,吉林省政府工作组同意终止实施建龙集团增资扩股通钢集团方案。', 'predict': 'relation: 终止实施\n\nentity: \n- 通钢集团\n- 建龙集团'}
+{'text': '“比如西气东输等大型管道建设,宝钢股份和武钢等几家国内钢铁巨头几乎囊括了所有的订单;', 'predict': '关系：竞争'}
+{'text': '以及有关部门的支持下,经多方协调,粮油公司将其拥有的、注册于境外的“飞天”牌贵州茅台酒商标以协议方式有偿归属于茅台有限公司,许可使用费为每年<N>万元。', 'predict': '被拥有'}
+{'text': '根据上海机场的测算,春秋航空现在上海机场占到<N>%的吞吐量。', 'predict': 'relation: 拥有'}
+{'text': '<N>年<N>月,广发证券将其所持公司股权,依法转让给福建省能源集团有限责任公司、福建省交通运输集团有限责任公司和联华国际信托有限公司。', 'predict': 'Relation: 转让\nEntity 1: 广发证券\nEntity 2: 福建省交通运输集团有限责任公司'}
+{'text': '也就是说,长虹的股价已经远远低于其净资产,IBM此次收购显然是笔划算的买卖。', 'predict': 'relation: 被收购'}
+{'text': '自去年<N>月,微博改变登录方式,高德地图随后也更换了第三方登录和验证的方法,现在的高德地图安卓版已全部解决这个问题。', 'predict': "Sorry, I'm not sure what relation you want me to extract from the given sentence and entity. Can you please provide more context or clarify your request?"}
+{'text': '另外,淡马锡一直没有减持建设银行H股。', 'predict': 'Relation: 被减持\n\nExplanation: 淡马锡没有减持建设银行H股，说明建设银行H股并没有被淡马锡减持，即建设银行H股被淡马锡减持的情况并不存在。因此，可以判断出两者之间的关系是“被减持”。'}
+{'text': '同时,农行A股的路演也将在今天展开,A股的路演将由股权资本市场部或者销售团队负责,而除了主承销商外,农行还邀请了包括国信、华泰和太平洋证券在内的分销商,', 'predict': 'relation: 合作'}
+{'text': '新华网杭州<N>月<N>日专电刚刚成为沃尔沃第一任华人老板的吉利集团总裁李书福,<N>日在杭州举行的网商大会上又有惊人之语:“打算在网上卖车”。', 'predict': 'relation: 吉利集团打算在网上销售沃尔沃汽车。'}
+{'text': '和耐克、跑步等品类全面出击相比,新百伦长期专注于跑步这项运动,令其在跑步热潮中表现突出。', 'predict': "relation tags: ['竞争']\nrelation: 新百伦与耐克在跑步领域存在竞争关系，但新百伦专注于跑步这一领域，使其在竞争中表现突出。"}
+{'text': '据本报记者实地调查,目前亚星化学仍与亚星集团存在资产权属不明确的问题。', 'predict': 'relation：拥有/纠纷'}
+{'text': '中国太保公告,子公司中国太平洋人寿保险股份有限公司、中国太平洋财产保险股份有限公司<N>年<N>月份的累计原保险保费收入分别为人民币<N>亿元和<N>亿元,', 'predict': "relation tags: ['unknown', '公告']\nrelation: 中国太保公告"}
+{'text': '而海螺水泥半年报显示,持股总数超过<N>万股的股东只有海螺集团、平安信托和海创公司三家,这意味着连续减持海螺水泥股票的卖家必然是这三者中的一个。', 'predict': "relation tags: ['持股', '减持']\nrelation: 海螺集团持有海螺水泥股票，但半年报显示持股总数有减少的趋势。"}
+{'text': '在拓日新能<N>年<N>月定向增发认购名单中,江苏瑞华投资发展有限公司认购了<N>万股。', 'predict': "relation tags: ['增持']\nrelation: 江苏瑞华投资发展有限公司增持了拓日新能的股份。"}
+{'text': '<N>京能热电<N>月<N>日,公司接控股股东北京京能国际能源股份有限公司的通知,', 'predict': '拥有'}
+{'text': '王老吉与加多宝员工因促销起冲突 在南昌街头群殴', 'predict': "I'm sorry, but I cannot generate a relation for this sentence. The sentence describes an incident of physical violence between employees of two companies, but it does not provide any information about their business relationship or any of the relation tags provided."}
+{'text': '中车集团公司副总经理徐宗祥说,“中车愿与唐山的工业、新能源产业互动成长,', 'predict': 'relation tags: [\'合作\']\n\nThe relation between the entities "中车" and "唐山的工业、新能源产业" in the given sentence is "合作" (cooperation).'}
+{'text': '另外,中国人寿股份公司、中国人寿保险集团、嘉禾人寿等也纷纷在列。', 'predict': "relation tags: ['拥有']\nrelation: 中国人寿股份公司和中国人寿保险集团可能拥有嘉禾人寿的部分股份。"}
+{'text': '两年前的<N>月<N>日,北京首都酒业有限公司(下称“首都酒业”)正式挂牌成立。', 'predict': "relation tags: ['成立']\n\nentity: 首都酒业，北京首都酒业有限公司\n\nrelation: 首都酒业在两年前的某个日期正式成立。"}
+{'text': '出让方长江联合置地有限公司是长江经济联合发展股份有限公司控股子公司,由长江经济联合发展股份有限公司和上海国有资产经营有限公司共同出资组成,', 'predict': '关系：注资、拥有\n\n长江经济联合发展股份有限公司是出让方长江联合置地有限公司的控股子公司，说明长江经济联合发展股份有限公司对长江联合置地有限公司进行了注资，并拥有了一定的股权。'}
+{'text': '丰镇科技在减持青海华鼎股份达到总股份<N>%时,未及时停止买卖并履行法定的信息披露义务。', 'predict': 'relation: 减持'}
+{'text': '<N>世纪报系与中科合作设立的广东中科<N>世纪文化产业创业投资基金预计规模为<N>个亿,首期规模为<N>万元。', 'predict': "relation tags: ['合作', '设立', '投资']\nrelation: \n<N>世纪报系与中科合作设立的广东中科<N>世纪文化产业创业投资基金预计规模为<N>个亿,首期规模为<N>万元。可以看出，世纪报系和中科合作设立了一只文化产业创业投资基金，预计规模为数十亿，首期规模为数百万元。"}
+{'text': '苏宁电器与海尔集团签署年度销售百亿协议', 'predict': '关系：合作'}
+{'text': '美国GE公司近日在上海召开<N>年运输系统供应商大会,会上GE公司把对供应商的最高奖项——中国区唯一的最佳供应商称号再次授予马钢。', 'predict': "relation tags: ['授予']\nsentence: 美国GE公司授予马钢中国区唯一的最佳供应商称号。"}
+{'text': '“两桶油”炼化业务业绩分化中石化赚<N>亿中石油亏<N>亿', 'predict': 'relation: 竞争'}
+{'text': '苏宁电器与海尔集团签署年度销售百亿协议', 'predict': "relation tags: ['签约', '销售']\nrelation: \n苏宁电器与海尔集团签署了一份年度销售百亿协议，这意味着双方将在未来一年内开展销售业务。"}
+{'text': '<N> 国泰基金管理有限公司 国泰国策驱动灵活配置混合型证券投资基金 A <N> <N>.<N>', 'predict': "relation tags: ['unknown', '注资', '拥有', '纠纷', '自己', '增持', '重组', '买资', '签约', '持股', '交易', '入股', '转让', '成立', '分析', '合作', '帮助', '发行', '商讨', '合并', '竞争', '订单', '减持', '合资', '收购', '借壳', '欠款', '被发行', '被转让', '被成立', '被注资', '被持股', '被拥有', '被收购', '被帮助', '被借壳', '被买资', '被欠款', '被增持', '拟收购', '被减持', '被分析', '被入股', '被拟收购']\nsentence: <N> 国泰基金管理有限公司计划增持国泰国策驱动灵活配置混合型证券投资基金。\nentity: 国泰基金管理有限公司，国泰国策驱动灵活配置混合型证券投资基金\nrelation: 增持"}
+{'text': '安迅物流作为第三方物流公司,在<N>年的国美在线“黑色星期五”等活动中,', 'predict': '可能会涉及到订单、合作、帮助等关系。具体来说，安迅物流可能会与国美在线签约合作，帮助其处理订单，并提供物流服务。在这个过程中，双方可能会涉及到一些纠纷或竞争关系。除此之外，安迅物流可能还会被国美在线注资、持股、收购或者被其拥有、转让等。'}
+{'text': '今年<N>月,阿里云与Eficode签署战略合作伙伴关系,后者正在将阿里云的产品和技术引入北欧市场。', 'predict': 'relation: 合作'}
+{'text': '昨日,鞍钢股份和*ST钒钛同时称有重大事项将发生,停牌一天。', 'predict': 'relation tags: [\'未知\']\nUnfortunately, there is no clear relation between the entities "鞍钢股份" and "钒钛" in the given sentence. The sentence simply states that both companies announced a major event and halted trading for one day.'}
+{'text': '本报乌鲁木齐<N>月<N>日讯<N>日,位居国内油页岩开发领域前列的辽宁成大股份有限公司与宝塔石化集团签署战略合作协议,将携手做大新疆油页岩产业。', 'predict': 'relation: 合作'}
+{'text': '<N>年,中国中钢集团(下称中钢)原总裁黄天文因敌意收购澳大利亚中西部铁矿公司声名鹊起。', 'predict': "relation tags: ['收购']\nrelation: 中钢收购澳大利亚中西部铁矿公司"}
+{'text': '商报讯一直“只闻楼梯响”的中国国新控股有限责任公司(以下简称“国新公司”)昨日挂牌成立,', 'predict': 'relation tags: [\'成立\', \'被成立\']\n\nThe sentence describes the establishment of China National Chemical Corporation (ChemChina) subsidiary, China National Chemical Equipment Co Ltd (CNCEC), which was officially listed on the stock exchange. Therefore, the relation tag between the entities "国新公司" and "中国国新控股有限责任公司" is "成立" (establishment). Alternatively, "国新公司" can be considered as being "被成立" (being established) by "中国国新控股有限责任公司".'}
+{'text': '同时,记者了解到,上海城投控股股份有限公司 (以下简称城投控股)在上海垃圾焚烧处置中扮演了重要的角色。', 'predict': 'relation tags: [\'拥有\', \'成立\', \'扮演重要角色\']\n\nBased on the given sentence, it can be inferred that 上海城投控股股份有限公司 (Shanghai Urban Investment and Development Co., Ltd.) is a company that has been established and owns a certain stake in the waste incineration and disposal industry in Shanghai. The sentence also mentions that the company plays an important role in this industry, which suggests a relation of "扮演重要角色" (playing an important role).'}
+{'text': '但截至发稿时止,茂业国际以及渤海物流仍未发布相关公告。', 'predict': 'Sorry, I cannot extract any relation from this sentence as it only states that as of the time of writing, there is no related announcement yet from Maoye International and Bohai Logistics.'}
+{'text': '继<N>月<N>日与博茨瓦纳国有电力公司签署总额<N>.<N>亿美元的贷款协定,工行董事长姜建清又于<N>月1<N>日在乌干达召开的新闻发布会上透露,', 'predict': "relation tags: ['签约']\nrelation: 工行与博茨瓦纳国有电力公司签署了总额<N>.<N>亿美元的贷款协定。"}
+{'text': '有消息称,此次中移动将以广东公司为投资主体,以财务投资的形式入股浦发银行,对此王建宙称,“中国移动会选择旗下某个子公司进行入股,', 'predict': "relation tag: ['入股']\nrelation: 中移动以广东公司为投资主体，以财务投资的形式入股浦发银行。"}
+{'text': '资料表明,早在<N>年,横店控股以及横店集团有限公司与太原市财政局签订了《转让协议》,共同受让太原市财政局所拥有的刚玉集团<N>%的股权及其一切权益。', 'predict': 'relation：转让'}
+{'text': '昨天,海航集团旗下的大新华物流集团与河北钢铁集团旗下的唐钢集团签署战略合作框架协议。', 'predict': 'relation: 合作'}
+{'text': '近期频频套现的熊猫烟花大股东广州攀达国际投资有限公司又有新的套现举动。', 'predict': "relation tags: ['减持']\nrelation: 广州攀达国际投资有限公司减持了熊猫烟花的股份。"}
+{'text': '科龙电器副总裁张明昨日称,科龙电器公司与海信集团愿根据法院计算的结果依法支付。', 'predict': 'relation tags: [\'纠纷\', \'支付\']\nThe sentence describes a statement made by Zhang Ming, the Vice President of Kelon Electric, stating that Kelon Electric and Hisense Group are willing to pay according to the results calculated by the court. The relation between the entities "Kelon Electric" and "Hisense Group" is a dispute over payment.'}
+{'text': '中国网财经<N>月<N>日讯<N>月<N>日晚,因操作失误,中金金属将本公司的《广西中金金属科技股份有限公司关于重大事项进展公告》发至玉柴物流公告界面。', 'predict': 'Relation: 未知 (unknown)\n\nThe given sentence does not provide enough information to determine a specific relation between the entities "广西中金金属科技股份有限公司" and "中金金属". The sentence only mentions an operational mistake made by "中金金属" where they accidentally posted an important announcement of "广西中金金属科技股份有限公司" on the website of "玉柴物流公告界面".'}
+{'text': '而在原控股股东完全退出ST东源前,公司也刚刚宣布了金科集团借壳方案有效期延长一年的议案。', 'predict': 'Relation: 借壳\nEntity 1: 金科集团\nEntity 2: ST东源'}
+{'text': '今年<N>月初,纽约时报有关福耀玻璃工厂在美遭遇工人抵制的报道将福耀推上舆论风口。', 'predict': "relation tags: ['竞争', '纠纷']\nrelation: 福耀玻璃工厂在美遭遇工人抵制，可能会导致福耀与其他玻璃企业之间的竞争加剧，同时也可能会引发与工人及相关方面的纠纷。"}
+{'text': '杜双华指出,目前山钢和日照钢铁已共同聘请中企华作为资产评估机构进行全部资产和业务的审计评估,山钢也组织了庞大的团队对日照钢铁作了详尽的尽职调查。', 'predict': 'relation: 合作'}
+{'text': '中绒集团旗下唯一上市公司——宁夏中银绒业股份有限公司曾一度被锁定为盛大回归A股的借壳标的。', 'predict': 'relation：借壳'}
+{'text': '一季度末,中行持有的美国次级住房贷款抵押债券、以及房利美公司和房地美公司发行债券或其担保的住房贷款抵押债券等账面价值合计<N>.<N>亿美元,', 'predict': '拥有'}
+{'text': '“现在看来,美的对小天鹅的收购与整合无疑是成功的。', 'predict': 'relation: 收购'}
+{'text': '深康佳:退出SST秋林获利<N>万元', 'predict': 'Relation: 退出 (Exit)\n\nExplanation: The sentence states that "深康佳" (Shenzhen Konka Electronic Group Co., Ltd.) has "退出" (exited) from "SST秋林" (SST Autumn Forest) and has gained a profit of "<N>万元" (N yuan). Therefore, the relation between the entities "深康佳" and "秋林" is that "深康佳" has exited from "秋林".'}
+{'text': '中成股份<N>月<N>日与KIWIRA煤电有限公司签署了总价<N>.<N>亿美元的《基畏那煤矿设计采购施工总承包合同》,', 'predict': '关系标签：签约\n说明：中成股份与KIWIRA煤电有限公司签署了合同。'}
+{'text': '本报讯中国联通今日公告称,联通红筹公司正与中国网络通信集团公司、中国联合通信有限公司就其各自拥有和经营固网业务与资产未来发展方向进行初步研究。', 'predict': 'Relation: 合作\n\nExplanation: The sentence states that China Unicom\'s red chip company is in preliminary discussions with China Network Communications Group and China United Network Communications Limited regarding the development direction of their respective ownership and operation of fixed network business and assets. This indicates that they are exploring the possibility of working together in the future, hence the relation tag "合作" (cooperation).'}
+{'text': '青岛啤酒并购山东银麦之后,行业集中度进一步提高,可并购的资源越来越少,这也将使得啤酒巨头间的竞争将越发激烈。', 'predict': "relation tags: ['并购', '竞争', '集中度提高']\nrelation: 青岛啤酒并购了山东银麦，导致行业集中度进一步提高，可供并购的资源越来越少，这也将加剧啤酒巨头间的竞争。"}
+{'text': '从<N>月下旬开始,香港市场上再次出现密集的融资潮,碧桂园、保利香港、世茂房地产和远洋地产等都以配股或发优先票据的形式融资。', 'predict': 'relation：注资'}
+{'text': '“经过两年时间的盘整,如今酒鬼酒重组已完成,需要再上台阶,营销短板需要克服,徐可强曾管理过五粮液多年,经验丰富,他的加盟,无疑是酒鬼酒当前最好的选择”。', 'predict': 'entity: 徐可强\nrelation: 徐可强曾管理过五粮液多年，经验丰富，他的加盟无疑是酒鬼酒当前最好的选择。'}
+{'text': '澳大利亚雅文氧化铝厂以及波恩电解铝厂是全球一体化、现代化程度最高的氧化铝厂和电解铝厂之一,与韦帕铝土矿一起构建完整的铝产业链,中铝获得雅文氧化铝厂<N>%', 'predict': "relation tags: ['拥有']\nThe relation between 中铝 and 澳大利亚雅文氧化铝厂 is 拥有 (owns)."}
+{'text': '华侨城集团、中国南车、中国水电集团和中材集团<N>户企业首次进入A级。', 'predict': "relation tags: ['unknown', '进入']\nrelation: 中材集团、中国南车进入A级。"}
+{'text': '按照上半年利润计算,中信证券、海通证券的市盈率目前为<N>倍、<N>倍,因此即使是光大证券<N>.<N>倍市盈率也已然不低。', 'predict': 'relation: 比较'}
+{'text': '<N>月<N>日,南京银行发布公告称,三股东南京高科将所持公司的<N>.<N>亿股股份质押给华泰证券,期限<N>年。', 'predict': 'Relation: 持股\n\nExplanation: The sentence states that one of the shareholders of Nanjing Bank, Nanjing Gaoke, pledged its shares of the company (1.?? billion shares) to Huatai Securities for a period of ?? years. This implies that Nanjing Gaoke owns a significant amount of shares in Nanjing Bank, and the relation between the two entities is that of a shareholder and a company.'}
+{'text': '“瑞士信贷、摩根大通、德意志银行和摩根士丹利将牵头力拓英国公司的配股行动。', 'predict': '拥有'}
+{'text': '冠生园于<N>年创立的冠生园互联网金融园区已布局互联网金融、智慧社区等板块。', 'predict': "relation tags: ['成立', '布局']\nrelation: 冠生园成立了冠生园互联网金融园区，并在其中布局了互联网金融和智慧社区等板块。"}
+{'text': '<N>年<N>月<N>日广船国际发布重组预案,拟分别向中船集团和扬州科进购买资产,其中以发行股份及支付现金方式购买中船集团持有的黄埔文冲<N>%股权,', 'predict': 'relation: 购买资产\n\nentity 1: 广船国际\nentity 2: 中船集团、扬州科进、黄埔文冲\n\n解释：广船国际发布重组预案，计划通过发行股份和支付现金的方式向中船集团和扬州科进购买资产，其中包括购买中船集团持有的黄埔文冲公司的部分股权。因此，这句话的关系标签是“购买资产”，实体包括广船国际、中船集团、扬州科进和黄埔文冲。'}
+{'text': '全景网<N>月<N>日讯深圳证券交易所周一公告称,韶能股份将于今日开市起进行临时停牌,因《理财周刊》报道中广核拟借壳广东韶能集团股份有限公司。。', 'predict': 'Relation: 借壳\n\nExplanation: The sentence is reporting that Shenzhen Stock Exchange announced on a certain day that Shaoneng Stock Co., Ltd. will be temporarily suspended from trading due to a report by "Financial Weekly" that China General Nuclear Power Corporation plans to use Shaoneng Group Co., Ltd. as a shell company. This suggests a potential merger or acquisition, with China General Nuclear Power Corporation seeking to use Shaoneng Group Co., Ltd. as a vehicle for the transaction.'}
+{'text': '<N>年<N>月<N>日起,中国国际航空股份有限公司(以下简称“国航”)北京-旧金山往返航线升级为最受全球商务旅客推崇的波音<N>-<N>ER延程型飞机执飞。', 'predict': "relation tags: ['升级']\nrelation: 国航升级北京-旧金山往返航线为波音<N>-<N>ER延程型飞机执飞。"}
+{'text': '同时,上实发展拟将全资子公司上海远东国际桥梁建设有限公司<N>%股权进行挂牌转让,转让价格不低于<N>.<N>万元。', 'predict': 'Relation: 转让\nEntity 1: 上海远东国际桥梁建设有限公司\nEntity 2: 上实发展'}
+{'text': '中国网财经<N>月<N>日讯根据交易所安排,新宏泽、英维克、奥联电子三只新股将于<N>月<N>日登陆深交所进行交易。', 'predict': "relation tags: ['发行', '交易']\nrelation: 新宏泽、英维克、奥联电子三只新股将于<N>月<N>日登陆深交所进行交易，即发行新股并进行交易。"}
+{'text': '尤其是为支持区域经济发展方面,上海分行做出了自己的努力,包括支持市属重点基础项目建设,如世博工程、环保工程和新农村建设等;发挥北京银行的特色与优势,', 'predict': 'unknown'}
+{'text': '海航、首旅增资组建首都航空正式挂牌', 'predict': 'Relation: 增资组建\n\nExplanation: 海航和首旅进行了增资，共同组建了首都航空，并且该公司已经正式挂牌上市。'}
+{'text': '武钢集团立足自身特点,在汽车板、输电电工钢等方面做强武钢的强项。', 'predict': "relation tags: ['做强', '强项']\nrelation: \n武钢集团做强自身特点，在汽车板、输电电工钢等方面展现出武钢的强项。"}
+{'text': '交通银行上市之前,美达股份即以<N>万元出资认购了其股权,截至<N>年底,持有交通银行<N>.<N>万股股权;', 'predict': 'relation tag: 注资\n说明：美达股份通过出资认购交通银行股权，成为交通银行的股东。'}
+{'text': '成都航空的前身是民营鹰联航空,中国商飞<N>年<N>月通过注资,成为成都航空的第一大股东。', 'predict': 'Relation: 注资\nEntity 1: 中国商飞\nEntity 2: 成都航空'}
+{'text': '由于承销华泰证券,今年第一季度海通证券证券承销净收入同比增长<N>.<N>倍。', 'predict': "relation tags：['承销']\nsentence：由于承销华泰证券,今年第一季度海通证券证券承销净收入同比增长<N>.<N>倍。\nentity：华泰证券，海通证券证券\nrelation：海通证券证券承销了华泰证券，导致今年第一季度海通证券证券承销净收入同比增长<N>.<N>倍。"}
+{'text': '据介绍,分拆完成后,百胜餐饮集团将由Creed领导,百胜中国将由今年<N>月被任命为百胜餐饮集团中国事业部首席执行官的MickyPant领导。', 'predict': 'Relation: 被任命为首席执行官\nEntity 1: MickyPant\nEntity 2: 百胜餐饮集团中国事业部'}
+{'text': '在签约仪式上,成都成华区聘任了锤子科技创始人罗永浩、福中集团董事长杨宗义等<N>位知名企业或机构负责人为“成华招商大使”,', 'predict': "relation tags: ['签约']\nrelation: 成都成华区与锤子科技、福中集团签约，聘任其负责人为“成华招商大使”。"}
+{'text': '行的士兰微电子,通过芯片设计、工艺开发等多个技术平台的互动,已经在公司的控股子公司杭州士兰集成电路有限公司的芯片生产线上完成了高压集成电路、封装的基础。', 'predict': "relation tags: ['拥有', '控股']\nentity: 行的士兰微电子，杭州士兰集成电路有限公司\nrelation: 行的士兰微电子拥有杭州士兰集成电路有限公司，并控股该公司。"}
+{'text': '今年<N>月,阿里云与Eficode签署战略合作伙伴关系,后者正在将阿里云的产品和技术引入北欧市场。', 'predict': 'relation：合作'}
+{'text': '维维股份随后的公告披露了出让原因:宿迁市委、打造百亿级酒业集团,计划收购公司持有的双沟酒业股权。', 'predict': 'Relation: 被收购\nEntity 1: 维维股份\nEntity 2: 双沟酒业'}
+{'text': '<N>年水井坊的目标是出口销售额要达到<N>个亿,虽然这个目标比较宏大,但凭借帝亚吉欧在全球的销售渠道有信心完成这一目标”。', 'predict': "relation tags: ['合作']\nrelation: 水井坊和帝亚吉欧合作，凭借帝亚吉欧在全球的销售渠道，有信心完成出口销售额达到<N>个亿的目标。"}
+{'text': '举一个在这方面做得比较好的日化企业的例子,即上海家化佰草集与法国著名化妆品超市丝芙兰的合作。', 'predict': 'relation: 合作'}
+{'text': '工行在<N>年“输入”武钢股份的贷款,有<N>亿元将于201<N>年<N>月和<N>月到期。', 'predict': 'relation: 注资\n\n工行注资了武钢股份，提供了一笔贷款，贷款金额为N亿元。这笔贷款将于201N年N月和N月到期。'}
+{'text': '谷歌、Facebook将与一家中国公司联手打造中美超高速光缆', 'predict': '合作'}
+{'text': '纽交所上市的科兴生物,自流感爆发到<N>月<N>日,股价上涨达<N>%,而同期华兰生物涨幅为6<N>%。', 'predict': "relation tags: ['竞争']\nrelation: 科兴生物和华兰生物在同一行业竞争，科兴生物的股价涨幅高于华兰生物。"}
+{'text': '铂涛集团的股权比例中,凯雷投资占<N>%多,红杉资本占<N>%多。', 'predict': "relation tags: ['持股']\nrelation: 凯雷投资持有铂涛集团的股权比例中的<N>%。"}
+{'text': '<N>年,*ST厦华股权争夺战中,中华映管旗下华映视讯击败格林柯尔、明基等企业,成为*ST厦华第一大股东,持股比例为<N>%。', 'predict': "Relation tags: ['持股', '成为第一大股东']\nRelation: 中华映管旗下华映视讯击败格林柯尔、明基等企业，成为*ST厦华第一大股东，持股比例为<N>%。"}
+{'text': '公司今日发布公告称,控股股东兵装集团拟将所持公司股份转让给中国长安,占公司总股本的<N>.<N>%;', 'predict': '拟转让'}
+{'text': '康恩贝曾是其控股股东,持有佐力药业IPO前<N>%的股权,为第二大股东。', 'predict': 'relation：持股'}
+{'text': '显示,迎驾贡酒、<N>.<N>亿元和<N>.<N>亿元,而金徽酒的营业收入为<N>.<N>亿元,仅高于酒鬼酒、水井坊和皇台酒业,而上述三家企业<N>年业绩均巨亏。', 'predict': 'relation: 比较\n\nentity: 迎驾贡酒，金徽酒，酒鬼酒，水井坊，皇台酒业'}
+{'text': '当日公告宣称其拟非公开发行募资总额不超过<N>.<N>亿元用于增资中航锂电有限公司(下称“中航锂电”)建设“锂离子动力电池项目”。', 'predict': "relation tags: ['注资', '增资']\nrelation: 公司拟通过非公开发行募资的方式，向中航锂电有限公司注资，用于建设锂离子动力电池项目，以增加中航锂电的资金实力。"}
+{'text': '并且这期间海尔集团的支持也是不遗余力,比如<N>年<N>月,青岛海尔完成受让海尔电器<N>.<N>%股份的过户手续,实现了对海尔电器的绝对控股。', 'predict': "relation tags: ['受让', '控股']\nrelation: 青岛海尔受让海尔电器<N>.<N>%股份，实现了对海尔电器的绝对控股。"}
+{'text': '随后长百集团向高力集团以<N>.1<N>元/股的价格定向发行<N>万股股份,以从后者手中收购高力集团旗下的<N>家子公司,价值逾<N>亿元。', 'predict': "relation tags: ['发行', '收购']\nrelation: 长百集团向高力集团发行了<N>万股股份，以收购高力集团旗下的<N>家子公司。"}
+{'text': '第一任CEO为台湾人黄再德,曾担任百胜旗下必胜客和肯德基的品牌企划副总裁。', 'predict': "relation tags: ['担任']\nrelation: 黄再德担任过百胜旗下必胜客和肯德基的品牌企划副总裁。"}
+{'text': '此外,公司未来在宁波大榭万华工业园区的生产能力将大幅提升,再次收购东港电化股权也将有利于公司战略的稳步推进,协同发展。', 'predict': '拥有/持股：公司拥有东港电化的股权，可能再次收购该公司的股权。\n\n合作/协同发展：公司计划通过收购东港电化的股权，实现与该公司的协同发展。\n\n增持：公司可能会增持东港电化的股权。\n\n成立：东港电化是一家已经成立的公司。\n\n注资：公司可能会向东港电化注资。\n\n收购：公司已经收购了东港电化的股权，未来可能再次收购。\n\n被收购：东港电化曾经被公司收购。\n\n在宁波大榭万华工业园区：公司未来在宁波大榭万华工业园区的生产能力将得到提升。'}
+{'text': '这正是蓝光控股集团董事局主席杨铿对双方合作寄予厚望的地方,“蓝光发展自上市后正式确立了‘人居蓝光+生命蓝光’的双轮驱动战略,', 'predict': '合作'}
+{'text': '中钢推崇的激进扩张模式,做大中钢资产规模的同时,也为其后的发展留下隐患,尤其海外投资上,多个项目并没有如期盘活,致使中钢集团长期经受“有销售无利润”的尴', 'predict': '机。该句话中没有明显的关系词或关键词，因此无法确定实体之间的关系。'}
+{'text': '这也是光线传媒与华策影视、华谊兄弟等公司在商业模式上最大的不同:华谊兄弟和华策影视是比较纯粹的影视制作公司。', 'predict': "relation tags: ['比较', '不同']\nrelation: 光线传媒与华策影视、华谊兄弟等公司在商业模式上存在比较大的不同。其中，华谊兄弟和华策影视是比较纯粹的影视制作公司，而光线传媒则可能在其他方面更为突出。"}
+{'text': '高剑锋同时认为,并购成熟品牌是雀巢在全球扩张的战略之一,而此次辉瑞剥离惠氏奶粉对雀巢来说是一个机会,', 'predict': '被收购（雀巢收购惠氏奶粉）'}
+{'text': '联信永益与北京联通的依赖关系,在中小型上市公司中并不少见。', 'predict': "relation tags: ['依赖关系']\nrelation: 联信永益依赖于北京联通，这在中小型上市公司中并不少见。"}
+{'text': '同方股份日前公告,国资委已同意公司控股股东——清华控股有限公司(下称清华控股)将所持<N>万股同方股份转让给刘益谦。', 'predict': "relation tags: ['转让']\nrelation: 清华控股有限公司将所持股份转让给刘益谦。"}
+{'text': '据了解,中行曾长期作为中远集团唯一的买造船贷款银行。', 'predict': 'Relation: 持股/拥有\n\nEntity 1: 中行\n\nEntity 2: 中远集团\n\n可能的关系是中行持有或拥有中远集团的股份。但是，这个句子中并没有明确提到这一点，所以关系不能确定。'}
+{'text': '近期,滴滴出行对司机的问卷调查中,有<N>%的司机每天被找厕所难的问题严重困扰着,以滴滴平台上出租车和专车司机数量推算,有<N>万左右的司机受此问题困扰。', 'predict': "Sorry, I couldn't find any relation tags that match the given sentence and entities. The sentence seems to be discussing a survey conducted by Didi Chuxing on the difficulty that drivers face in finding restrooms, and the estimated number of drivers affected by this issue. However, there doesn't seem to be any specific relation between the entities mentioned (Didi Chuxing and Didi platform) and the sentence itself."}
+{'text': '资料显示,海诺尔环保生活垃圾直接处置业务毛利率相比是最高的,<N>年、<N>.<N>%和<N>.<N>%;其余几家数据最好的南海发展,最差的是城投控股。。', 'predict': 'The sentence you provided does not contain any explicit relation between the entities "城投控股" and "海诺尔环保". However, it mentions that the latter has the highest gross profit margin for direct disposal of household waste compared to other companies, while the former has the worst data.'}
+{'text': '<N>月<N>日,华丽家族披露,已与控股股东上海南江集团签署联合收购协议,南江集团指定华丽家族为金叠房产<N>%股权的收购方,南江集团则受让剩余的<N>%股权。', 'predict': 'relation tags: [\'签署联合收购协议\', \'控股股东\', \'收购方\', \'受让剩余股权\']\n\nThe relation between entities "华丽家族" and "上海南江集团" is that they have signed a joint acquisition agreement, with "上海南江集团" designating "华丽家族" as the acquiring party for a certain percentage of equity in "金叠房产". "上海南江集团" will then acquire the remaining percentage of equity. The agreement was disclosed on <N> month <N> day.'}
+{'text': '对此,正和集团董秘范玉明表示:“中石化统购统销,对我们的影响不会太大。', 'predict': 'Relation: 合作\nExplanation: 正和集团和中石化可能存在合作关系，因为中石化的统购统销对正和集团的影响不会太大，说明他们之间可能有共同的业务或合作项目。'}
+{'text': '上海航空将退市并注销法人资格东航接收“一切”', 'predict': "relation tags: ['注销', '接收']\nrelation: 上海航空将被注销法人资格，东航将接收其资产和业务。"}
+{'text': '<N>月<N>日,华东电脑发布的公告称,拟通过非公开发行股份的方式购买控股股东华东计算技术研究所及宋世民、谢瀚海等<N>名自然人所持华讯网络<N>%股权。', 'predict': 'Relation: 拟收购\nEntity 1: 华东电脑\nEntity 2: 华讯网络'}
+{'text': '斯米克的招股书显示,除参股斯米克集团之外,大摩基金还“潜伏”于李慈雄掌控的另一资本平台斯米克控股,', 'predict': 'relation: 持股'}
+{'text': '昨日市场传来的进一步消息称,美国银行计划将所持建设银行<N>%股权的至少一半出售给由美国、马来西亚和中东等国主权财富基金和机构组成的团体,', 'predict': '被转让。'}
+{'text': '据霸王招股说明书显示,公司创始人陈启源夫妇通过FortuneStation公司拥有霸王集团<N>亿股份,占总股本<N>亿股的<N>%。', 'predict': "relation tags: ['拥有']\nrelation: FortuneStation公司拥有霸王集团股份"}
+{'text': '<N>年,*ST厦华股权争夺战中,中华映管旗下华映视讯击败格林柯尔、明基等企业,成为*ST厦华第一大股东,持股比例为<N>%。', 'predict': 'Relation: 持股\nEntity 1: 中华映管\nEntity 2: *ST厦华'}
+{'text': '本报讯 <N>月<N>日,巨力索具与路桥建设签订了《战略合作伙伴协议书》,确定了战略合作关系。', 'predict': "relation tags: ['合作']\nrelation: 巨力索具与路桥建设签订了《战略合作伙伴协议书》,确定了战略合作关系。"}
+{'text': '公告称,根据爱使股份目前的盈利能力及经营状况,经讨论决定,公司放弃此次鑫宇高速增资的优先认购权。', 'predict': 'Relation: 被注资\n\nExplanation: The sentence states that the company, represented by "公司", has decided to waive its priority subscription rights for the increase in capital of Xinyu Expressway, represented by "鑫宇高速". This means that the company will not invest more capital into Xinyu Expressway at this time. Therefore, Xinyu Expressway is the entity being invested in, or "注资", by the company.'}
+{'text': '此时执掌佛山照明<N>年,把一家年产值只有<N>万元的小企业,打造成堪与飞利浦、西门子抗衡的竞争者的钟信才的归来,无疑给投资者吃了一颗定心丸。', 'predict': 'relation: 竞争'}
+{'text': '陕西省国资委出资<N>.<N>亿元为其第一大股东,同时还引入了延长石油、西安城投、长安银行、陕国投等大型国有企业和优质金融机构为战略性股东,', 'predict': '关系标签：注资、拥有、持股、合作、成立、增持、被持股、被注资、被拥有。\n\n长安银行、西安城投等企业被引入为该公司的战略性股东，意味着它们向该公司注资并持有该公司的股份。同时，它们也可能与该公司合作，共同发展业务。这些企业也可能会增持该公司的股份，以进一步加强它们在该公司的持股地位。由于它们成为该公司的股东，因此它们也被拥有了该公司的一部分股权。'}
+{'text': '在基础设施方面,绿地集团拥有多艘万吨煤炭散货船和油轮,规划在连云港建立大型煤炭物流基地,在上海外高桥建设大型石油仓储基地和码头,', 'predict': "relation tags: ['拥有', '规划', '建设']\nrelation: 绿地集团拥有多艘万吨煤炭散货船和油轮，规划在连云港建立大型煤炭物流基地，在上海外高桥建设大型石油仓储基地和码头。"}
+{'text': '东莞证券分析师俞春燕表示,这可能跟之前国家电网公司要成立输变电公司有关,后者将集合国内主要输变电设备生产商。', 'predict': 'relation: 被分析'}
+{'text': '宝能系再度出手,重新成为万科第一大股东。', 'predict': 'relation: 持股'}
+{'text': '沃尔沃汽车公司高级副总裁兼沃尔沃汽车集团中国区董事长沈晖表示:“沃尔沃中国区的业务范围将涵盖产品开发、人力资源与公共事务等各个领域”。', 'predict': 'relation tags: [\'拥有\', \'成立\']\n\nBased on the given sentence, it seems that there is no clear relation between the two entities mentioned (沃尔沃汽车公司 and 沃尔沃汽车集团) that can be inferred from the provided relation tags. However, it can be assumed that 沃尔沃汽车公司 is a subsidiary or part of 沃尔沃汽车集团, since the latter is mentioned as the parent company in the sentence. Therefore, a possible relation could be "拥有" (ownership) or "成立" (establishment).'}
+{'text': '那么,当代置业集团有何实力重组ST大水?如果重组,将以什么样的资产注入上市公司?', 'predict': '关系：重组\n\n重组是指公司通过对自身的资产、业务、组织等进行改组、调整、合并、分立等方式，以达到优化资源配置、提高经济效益、增强市场竞争力等目的的行为。在这个例子中，当代置业集团有实力重组ST大水，但具体以什么样的资产注入上市公司还需要进一步商讨和分析。'}
+{'text': '长城开发参股公司昂纳光通信<N>日香港上市', 'predict': "relation tags: ['参股']\nrelation: 长城开发参股昂纳光通信公司。"}
+{'text': '仅<N>月的前三个交易日,汇金公司就分别增持中国银行和工行<N>万股和<N>万股。', 'predict': "relation tags: ['增持', '持股']\nrelation: 汇金公司增持中国银行<N>万股。"}
+{'text': '龙江湾置业所持有的<N>-<N>地块、立方置业所持有的0<N>-0<N>地块均为项目公司于<N>年<N>月1<N>日通过竞拍以总价人民币<N>.<N>亿元取得的南京市滨江江', 'predict': '该句话中没有明显的关系词或关系短语，因此无法确定实体之间的关系。需要更多的上下文信息才能确定实体之间的关系。'}
+{'text': '如此,深投控股改承诺的<N>亿元资产注入,通过此次资产置换,深物业得到了三块资产:一块深深房“白送”都没看上的地皮,被涨价<N>倍塞给深物业;', 'predict': "relation tags: ['注资']\nrelation: 深投控向深物业注资<N>亿元资产。"}
+{'text': '新华网香港<N>月<N>日电国泰航空有限公司<N>日表示,因国泰与多家国际货运航空公司达成的协议违反了欧洲竞争法,欧洲委员会已向国泰征收<N>万欧元罚款。', 'predict': "relation tags: ['违反', '征收']\nrelation: 国泰航空有限公司与多家国际货运航空公司达成的协议违反了欧洲竞争法，因此欧洲委员会征收了<N>万欧元罚款。"}
+{'text': '富博介绍,华堂的母公司伊藤洋华堂集团在去年日本上市企业综合排名中位列第二,这也说明从消费者认知度、员工稳定律等<N>个评价项目中,伊藤洋华堂是得到肯定的。', 'predict': 'relation: 拥有'}
+{'text': '在北京发布<N>-<N>电视产业年度发展报告,海信电器总经理胡剑涌对<N>-<N>彩电市场发展趋势进行了分析,并提出未来海信将坚持高端精品战略,', 'predict': "relation tags: ['分析']\nrelation: 海信电器总经理胡剑涌对<N>-<N>彩电市场发展趋势进行了分析。"}
+{'text': '报显示,王石的年薪由去年的<N>万元大幅缩减至<N>.<N>万元,降幅达三分之二,远低于ST幸福董事长任志强的<N>.<N>万和华发股份董事长袁小波的<N>万。', 'predict': "relation tags: ['unknown', '年薪', '缩减', '董事长']\nentity: 王石，ST幸福，任志强，华发股份，袁小波\nrelation: 王石的年薪缩减了三分之二，远低于ST幸福董事长任志强和华发股份董事长袁小波的年薪。"}
+{'text': '用户返还<N>元话费,同时可以<N>元的价格购买诺基亚<N>、索爱M<N>i,或以<N>元的超低价格购买中兴X<N>,以<N>元的价格买华为U<N>,', 'predict': "relation tags: ['购买', '价格']\nrelation: 用户可以以<N>元的超低价格购买中兴X<N>和以<N>元的价格购买华为U<N>。"}
+{'text': '<N>月<N>日,中海与中信双双宣布:中海将收购中信相关地产业务,', 'predict': "relation tags: ['收购', '被收购', '相关业务']\nrelation: 中海将收购中信相关地产业务"}
+{'text': '金奶牛龙净环保和大部分已披露年报的上市公司都没有强制性地约束“盈利应当分红”并且明确给与股东现金分红的预期,民生银行如此将分红政策光明正大并将其制度化,', 'predict': "Sorry, I couldn't find any relation between the entities mentioned in the sentence. Can you please provide some more context or information?"}
+{'text': '深交所最新披露信息显示,其日前向天宝股份控股股东大连承运投资集团下发监管函,原因在于后者此前进行了超比例减持。', 'predict': "relation tags: ['减持', '持股', '控股']\nrelation: 大连承运投资集团是天宝股份的控股股东，但是其进行了超比例减持，因此深交所向其下发了监管函。"}
+{'text': '一位靠近中国建材的企业人士透露,该研究院拥有中国建材旗下上市公司ST洛玻全部股权及方新科技的部分股权,', 'predict': "relation tags: ['拥有']\nrelation: 该研究院拥有ST洛玻全部股权及方新科技的部分股权。"}
+{'text': '料显示,200<N>年<N>月<N><N>日至200<N>年<N>月<N>日,鞍钢集团通过深圳证券交易所分别买入攀钢钢钒<N>.<N>亿股、长城股份<N>万股、买入攀渝钛业<N>万股。', 'predict': "relation tags: ['买入']\nrelation: 鞍钢集团买入长城股份和攀钢钢钒。"}
+{'text': '经中国科学院和国家财政部批准,中科院福建物构所和上海金煤化工新技术有限公司已将全部煤制乙二醇技术入股通辽金煤化工有限公司,', 'predict': '关系：入股\n解释：中科院福建物构所和上海金煤化工新技术有限公司通过入股的方式，将全部煤制乙二醇技术转移到通辽金煤化工有限公司。'}
+{'text': '这不仅让业界浮想联翩:外界盛传的五矿集团重组中钢集团是否再度浮上水面。', 'predict': 'relation：重组'}
+{'text': '近日,有外媒消息称,娃哈哈集团有限公司有意斥资<N>.<N>亿英镑,约<N>.<N>亿元收购英国联合饼干公司旗下的零食业务分支KPSnacks。', 'predict': "relation tags: ['拟收购', '收购']\nentity: 娃哈哈集团有限公司，英国联合饼干公司\n\n根据句子中的描述，可以看出娃哈哈集团有意收购英国联合饼干公司旗下的零食业务分支KPSnacks，因此可以判断出关系为“拟收购”或“收购”。"}
+{'text': ',四川长虹的大股东长虹集团以大宗交易的方式,将其持有的约<N>万股四川长虹股份,以每股<N>.<N>元的价格,转让给IBM中国公司,成交金额约<N>.<N>亿元。', 'predict': 'Relation: 转让\nEntity 1: 长虹集团\nEntity 2: IBM中国公司'}
+{'text': '在<N>月<N>日的电广传媒公告中显示,根据北京湘资国际资产评估有限公司出具的《保定百世开利有线广播电视综合信息网络有限公司股东全部权益价值资产评估报告》,', 'predict': '可能存在的关系包括：注资、拥有、增持、重组、签约、持股、转让、成立、合作、发行、商讨、合并、竞争、收购、借壳等。具体的关系需要结合上下文和其他信息进行分析。'}
+{'text': '兴业多策略灵活配置混合:参加兴业银行费率优惠活动的公告', 'predict': "relation tags: ['合作', '参加']\nrelation: 兴业多策略灵活配置混合基金参加了兴业银行的费率优惠活动，表明两者之间存在合作关系。"}
+{'text': '但另一方面,四川长虹旗下以上海长虹空调有限公司为主体的优质空调资产,并未出现在此次出售的资产之内。', 'predict': "relation tags: ['出现在', '旗下', '为主体', '出售']\nrelation: \n上海长虹空调有限公司为四川长虹旗下的优质空调资产之一，但在此次出售的资产中并未出现。"}
+{'text': '此外,科通芯城今年还计划与慧聪以及农村淘宝这些渠道巨头合作,推动智能硬件下沉,在二三线城市寻求变现。', 'predict': 'Relation: 合作\nEntity 1: 科通芯城\nEntity 2: 慧聪、农村淘宝'}
+{'text': '据统计,武商联及其关联方、一致行动人自<N>年<N>月<N>日至<N>年<N>月<N>日累计持有鄂武商A权益变动达到<N>.0<N>%。', 'predict': "relation tags: ['持股']\nrelation: 武商联及其关联方、一致行动人持有鄂武商A权益变动达到N.0%。"}
+{'text': '上周末,伊利发布公告称与DFA签署了谅解备忘录,拟在战略采购、牧场服务等方面建立长期战略合作关系,并就未来乳品相关项目建立了战略性优先权关系。', 'predict': 'Relation: 合作\nEntity: DFA，伊利\n\n根据文中提到的内容，伊利与DFA签署了谅解备忘录，拟建立长期战略合作关系，并就未来乳品相关项目建立了战略性优先权关系。因此，可以将它们之间的关系归为“合作”。'}
+{'text': '事实上,百视通已经瞄上了诸如智能终端方向,并于今年<N>月与联想集团合资设立了“视云网络科技公司”,', 'predict': "relation tags: ['合资']\nrelation: 百视通与联想集团合资设立了“视云网络科技公司”。"}
+{'text': '易联众今天披露,公司全资子公司福州易联众信息技术有限公司与农行泉州分行及中行漳州分行分别签订了购销合同,', 'predict': '签约'}
+{'text': '本次减持后,广州骏益持有中国中期1<N>5万股份,占总股本的<N>.<N>%。', 'predict': "relation tags：['减持', '持有', '总股本']\nrelation：广州骏益减持后持有中国中期股份，占总股本的一定比例。"}
+{'text': '以及有关部门的支持下,经多方协调,粮油公司将其拥有的、注册于境外的“飞天”牌贵州茅台酒商标以协议方式有偿归属于茅台有限公司,许可使用费为每年<N>万元。', 'predict': '被拥有'}
+{'text': '皇氏乳业董秘何海晏接受《证券日报》记者采访时表示,“公司使用部分超募资金增资控股来思尔公司,是出于公司做大做强主业经营的需要考虑。', 'predict': "relation tags: ['注资', '拥有']\nrelation: 皇氏乳业注资来思尔公司并增资控股。"}
+{'text': '至于利润高增长的原因,长春高新的解释为:该公司控股制药企业——长春百克生物科技有限公司<N>年上半年没有产品进入市场实现生产和销售,', 'predict': '拥有'}
+{'text': '杜双华指出,目前山钢和日照钢铁已共同聘请中企华作为资产评估机构进行全部资产和业务的审计评估,山钢也组织了庞大的团队对日照钢铁作了详尽的尽职调查。', 'predict': 'relation: 合作'}
+{'text': '尽管骏威汽车称,“以H股形式的非现金对价交换骏威股东持有的骏威股票,', 'predict': '关系标签：被转让\n\n骏威股东持有的骏威股票被以H股形式的非现金对价交换给了骏威汽车。因此，关系标签为被转让。'}
+{'text': '“绿建”的成立,或是绿城寻求突围的一道新招。', 'predict': 'Relation: 成立 (被绿城注资和拥有)\nEntity: 绿城, 绿建'}
+{'text': '<N>年<N>月,双汇国际以总代价<N>亿美元收购美国最大猪肉生产商史密斯菲尔德食品公司。。', 'predict': "relation tags: ['收购', '被收购']\nrelation: 双汇国际以总代价<N>亿美元收购史密斯菲尔德食品公司。"}
+{'text': '据新华社电在新加坡上市的糖果制造商徐福记国际集团<N>日证实,瑞士食品巨头雀巢有意收购徐福记,双方正在进行初步洽谈。', 'predict': 'Relation: 拟收购\nEntity 1: 雀巢\nEntity 2: 徐福记国际集团'}
+{'text': '华平高层曾表示:“华平不同于一般的PE公司,其更看重企业成长,一般投资期限为<N>至<N>年”。', 'predict': 'relation: unknown'}
+{'text': '据国外媒体报道,不仅仅是惠普公司,美国多家知名公司均在<N>年进行了大幅裁员,其中包括AMR集团、花旗银行、雅虎等。', 'predict': "relation tags：['裁员']\nsentence：据国外媒体报道,不仅仅是惠普公司,美国多家知名公司均在<N>年进行了大幅裁员,其中包括AMR集团、花旗银行、雅虎等。\nentity：惠普公司，花旗银行\nrelation：裁员"}
+{'text': '博众微创网络技术有限公司总经理杨素生表示,茵曼扩张海外市场时复制国内打价格战的经验和战略,是存在很大风险的。', 'predict': "relation tags: ['竞争']\nrelation: 博众微创网络技术有限公司总经理杨素生认为，茵曼在扩张海外市场时采用国内打价格战的经验和战略，这将导致与其他竞争对手之间的激烈竞争。"}
+{'text': '王昌顺调任中国航空集团公司(下称中航集团)出任总经理一职,并将通过组织程序接替即将退休的孔栋成为中国国际航空股份有限公司董事长的这一变动已经渐呈明朗化。', 'predict': "relation tags: ['担任', '接替']\nrelation: 王昌顺担任中航集团总经理一职，并将接替孔栋成为中国国际航空股份有限公司董事长。"}
+{'text': '这不仅让业界浮想联翩:外界盛传的五矿集团重组中钢集团是否再度浮上水面。', 'predict': "relation tags: ['重组']\nrelation: 五矿集团和中钢集团可能会进行重组。"}
+{'text': '上周末,伊利发布公告称与DFA签署了谅解备忘录,拟在战略采购、牧场服务等方面建立长期战略合作关系,并就未来乳品相关项目建立了战略性优先权关系。', 'predict': 'relation：合作'}
+{'text': '最早于<N>年<N>月<N>日,徐工科技发出公告,拟通过定向增发收购徐工集团下属企业资产和股权,并已聘请中介机构进行尽职调查。', 'predict': "relation tags: ['拟收购']\nrelation: 徐工科技拟通过定向增发收购徐工集团下属企业资产和股权。"}
+{'text': '<N>日上午消息,据消息人士透露,前CCTV财经女主播、美银美林投资银行董事蒉莺春已经正式加盟京东商城,而其在投行的工作经历,被外界认为是推进京东上市进程。', 'predict': "relation tags: ['加盟', '推进上市进程']\nrelation: 蒉莺春加盟京东商城，其在美银美林投资银行的工作经历被认为是推进京东上市进程的因素之一。"}
+{'text': '日前,华润锦华通过四川产权交易网转让其持有的华西证券有限责任公司<N>.<N>万股股权,占华西证券注册资本的<N>.<N>%,转让底价为人民币<N>.<N>万元。', 'predict': '被转让'}
+{'text': '据预案披露,高速运管公司及潍莱公司运营山东高速集团旗下京福高速德齐南至泰安段、威乳高速及潍莱高速等路产,', 'predict': '关系不明确，需要更多上下文信息才能确定实体之间的关系。'}
+{'text': '安纳达、粤传媒等由于原材料上涨业绩下降明显。', 'predict': "relation tags: ['影响']\nrelation: 影响"}
+{'text': '国航母公司中国航空集团签订的战略合作框架协议,北京航空由国航与北京控股集团有限公司、北京市国有资产经营有限责任公司和中达银瑞投资有限公司共同出资<N>亿元', 'predict': 'Relation: 合作\n\nExplanation: The sentence describes a strategic cooperation framework agreement signed by the China Aviation Group, the parent company of Air China, with Beijing Holdings Group Co., Ltd., Beijing State-owned Assets Management Co., Ltd., and Zhongda Yinyin Investment Co., Ltd. to jointly invest N billion yuan in Beijing Airlines. Therefore, the relation tag for this sentence is "合作" (cooperation).'}
+{'text': '和讯消息据彭博资讯报道,两名业内人士近日表示,迫于美国监管部门筹资压力,美国银行已卖出所持有的中国建设银行部分股权,此笔交易套现额约为<N>亿美元。', 'predict': 'relation: 被卖出持股\n\nentity: 美国银行，中国建设银行'}
+{'text': '康师傅上周五宣布将以子公司康师傅饮品<N>.<N>%权益,收购连续亏损的百事可乐在中国的<N>家装瓶厂;', 'predict': "relation tags: ['收购']\nrelation: 康师傅以康师傅饮品<N>.<N>%的权益收购了百事可乐在中国的<N>家装瓶厂。"}
+{'text': '因业务发展需要,拟向全资子公司山西振东道地药材开发有限公司(以下简称“中药材公司”)借款人民币<N>,<N>万元。', 'predict': 'relation：借款'}
+{'text': '在京、港两地同时举行的建设银行上半年业绩发布会上,郭树清透露,建行A+H配股融资启动时间没有严格限定,争取年内完成。', 'predict': "relation tags: ['融资']\nrelation: 建设银行计划通过A+H配股融资来完成融资目标，郭树清在发布会上透露，启动时间没有严格限定，但争取在年内完成。"}
+{'text': '此外,鞍钢还与美国通用电气公司、销售以及培训等多方面进行积极的交流与合作,而印度则是张晓刚的下一个目标。', 'predict': 'Relation: 合作'}
+{'text': '光伏龙头企业协鑫控股、西安隆基、台湾昱晶能源等业内同行,及澳大利亚新南威尔士大学等国际高校专家近<N>人参加了项目启动仪式。', 'predict': 'relation: 合作'}
+{'text': '日的签约仪式上,中粮集团董事长宁高宁不仅亲自出席,并且表示,上海大悦城是整个大悦城组合中不可或缺的部分,希望新梅置业在中粮置业收购二三期项目上予以支持。', 'predict': 'Relation: 收购\nEntity 1: 中粮集团\nEntity 2: 中粮置业'}
+{'text': '公告还显示,为保证控股子公司冀东水泥凤翔有限责任公司项目建设顺利进行,冀东水泥与合资方协商决定对凤翔公司增加注册资本<N>.<N>亿元,', 'predict': '关系标签：注资、增持、合资\n\n解释：冀东水泥与合资方协商决定对凤翔公司增加注册资本，这意味着冀东水泥将注资并增持凤翔公司的股份，从而与合资方共同成立合资公司。'}
+{'text': '兰州黄河三季报显示,截至报告期末,公司还持有新和成<N>.<N>万股,期末账面值为<N>.<N>万元;持有ST琼花<N>股,期末账面值<N>.<N>万元。', 'predict': "relation tags：['持股']\nrelation：兰州黄河公司持有新和成和ST琼花的股份。"}
+{'text': '目前,路桥建设除中交建之外的流通盘只有1<N>92.<N>万股,“私有化”收购成本仅为<N>.<N>亿元,相比“私有化”振华重工更为便宜。', 'predict': '拟收购'}
+{'text': '中国证券报记者了解到,根据华侨城的计划,公司目前已经启动了第二轮全国布局:今年<N>月底天津华侨城项目签约;<N>月1<N>日,西安华侨城项目签约;', 'predict': 'Relation tags cannot be inferred from the given sentence and entities. Can you please provide more information or context?'}
+{'text': '终用户都是电信设备运营商,这也是国脉科技传统服务对象,不过公司昨日披露的和中国农业银行签订的<N>万元设备供货与技术服务合同,对国脉科技有着新的意义,', 'predict': '关系：签约'}
+{'text': '以方便面和饮料为主业的康师傅控股有限公司(下称康师傅)在整体业绩不出色的情况下开始发力休闲食品。', 'predict': "relation tags: ['拓展业务', '业绩不佳', '发力', '主营业务']\nrelation: 康师傅控股有限公司在业绩不佳的情况下，开始发力拓展休闲食品业务，以减少对主营业务方便面和饮料的依赖。"}
+{'text': '资料显示,经过前期资产重组,置入*ST海星的资产主要是格力集团旗下的格力地产,*ST海星成为格力集团旗下的房地产上市公司。', 'predict': 'Relation: 被置入资产重组\n\nEntity 1: 格力集团\n\nEntity 2: *ST海星'}
+{'text': '如此,深投控股改承诺的<N>亿元资产注入,通过此次资产置换,深物业得到了三块资产:一块深深房“白送”都没看上的地皮,被涨价<N>倍塞给深物业;', 'predict': 'relation tags: 注资，拥有\n\n根据句子，可以得到深投控股改注资了<N>亿元的资产到深物业。因此，深投控对深物业进行了注资，拥有了一定的股份或资产。'}
+{'text': '信捷电气和开润股份<N>月<N>日上市', 'predict': "relation tags: ['上市']\n\nsentence: 开润股份和信捷电气在<N>月<N>日完成了重组\n\nentity: 开润股份，信捷电气\n\nrelation: 重组"}
+{'text': '而从近期披星戴帽的*ST常林、*ST酒鬼等公司的走势来看,复牌后短期内的走势都不容乐观。', 'predict': "Sorry, I couldn't find any relation in the given sentence. Can you please provide more context or information?"}
+{'text': '资料显示,海诺尔环保生活垃圾直接处置业务毛利率相比是最高的,<N>年、<N>.<N>%和<N>.<N>%;其余几家数据最好的南海发展,最差的是城投控股。。', 'predict': 'The sentence describes a comparison of the gross profit margins of several companies in the waste disposal business. The entity "海诺尔环保" (Hainuoer Environmental Protection) has the highest gross profit margin at certain years, while "城投控股" (City Investment Holdings) has the lowest. There is no clear relation tag in this sentence.'}
+{'text': '今天,南昌钢铁旗下的上市公司长力股份发布公告称,', 'predict': 'unknown'}
+{'text': '据悉,永和豆浆在青岛的店面归其华北区分公司管理,在青岛市已有两家店面,难道已有的两家永和豆浆的工作人员都没有发现同城的这家假店?“这两家店都是加盟店,', 'predict': 'unknown'}
+{'text': '在前十大流通股股东中,除原股东江东集团和建行工银瑞信投资基金外,新进<N>位成员,有<N>位更是在<N>月<N>日至<N>月底不到两个月的时间内火速建仓。', 'predict': 'relation: 持股'}
+{'text': '本报讯济南钢铁与莱钢股份重组由于需重新拟定方案,昨日两家公司停牌。', 'predict': 'relation: 重组'}
+{'text': '国电集团入股<N>% 瑞泰人寿战略转型', 'predict': 'Relation: 入股\n\nExplanation: The sentence states that the company "国电集团" has invested a certain percentage in "瑞泰人寿" as part of their strategic transformation. The relation between the two entities is "入股", which means investment or acquisition of a certain percentage of shares in a company.'}
+{'text': '同洲电子内部人士表示,公司一体机样品或将在<N>月底完成,由于同洲电子在电子产品销售领域并无太多知名度,此次和韩国现代合作,', 'predict': '合作'}
+{'text': '如此看来,在<N>月<N>日公布的收购公告中,南纺股份涉及南泰国展<N>.<N>%股权正是来源于此。', 'predict': 'relation: 被收购'}
+{'text': '其中,平安银行为<N>.<N>亿港元,浦发银行为<N>.<N>亿元,', 'predict': "relation tags: ['unknown', '注资', '拥有', '纠纷', '自己', '增持', '重组', '买资', '签约', '持股', '交易', '入股', '转让', '成立', '分析', '合作', '帮助', '发行', '商讨', '合并', '竞争', '订单', '减持', '合资', '收购', '借壳', '欠款', '被发行', '被转让', '被成立', '被注资', '被持股', '被拥有', '被收购', '被帮助', '被借壳', '被买资', '被欠款', '被增持', '拟收购', '被减持', '被分析', '被入股', '被拟收购']\nsentence: 其中，平安银行和浦发银行均为银行机构，这句话中提到了两家银行的资金数额。\nentity: 平安银行，浦发银行\nrelation: 没有明确的关系词或关系短语，无法确定具体的关系标签。"}
+{'text': '中油化建获注的资产方面,重组标的资产囊括了山煤集团煤炭开采和煤炭贸易两大业务板块。', 'predict': 'Relation: 注资（被注资）\nExplanation: 中油化建获得了山煤集团的注资，将其作为重组标的资产之一。'}
+{'text': '海通证券从<N>月<N>日起连续两日突然停牌引起市场猜测,有消息称为配合上海金融中心建设,海通证券将收购国泰君安。。', 'predict': 'relation：拟收购'}
+{'text': '皖维高新今日公告,拟出资<N>万收购广西广维化工有限责任公司全部股权。', 'predict': 'relation tags: [\'拟收购\']\n\nThe relation between the entities "皖维高新" and "广西广维化工有限责任公司" is "拟收购", which means that the former company plans to acquire all the shares of the latter company.'}
+{'text': '在中国平安收购深发展银行,力图打造平安金融控股集团之时,中国建设银行董事长郭树清在近日召开的年度股东大会上也表示,“建行有兴趣收购信达资产管理公司股份,', 'predict': 'relation：拟收购\nentity：中国建设银行，信达资产管理公司'}
+{'text': '昨日,由成都高新投资集团发起成立、成都天府软件园旗下孵化器创业场具体运营的互联网主题咖啡馆“灵感咖啡”正式开业。', 'predict': "relation tags: ['成立', '发起']\nrelation: 成都高新投资集团发起成立了互联网主题咖啡馆“灵感咖啡”，并由成都天府软件园旗下孵化器创业场具体运营。"}
+{'text': '基金(以下简称金沙江创投)宣布,由“GOScaleCapital”牵头的几家投资机构已经成功收购荷兰皇家飞利浦公司旗下Lumileds<N>.<N>%的股份,', 'predict': '被收购：Lumileds的股份被成功收购。'}
+{'text': '瑞晶科技将调低资产估值ST博元继续推进重组', 'predict': 'Relation: 重组\nExplanation: The sentence talks about a possible restructuring of ST博元 with the help of 瑞晶科技. The latter plans to lower its asset valuation and continue with the restructuring process.'}
+{'text': '综合海马股份<N>、<N>月份二级市场的走势,海马投资减持价格在<N>元到<N>.<N>元之间。', 'predict': 'relation: 减持\nentity 1: 海马股份\nentity 2: 海马投资'}
+{'text': '《叶问<N>》由神开股份控股股东上海业祥投资管理有限公司之母公司上海快鹿投资有限公司参与投资。', 'predict': "relation tags: ['控股', '参与投资', '母公司']\nrelation: \n上海业祥投资管理有限公司是神开股份的控股股东，而上海快鹿投资有限公司是上海业祥投资管理有限公司的母公司，两家公司均参与了电影《叶问》的投资。"}
+{'text': '<N>年酒鬼酒发生了<N>.<N>亿元的巨额亏损,<N>年酒鬼酒公司经营亏损仍旧高达<N>.<N>亿元。', 'predict': 'relation tags: [\'经营亏损\', \'发生亏损\']\n\nBased on the sentence, the relation between the entities "酒鬼酒" and "酒鬼酒公司" could be "经营亏损". The sentence mentions that the company had a huge loss of several billion yuan and that the operating loss is still high, indicating that the company is not doing well financially.'}
+{'text': '1<N>月<N>日违规卖出<N>.<N>万股后,龙泉实业持有<N>.<N>万股,占<N>.<N>%;龙泉地产持<N>.<N>万股,占<N>.<N>%;龙泉酒店持<N>.3<N>万股,', 'predict': '拥有'}
+{'text': '由于未及时还债,<N>年<N>月,中信实业银行将ST银广夏及担保单位天津创业诉至北京市第二中级人民法院。', 'predict': 'Relation: 欠款 (owe money)\n\nEntity 1: 银广夏 (ST Yin Guang Xia) - 被告 (defendant)\n\nEntity 2: 中信实业银行 (CITIC Industrial Bank) - 原告 (plaintiff)'}
+{'text': '中国铝业公司注资力拓<N>亿美元交易离最后审批冲刺仅剩<N>天,却戛然而止。', 'predict': 'Relation: 注资 (investment)\n\nExplanation: The sentence mentions that China Aluminum Corporation (中国铝业公司) was going to invest in Rio Tinto (力拓) for a deal worth several billion US dollars. However, the deal was halted just a few days before the final approval.'}
+{'text': '华润励致执行董事兼首席财务官王添根称,通过收购华润燃气,对于华润励致及其股东来说是一个重大的发展里程,', 'predict': '拟收购'}
+{'text': '本报近日还曾报道,马钢股份和马钢集团多名现任和前任管理层已经陆续被带走调查。', 'predict': "relation tags: ['被带走调查', '报道']\nrelation: 马钢股份和马钢集团的现任和前任管理层已经陆续被带走调查，这也曾被本报报道过。"}
+{'text': '<N>月<N>日,越秀投资、越秀交通及越秀地产联合发布公告,新成立的广州越秀企业集团取代了老的越秀企业集团,', 'predict': "relation tags: ['成立', '取代']\nrelation: 广州越秀企业集团 成立 取代 老的越秀企业集团"}
+{'text': '不仅连续多个季度在包括易观智库、Trustdata、猎豹智库等第三方数据机构发布的各类APP活跃用户数量排行榜里稳居前三,', 'predict': '这句话中没有明显的关系词或动词，因此无法确定实体之间的关系。请提供更多上下文或信息以便我更好地回答您的问题。'}
+{'text': '华力创通和华测检测上半年业绩同比增长', 'predict': "relation tags: ['增长']\nrelation: 上半年业绩同比增长"}
+{'text': '这正是蓝光控股集团董事局主席杨铿对双方合作寄予厚望的地方,“蓝光发展自上市后正式确立了‘人居蓝光+生命蓝光’的双轮驱动战略,', 'predict': '合作'}
+{'text': '<N>月<N>日下午,在昆明航空有限公司新闻通报会上,来自深圳航空的总裁助理轩余恩以昆航筹备工作组组长的身份出席。', 'predict': "relation tags: ['unknown', '注资', '拥有', '纠纷', '自己', '增持', '重组', '买资', '签约', '持股', '交易', '入股', '转让', '成立', '分析', '合作', '帮助', '发行', '商讨', '合并', '竞争', '订单', '减持', '合资', '收购', '借壳', '欠款', '被发行', '被转让', '被成立', '被注资', '被持股', '被拥有', '被收购', '被帮助', '被借壳', '被买资', '被欠款', '被增持', '拟收购', '被减持', '被分析', '被入股', '被拟收购']\nsentence: 昆航是云南省政府和中国东方航空公司共同出资组建的，成立于1992年，是中国第一家省市政府与大型国有航空公司合资的航空公司。\nentity: 昆航，云南省政府，中国东方航空公司\nrelation: 合资"}
+{'text': '佛塑股份是广新集团继今年年初入主星湖科技之后的又一重要融资平台,“我们希望今后每年都能增加一家上市公司”。', 'predict': "relation tags: ['注资', '拥有', '增持', '入股']\nrelation: 广新集团注资佛塑股份，并拥有该公司的股份，还计划增持并入股其他上市公司。其中，广新集团今年年初已经入主星湖科技。"}
+{'text': '吴徽荣说,润言公司介绍媒体时,列了包括二十一世纪传媒公司下属媒体在内的一个清单,', 'predict': '关系不明确，可能涉及到合作、竞争、订单等关系。'}
+{'text': '本刊记者获得的重庆国信<N>年年检报告显示,重庆国信的股东分别为,南光投资管理有限公司、重庆置信资产管理有限公司、重庆新纪元股权投资有限公司。', 'predict': "relation tags: ['持股', '拥有']\n\nThe report shows that the shareholders of Chongqing Guoxin include Nan Guang Investment Management Co., Ltd., Chongqing Zhixin Asset Management Co., Ltd., and Chongqing New Era Equity Investment Co., Ltd. Therefore, Nan Guang Investment Management Co., Ltd., Chongqing Zhixin Asset Management Co., Ltd., and Chongqing New Era Equity Investment Co., Ltd. hold shares in Chongqing Guoxin."}
+{'text': '据本报记者实地调查,目前亚星化学仍与亚星集团存在资产权属不明确的问题。', 'predict': '关系：纠纷'}
+{'text': '广州市中级人民法院在国内首先对奥特曼版权侵权一案作出了一审判决,驳回原告泰国人辛波特以及泰国采耀版权有限公司对日本圆谷制作株式会社等相关公司的诉讼请求。', 'predict': 'Relation: 未知 (unknown)'}
+{'text': '格上涨,造成公司经营成本大幅提高,而公司产品售价没有同步上涨,导致公司盈利能力下降,如冠豪高新、航天长峰,以及一批电力公司等都是出于这样的原因导致亏损;', 'predict': "relation tags: unknown\n\nI'm sorry, I couldn't find any specific relation between the sentence and the entities mentioned. Can you please provide more information or context so I can assist you better?"}
+{'text': '国立保理公司是上实金服在金融投资领域的又一重要布局,进一步完善了上实集团金融服务产业链,对内服务于各产业的生力军,对外支持中小企业发展,提供金融服务。', 'predict': "relation tags: ['完善', '服务', '支持']\nrelation: \n国立保理公司是上实金服在金融投资领域的又一重要布局，进一步完善了上实集团金融服务产业链，对内服务于各产业的生力军，对外支持中小企业发展，提供金融服务。具体地说，国立保理公司完善了上实集团的金融服务产业链，为各产业提供服务，同时也支持中小企业发展，提供金融服务。"}
+{'text': '<N>年利乐华新成立,瑞典利乐集团方面持股<N>%,中方持股<N>%。', 'predict': 'Relation tags: [\'成立\', \'持股\']\n\nThe relation between the entities is that the Swedish company, Tetra Laval Group, is a shareholder of the newly established Chinese company, Lile Hua. The Tetra Laval Group holds N% of the shares, while the Chinese side holds N% of the shares. Therefore, the relation tags for this sentence could be "成立" (established) and "持股" (shareholding).'}
+{'text': '<N>年,中国中钢集团(下称中钢)原总裁黄天文因敌意收购澳大利亚中西部铁矿公司声名鹊起。', 'predict': "relation tags: ['收购', '被收购']\nrelation: 中钢收购澳大利亚中西部铁矿公司"}
+{'text': '复星国际H股配股融资已成事实,如同中国太平H股增发一样,市场关心的是,马云和马化腾各自主导的产业基金真能参与到一家国企、一家民企的融资?', 'predict': 'relation: unknown'}
+{'text': '《每日经济新闻》在攀钢钒钛股吧中看到,鞍钢集团宣布增持计划时,攀钢钒钛的股民还不相信,讽刺其不过是作秀而已。', 'predict': 'Relation: 增持\n\nExplanation: 鞍钢集团宣布了增持计划，意味着他们将增加对攀钢钒钛的持股，这与攀钢钒钛的股民的观点不同，他们认为这只是鞍钢集团的表演。'}
+{'text': '分析人士认为,奈飞强大的节目阵容将继续吸引新订阅用户,预计奈飞国际订阅用户在<N>-<N>年期间的年复合增长率将达到<N>%。', 'predict': "relation tags: ['增长率', '订阅']\nrelation: 奈飞国际预计在<N>-<N>年期间的年复合增长率将达到<N>%，这将吸引更多的新订阅用户。"}
+{'text': '是说,云南城投主要是做一级开发,而常高新除了基础设施的开发建设以外,还将从事商业性房地产的开发,另外,常高新还有基础设施和标准厂房、园区厂房的经营业务。', 'predict': 'relation: 无关系'}
+{'text': '浙江加佰利控股集团有限公司拟向滨海开发公司转让其持有的三鑫公司<N>.<N>%的股权。', 'predict': '关系：被转让'}
+{'text': '一位接近中海油的人士对记者称,进入美洲是中海油战略发展中非常重要的一环,即使在收购尤尼科失败后,这一策略也并没有改变。', 'predict': "Relation: 收购\n\nEntity 1: 尤尼科\n\nEntity 2: 中海油\n\nExplanation: The sentence mentions that despite the failure of the acquisition of 尤尼科, 中海油's strategy of entering the American market remains unchanged, indicating that they are still interested in acquiring companies in that region. Therefore, the relation between the entities is 收购 (acquisition)."}
+{'text': '中国网财经<N>月<N>日讯 <N>日晚间,有媒体消息称“深圳法院判决钜盛华、前海人寿等增持万科无效”,不过知名律师许峰指出,该引述造成严重误导。', 'predict': 'relation: 增持 (前海人寿对万科的股份增持)'}
+{'text': '高剑锋同时认为,并购成熟品牌是雀巢在全球扩张的战略之一,而此次辉瑞剥离惠氏奶粉对雀巢来说是一个机会,', 'predict': '被剥离，拟收购'}
+{'text': '国际方面,IEE公司新产品市场推广较好,SBRR、VitaSense等新产品分别进军日本、布局欧洲市场;原有产品SBR进入了印度市场。', 'predict': "relation tags: ['进军', '布局', '进入']\nrelation: \nIEE公司的新产品包括SBRR和VitaSense分别进军日本和欧洲市场，而原有产品SBR则进入了印度市场。"}
+{'text': '在国美电器“内战”正酣之际,苏宁电器抛出股权激励计划“鼓劲”。', 'predict': 'relation: 竞争'}
+{'text': '<N>月底,德意志银行手中的海尔电器<N>%的股权将完成过户,虽然海尔电器股价过去几个月下降了<N>%,但是青岛海尔仍需为此支付<N>.<N>亿港元。', 'predict': 'Relation: 被转让\nEntity 1: 德意志银行\nEntity 2: 海尔电器'}
+{'text': '而万科和中石化也从去年年报的前十大持股中消失;', 'predict': '被持股'}
+{'text': '中央党校近日召开的中国经济观察论坛上,中央党校副教授、三一重工调研报告执笔人李鹏认为,作为一家股份制民营企业,三一集团有<N>名员工,', 'predict': 'relation: 拥有'}
+{'text': '<N>软件状告金山抹黑自己 索赔<N>万余元', 'predict': '关系标签缺失，无法确定关系类型。'}
+{'text': '茅台镇上最有名的三家酒坊品牌中,有两个老牌子已经跟茅台集团有了商标纠纷。', 'predict': "relation tags: ['商标纠纷']\nrelation: 两个老牌子与茅台集团有商标纠纷。"}
+{'text': '海螺水泥持有冀东水泥的股份数量达到<N>.<N>亿股,占总股本的<N>.<N>%。', 'predict': 'relation: 持股'}
+{'text': '但同是按成本法计算的新疆信达、青岛信达并没有为信达地产贡献收益。', 'predict': "relation tags: ['贡献收益']\nrelation: 新疆信达、青岛信达没有为信达地产贡献收益。"}
+{'text': '公司决定以<N>万元收购湖北宜昌磷化工业集团有限公司所持宜昌楚磷化工有限公司<N>.<N>%的股权。', 'predict': "relation tags: ['收购', '持股', '被持股']\nrelation: 公司收购了湖北宜昌磷化工业集团有限公司所持有的宜昌楚磷化工有限公司的一部分股权。"}
+{'text': '目前川汽纯电动公交车一辆车所用电池容量为<N>万AH,如此测算,中航锂电项目达产后,能满足<N>辆纯电动公交车电池配套需求。', 'predict': 'relation: 未知'}
+{'text': '据家乐福工作人员透露,目前超市对蓝月亮洗衣液正在清理库存。', 'predict': "relation tags: ['清理库存']\nsentence: 家乐福工作人员透露，超市正在清理库存中的蓝月亮洗衣液。"}
+{'text': '记者连线:山西证券分析师刘俊清表示,这是鞍钢走出去的一部分,', 'predict': "relation tags: ['合作', '分析']\nsentence: 山西证券分析师刘俊清对鞍钢的走出去进行了分析和合作。\nentity: 山西证券，刘俊清，鞍钢"}
+{'text': '青岛华侨城大型旅游综合项目,是华侨城A在山东省内的惟一项目。', 'predict': "relation tags: ['拥有']\nentity: 青岛华侨城，华侨城A\nrelation: 华侨城A拥有青岛华侨城大型旅游综合项目。"}
+{'text': '鄂武商A、武汉中商、武汉中百三家公司今日公告,', 'predict': 'Sorry, I cannot determine the relation between the entities without additional information. Can you please provide more context or details about the announcement?'}
+{'text': '日前,华润锦华通过四川产权交易网转让其持有的华西证券有限责任公司<N>.<N>万股股权,占华西证券注册资本的<N>.<N>%,转让底价为人民币<N>.<N>万元。', 'predict': '被转让'}
+{'text': '今年,从北汽、广汽到东风,都和福汽进行过接触。', 'predict': 'Relation: 合作'}
+{'text': '但国内银行市值排名迅速蹿升,除了工行蝉联全球市值排名第一外,建行和中行的排名也从第<N>位和第<N>位蹿升至第<N>位和第<N>位。', 'predict': 'relation: 排名上升'}
+{'text': '事后,上海全冠的“偷袭”很快就遭到了中国恒天的阻截。', 'predict': 'relation tags: [\'竞争\', \'阻截\']\n\nThe sentence implies a competitive relationship between China Hengtian and Shanghai Quanguan, and the latter attempted to launch a surprise attack, which was quickly blocked by China Hengtian. Therefore, the relation between the two entities could be described as "竞争" (competition), and the action taken by China Hengtian to block the attack could be described as "阻截" (interception).'}
+{'text': '对于*ST三联的困境,*ST三联副董事长孙一丁曾表示,即使*ST三联出现了资金断裂,国美也不会再输血。', 'predict': "relation tags: ['注资', '输血']\nrelation: 国美注资/输血给*ST三联"}
+{'text': '市正信投资发展有限公司旗下房地产投资项目——广州市正信投资发展有限公司控股的锦城公司开发的位于广州市中心地带东山区农林下路地铁口的“东山锦轩大厦”项目。', 'predict': 'relation: 拥有/控股'}
+{'text': '深圳市安业房地产开发有限公司是公司控股子公司深圳市万泽房地产开发有限公司控股<N>%的公司,', 'predict': 'relation：拥有'}
+{'text': '公司决定以<N>万元收购湖北宜昌磷化工业集团有限公司所持宜昌楚磷化工有限公司<N>.<N>%的股权。', 'predict': "relation tags: ['拥有', '收购']\nrelation: 湖北宜昌磷化工业集团有限公司拥有宜昌楚磷化工有限公司的股权，并且公司决定以N万元收购该股权。"}
+{'text': '其中,<N>年他带领上海医药完成吸并上实医药、新亚药业、新先锋华康医药、常州康丽制药等股权。', 'predict': 'relation tags: [\'合并\', \'被收购\', \'被成立\', \'被持股\', \'被拥有\', \'被注资\', \'被转让\']\n\nBased on the given sentence, the relation between the entities "新先锋华康医药" and "新亚药业" is not clear. However, it is mentioned that they were among the companies whose equity was merged with Shanghai Pharmaceuticals, which was led by someone in a certain year. Therefore, it is possible that the relation between the two entities is "被合并" (merged), "被收购" (acquired), "被成立" (established), "被持股" (held shares), "被拥有" (owned), "被注资" (capitalized), or "被转让" (transferred).'}
+{'text': '和讯网消息 <N>月<N>日有媒体报道,称娃哈哈集团有限公司有意斥资<N>.<N>亿英镑收购英国联合饼干公司旗下的零食业务分支KP Snacks,', 'predict': '拟收购'}
+{'text': '在中国平安收购深发展银行,力图打造平安金融控股集团之时,中国建设银行董事长郭树清在近日召开的年度股东大会上也表示,“建行有兴趣收购信达资产管理公司股份,', 'predict': 'relation：拟收购'}
+{'text': '同盛集团将以其持有的两家拥有洋山港码头资产的公司认购本次发行股票。', 'predict': 'Relation: 注资 (invest)\nExplanation: The sentence states that 同盛集团 (Tongsheng Group) will subscribe to the issuance of stocks in this round by investing in two companies that it owns, which in turn own assets related to the Yangshan Port. Therefore, the relation tag for this sentence is 注资 (invest).'}
+{'text': '清华控股集团旗下企业清控创业投资有限公司虽是专注于高科技领域早中期项目投资及管理的专业机构,但其业务却早已布局文化产业。', 'predict': 'relation: 拥有\n\n清华控股集团拥有清控创业投资有限公司，虽然后者专注于高科技领域早中期项目投资及管理，但其业务也已经开始布局文化产业。'}
+{'text': '铁通华夏电信有限责任公司<N>年中报期末资产总额为<N>.<N>亿,北京华夏通网络技术服务有限公司中报期末资产总额为<N>.<N>亿,', 'predict': 'relation tags: [\'拥有\']\n\nBased on the given sentence, it seems that there is no clear relation between the two entities mentioned (Beijing Huaxia Tong Network Technology Service Co. Ltd. and Tie Tong Huaxia Telecom Co. Ltd.) other than the fact that they both reported their total assets at the end of the mid-year period. Therefore, the relation tag "拥有" (ownership) does not seem to apply here.'}
+{'text': '而从<N>年两家上市公司的年报中可看到,苏宁、国美目前发展规模旗鼓相当。', 'predict': "relation tags: ['发展规模相当']\nrelation: 苏宁和国美的发展规模相当。"}
+{'text': '怡亚通昨日发布公告称,公司与香港伟仕控股相关重组获批的有效期已过,期间因故未能完成相关重组工作,公司提请股东大会审议出售伟仕控股股份。', 'predict': 'relation: 股份出售\nentity: 伟仕控股，怡亚通\n\n根据公告，怡亚通提请股东大会审议出售伟仕控股股份。这意味着怡亚通将出售其持有的伟仕控股股份。具体出售的比例和价格等细节尚未公布。'}
+{'text': '一季度末,中行持有的美国次级住房贷款抵押债券、以及房利美公司和房地美公司发行债券或其担保的住房贷款抵押债券等账面价值合计<N>.<N>亿美元,', 'predict': '拥有'}
+{'text': '对于京东方A<N>年业绩表现,昨天有业内知情人士分析,近年来,京东方先后进行几轮融资,全部投入到液晶屏制造中,足迹遍布北京、成都等地。', 'predict': "relation tags: ['分析']\nrelation: 业内知情人士对京东方A公司的年业绩表现进行了分析。"}
+{'text': '近日,全球最大啤酒商百威英博公开证实,公司已收购了菲律宾最大啤酒商亚洲啤酒集团在江西、山东等<N>家啤酒厂的股份,其中包括江西最大品牌南昌啤酒。。', 'predict': "relation tags: ['收购', '持股']\nrelation: 百威英博收购了亚洲啤酒集团在江西、山东等N家啤酒厂的股份，包括南昌啤酒。"}
+{'text': '此后,关于红星美凯龙与吉盛伟邦将携手整合的消息不断传出,而历经<N>年之久,两家公司经过长时间的战略谋划,国内家居业“第一并购案”成功落地。', 'predict': 'relation: 合并'}
+{'text': '一位记者向董事长提问,不久前,湖南省领导视察紫光古汉,您汇报称紫光古汉集团正向中国血液生物制药前三强迈进,请问公司对此有何举措?', 'predict': "relation tags: ['合作', '发行', '分析', '增持', '减持', '签约', '重组', '收购', '入股', '转让', '注资', '拥有', '借壳', '被发行', '被转让', '被成立', '被注资', '被持股', '被拥有', '被收购', '被帮助', '被借壳', '被买资', '被欠款', '被增持', '拟收购', '被减持', '被分析', '被入股', '被拟收购']\nentity: 紫光古汉集团\nrelation: \n根据您提供的信息，我无法确定紫光古汉集团在这个问题上的具体举措。根据关系标签，紫光古汉集团可能会考虑与其他公司合作、发行股票、进行市场分析、增持或减持股权、签订合同、进行重组、收购其他公司、购买股份、转让股份、注资、拥有其他公司、借壳上市等。但是，没有具体的关系标签能够与这个问题直接相关联。"}
+{'text': '今年<N>月,鼎立股份收购了江苏清拖农业装备有限公司<N>%的股权,主营业务现拓展为房地产开发、农业机械和稀土。', 'predict': "relation tags: ['收购', '持股']\nrelation: 鼎立股份收购江苏清拖农业装备有限公司<N>%的股权。"}
+{'text': '医药领域垄断行为是近年来国内监管重点,此次查处浙江新赛科药业有限公司、天津汉德威药业有限公司价格垄断行为一案,', 'predict': '被查处'}
+{'text': '<N>年<N>月,复星国际斥资约<N>亿人民币收购以色列保险、资本管理公司Phoenix Holdings。', 'predict': "relation tags: ['收购']\nrelation: 复星国际收购了以色列保险和资本管理公司Phoenix Holdings，斥资约N亿人民币。"}
+{'text': '“新豪时、景傲实业、江南实业年减持平安股份不超过其持有股份的<N>%减持力度超出了市场预期,因为此前市场预期公司管理层考虑对中国平安的控制力,', 'predict': '减持关系'}
+{'text': '收益将达到<N>.<N>~<N>.<N>元左右,其中地产业务将贡献<N>.<N>-<N>.<N>元,预计未来房地产业绩贡献来源主要是:象山宏润花园、无锡宏诚花园、山东龙口宏润花园项目。', 'predict': "relation tags: ['贡献']\nThe sentence indicates that the real estate business, including the projects of Wuxi Hongcheng Garden and Xiangshan Hongrun Garden, will contribute to the estimated revenue of N.N to N.N yuan, with a contribution of N.N to N.N yuan."}
+{'text': 'A股中TCL集团、中兴通讯等深圳手机本地股,望受益于后期深圳手机出海版图的扩张。', 'predict': 'relation: 未提及相关关系。'}
+{'text': '今年<N>月<N>日,在现场无人竞价的情况下,前后历时十余分钟,远洋地产旗下子公司北京远乾置业有限公司一举获得上述两幅地块,', 'predict': "relation tags: ['拥有']\nentity: 北京远乾置业有限公司\nentity: 地块\nrelation: 北京远乾置业有限公司拥有上述两幅地块。"}
+{'text': '<N>月<N>日,中珠控股发布公告称,公司与浙江中电设备有限公司(下称“浙江中电”)于<N>月<N>日签署了《广西梧州稀土资源开发合作框架协议》。', 'predict': 'Relation: 合作\nEntity 1: 中珠控股\nEntity 2: 浙江中电设备有限公司'}
+{'text': '一位接近该事件的中国石油大学教授对记者表示,中石油和中煤能源在股权变更问题上的僵持,很有可能使中联煤层气公司陷入困境。', 'predict': "relation tags: ['持股', '股权变更', '僵持']\nrelations: \n- 中石油持股中联煤层气公司\n- 中煤能源持股中联煤层气公司\n- 中石油和中煤能源在股权变更问题上僵持不下，导致中联煤层气公司陷入困境。"}
+{'text': '汇丽集团股权结构显示,南汇资产投资有限公司持有<N>.<N>%股份,上海万业企业两湾置业发展有限公司<N>%、上海万业企业股份有限公司<N>.<N>%。', 'predict': 'relation: 拥有\n\nExplanation: The sentence is describing the ownership structure of the Huili Group, in which Nanhu Asset Investment Co., Ltd. holds a certain percentage of shares. The relation between Nanhu Asset Investment Co., Ltd. and Huili Group is "拥有" (ownership).'}
+{'text': '<N>.<N>亿收购西部煤化 维维股份煤炭产业快速增长', 'predict': 'Relation: 收购\nEntity 1: 维维股份\nEntity 2: 西部煤化'}
+{'text': '融达锂业所属的甲基卡锂辉石矿为一座大型锂辉石矿床,适宜于采用露天开采,探明的、<N>.<N>万吨,合计矿石量<N>.<N>万吨。', 'predict': "relation tags: ['属于', '适宜于', '采用', '探明', '合计矿石量']\nrelation: \n融达锂业属于甲基卡锂辉石矿所在的公司，甲基卡锂辉石矿适宜于采用露天开采的方式进行开采，已经探明的矿石量为<N>.<N>万吨，合计矿石量为<N>.<N>万吨。"}
+{'text': '方舟信托是继诺亚集团在<N>年成立以资产管理为核心的诺亚香港、以保险经纪为基础的诺亚保险以来的第三个全资持有的境外公司。', 'predict': "relation tags: ['成立', '持有']\nrelation: 诺亚集团成立了诺亚保险和方舟信托，后者是诺亚集团持有的第三个全资境外公司。"}
+{'text': '自从百威和英博整合之后,百威英博的扩张之路便由之前的并购转向现在的建厂。', 'predict': 'relation: 合并'}
+{'text': '沃达丰所持中国移动股份是最容易脱手的部分,因为该中国最大运营商在香港证券交易所上市。', 'predict': "relation tags: ['持股', '交易', '上市']\nrelation: 沃达丰持有中国移动股份，因为中国移动在香港证券交易所上市，所以这部分股份很容易进行交易。"}
+{'text': '最近得知徐福记与雀巢的事后,他给老家最喜欢喝雀巢<N>+<N>咖啡的女朋友打了<N>多分钟电话,分享即将成为外企员工的雀跃心情。', 'predict': 'relation: 合作'}
+{'text': '思达高科原大股东思达科技彻底从上市公司退出。', 'predict': 'relation: 被退出持股\n\n说明：思达科技是思达高科的原大股东，但是现在彻底退出了上市公司的持股。'}
+{'text': '依照约定,CVC的加入将从管理、财务等方面给俏江南以助力及提升,并在品牌的多元化和品牌本身的受众群体上做出相应的调整。', 'predict': 'relation: 注资\nentity: CVC注资了俏江南。'}
+{'text': '<N>%的股权、武汉双虎建筑涂料<N>%的股权和武汉力诺化学集团<N>.<N>%的股权及涂料资产生产运作所需的房产,同力诺集团持有的力诺光热<N>%的股权相置换;', 'predict': "relation tags: ['持股', '置换']\nrelation: 同力诺集团持有武汉双虎建筑涂料、武汉力诺化学集团和涂料资产生产运作所需的房产的股权，以置换力诺集团持有的力诺光热股权。"}
+{'text': '鹏博士“插足”互联网 接手长城宽带五成股权', 'predict': "relation tags: ['拥有', '持股', '接手']\nrelation: 鹏博士接手长城宽带五成股权，拥有该公司的股份。"}
+{'text': '潍柴控股集团旗下有两家上市公司,分别为潍柴动力和山东巨力。', 'predict': "relation tags: ['拥有']\n\nentity: 潍柴控股集团\n\nrelation: 潍柴控股集团拥有潍柴动力和山东巨力两家上市公司。"}
+{'text': '本报讯昨日,武钢集团透露,武钢热轧钢板桩成功出口韩国,这是武钢在国内率先自主研发成功热轧U型钢板后,产品首次迈出“国门”。', 'predict': "relation tags: ['出口']\nrelation: 武钢集团成功将热轧钢板桩出口到韩国。"}
+{'text': '<N>月<N>日,华丽家族披露,已与控股股东上海南江集团签署联合收购协议,南江集团指定华丽家族为金叠房产<N>%股权的收购方,南江集团则受让剩余的<N>%股权。', 'predict': 'Relation: 联合收购\nEntity 1: 上海南江集团\nEntity 2: 华丽家族'}
+{'text': '朱立南<N>年加盟联想,任深圳联想总经理,筹建并管理联想集团第一个产业基地,为联想板卡行销海外奠定了坚实的制造基础。', 'predict': "relation tags：['任职', '管理', '筹建']\nrelation：朱立南任深圳联想总经理，筹建并管理联想集团第一个产业基地。"}
+{'text': '理范梦强称,<N>年<N>月<N>日,国务院法制办作出国复<N>号裁决,责成国家工商总局删除民生银行变更登记表中有关梦达股权变更登记给上海巴士公司的内容。', 'predict': 'relation: 纠纷 (dispute)'}
+{'text': '到<N>年<N>月,经过股改和增发,证大投资总计持有远兴能源约<N>.<N>亿股股份,约占总股本的<N>.<N>%。', 'predict': "relation tags: ['持股', '股改', '增发']\nrelation: 证大投资持股远兴能源，经过股改和增发，持有约N.N亿股股份，约占总股本的N.N%。"}
+{'text': '东诚国际企业有限公司和劲嘉有限公司分别持有多伦投资有限公司<N>%和<N>%的股权,陈隆基为东诚国际企业有限公司和劲嘉有限公司的实际控制人。', 'predict': "relation tags: ['持股']\nrelation: 东诚国际企业有限公司和劲嘉有限公司分别持有多伦投资有限公司的股权"}
+{'text': '葛洲坝周一晚间公布重大事项公告,公司于<N>年<N>月<N>日与澳大利亚铁矿石出口商FMG公司签署了一项有关FMG公司在奇切斯特矿区将<N>万吨年产量扩建', 'predict': "relation tags: ['签约', '合作']\nrelation: 葛洲坝与澳大利亚铁矿石出口商FMG公司签署了一项合作协议，有关FMG公司在奇切斯特矿区将年产量扩建到N万吨。"}
+{'text': '根据新湖集团和新湖创业<N>年<N>月签订的关于青海碱业有限公司转让框架协议,新湖集团将青海碱业增资扩股<N>%的权利分步转让给新湖创业,', 'predict': "relation tags: ['转让']\nrelation: 新湖集团将青海碱业增资扩股<N>%的权利分步转让给新湖创业。"}
+{'text': '中国石油表示,公司通过中国石油国际事业有限公司间接全资拥有的中国石油国际事业新加坡公司,', 'predict': '关系标签：拥有'}
+{'text': '攀钢钢钒今日公告称,公司通过攀钢集团及其关联方发行股份购买资产,同时换股吸收合并攀渝钛业和长城股份的方式实施重大资产重组,', 'predict': '实施重大资产重组（重组），攀钢集团拥有长城股份的股份（持股），通过发行股份的方式购买资产（买资），同时吸收合并攀渝钛业和长城股份（合并）。'}
+{'text': '扶贫股易明医药应收账款飙涨海通证券定价<N>.<N>-1<N>.<N>', 'predict': "relation tags: ['应收账款', '定价']\nrelation: 易明医药的应收账款飙涨，海通证券进行了定价。"}
+{'text': '中新网<N>月<N>日电?<N>月<N>日,由罗赛洛亚太实验中心主办的“罗赛洛创新日”研讨活动在罗赛洛温州工厂举行。', 'predict': 'relation: 成立 (establishment)\nentity: 罗赛洛亚太实验中心'}
+{'text': '国资公司疑为中山公用内幕交易案“大老鼠”', 'predict': '关系标签：被指控\n\n这句话表明国资公司被指控参与中山公用的内幕交易案，被称为“大老鼠”。因此，关系标签为“被指控”。'}
+{'text': '中航三鑫此次非公开发行所募集资金扣除发行费用后将全部增资子公司海南中航特玻材料有限公司,用于中航特玻收购福耀海南相关资产并在其基础上进行新建和改造生产线', 'predict': "relation tags: ['注资', '增资', '收购']\nrelation: 中航三鑫注资海南中航特玻材料有限公司，用于增资并收购福耀海南相关资产，并进行新建和改造生产线。"}
+{'text': '年,八家基金、机构共增持<N>.<N>万股,增持最多的三家分别为:广发聚丰股票型证券投资基金、富国天益价值证券投资基金和南方成份精选股票型证券投资基金。', 'predict': "relation tags: ['增持']\nrelation: 八家基金、机构共增持<N>.<N>万股，其中广发聚丰股票型证券投资基金、富国天益价值证券投资基金和南方成份精选股票型证券投资基金分别增持了较多的股票。"}
+{'text': '在国家药监局给“霸王”两款产品定性为“虚假宣传”后,家乐福、沃尔玛、物美等京城超市纷纷对问题产品发出了下架令。', 'predict': "Sorry, I couldn't find any relevant relation tags for the given sentence and entities. Can you please provide me with more context or information so that I can assist you better?"}
+{'text': '并且这期间海尔集团的支持也是不遗余力,比如<N>年<N>月,青岛海尔完成受让海尔电器<N>.<N>%股份的过户手续,实现了对海尔电器的绝对控股。', 'predict': "relation tags: ['拥有', '受让', '控股']\nrelation: 青岛海尔通过受让海尔电器股份的过户手续，实现了对海尔电器的绝对控股，拥有了海尔电器的所有权。"}
+{'text': '按万达的规划,截至今年年底,将开业<N>家万达百货,单一品牌店面数量位列全国第一;', 'predict': "relation tags: ['拥有']\nsentence: 万达拥有多家百货店和房地产项目。\nentity: 万达"}
+{'text': '经证监会查明,宝利国际存在以下违法事实:一、未如实披露宝利俄罗斯国际投资有限责任公司(以下简称俄罗斯宝利)设立信息的变更情况。', 'predict': 'relation: 被成立'}
+{'text': '据了解,中新药业曾投资<N>亿元打造大健康产业功能性植物饮料项目;人福医药曾投资<N>亿元推出清慕三花凉茶;天士力在云南普洱总投资<N>亿元建设工业示范基地。', 'predict': 'relation: 注资'}
+{'text': '鞍钢集团总经理张晓刚此前在接受本报记者采访时也表示,鞍本重组在今年有望有实质性进展。', 'predict': 'relation: 重组'}
+{'text': '<N>年,中投公司购买了摩根士丹利公司的强制可转换票据和强制可转债,并于<N>年<N>月完成了强制可转债向普通股的转换。', 'predict': 'Relation tags cannot be determined from the given sentence. Can you please provide more context or information?'}
+{'text': '日讯 冀东水泥<N>日晚间公告称,公司收到国务院国有资产监督管理委员会抄送公司的 《关于陕西秦岭水泥股份有限公司国有股东转让所持部分股份有关问题的批复》,', 'predict': '被转让'}
+{'text': '金隅股份换股吸并太行水泥获国务院国资委批复', 'predict': 'relation: 合并'}
+{'text': '公司拥有能源环保公司<N>%的股权,运营深圳南山、宝安和盐田三个垃圾发电厂;<N>年<N>月,公司与中广核集团签署《战略合作框架协议》,', 'predict': 'relation：合作'}
+{'text': '截至<N>月,通用在美国本土累计售出12<N>.<N>万辆汽车,相比福特同期<N>.<N>%的同比增幅,前者仅增长了<N>%。', 'predict': 'relation: 竞争'}
+{'text': '公告称,保利久联对盘化集团的收购是以整合贵州省民爆行业,优化民爆产业结构为目的的资产整合,符合《民用爆炸物品行业“十二五”发展规划》。', 'predict': "relation tags: ['收购']\nsentence: 保利久联对盘化集团进行了收购，旨在整合贵州省民爆行业，优化民爆产业结构，符合《民用爆炸物品行业“十二五”发展规划》。\nentity: 保利久联，盘化集团\nrelation: 保利久联收购了盘化集团，旨在整合贵州省民爆行业，优化民爆产业结构，符合《民用爆炸物品行业“十二五”发展规划》。"}
+{'text': '葛洲坝周一晚间公布重大事项公告,公司于<N>年<N>月<N>日与澳大利亚铁矿石出口商FMG公司签署了一项有关FMG公司在奇切斯特矿区将<N>万吨年产量扩建', 'predict': '关系：签约'}
+{'text': '当然,从目前单看销售额的话,苏宁电商仍保持着有竞争力的业绩,与京东、亚马逊等电商巨头可有一拼,但如果仔细剖析其战略和打法,就该为苏宁电商的未来担忧了。', 'predict': 'relation: 竞争'}
+{'text': '实际上,云南锗业的业绩已经连续两年下滑,多条生产线未达预计效益,<N>家子公司净亏损,其中北京中科镓英企业被公司收购之后又以低价售出。', 'predict': 'Relation: 被收购\nEntity 1: 北京中科\nEntity 2: 云南锗业'}
+{'text': '时代周报记者获悉的最新消息称,中国平安收购深圳发展银行的前期法律程序已接近完成,深发展定向增发事宜近期即将进入实质性操作层面。', 'predict': 'relation: 收购'}
+{'text': '雅培赞助天津黄崖关长城国际马拉松', 'predict': "relation tags: ['赞助']\nrelation: 雅培赞助了天津黄崖关长城国际马拉松。"}
+{'text': '中新网<N>月<N>日电近一周,蚂蚁金服版图乍现,欲搬阿里金融战略,开放、农村成关键词;', 'predict': "relation tags: ['拟收购']\nrelation: 蚂蚁金服拟收购阿里金融的战略。"}
+{'text': '鲜为人知的是,在<N>年初民生国际通航的开业典礼上,曾任民生银行董事长的董文标当时就出现在仪式现场。', 'predict': "relation tags：['担任', '出现在']\nsentence：董文标在民生国际通航开业典礼上担任了什么职务？\nentity：董文标，民生国际通航\nrelation：担任"}
+{'text': '正是看到巨大的市场空间,中石油和中石化也开始挺进LNG市场。', 'predict': "relation tags: ['合作']\nrelation: 中石油和中石化可能会在LNG市场上合作。"}
+{'text': '随后,*ST嘉瑞将向北京天润伟业投资管理有限公司等以非公开发行股份的方式购买北京天润置地房地产开发有限公司<N>%股权。', 'predict': "relation tags: ['购买']\nrelation: 嘉瑞购买了北京天润置地房地产开发有限公司<N>%股权，购买方式为非公开发行股份，购买对象包括北京天润伟业投资管理有限公司等。"}
+{'text': '前面我们提到过海尔、美的电器等纷纷自建专卖店,这固然是对格力电器自建渠道行为的肯定,却也免不了削弱格力电器在渠道方面的优势。', 'predict': 'relation: 竞争'}
+{'text': '公开信息显示,滴滴已经获得腾讯、苹果、保利地产及富士康等重要产业投资方的入股。', 'predict': 'relation tags: [\'注资\', \'拥有\', \'持股\', \'入股\']\n\nThe sentence describes that Tencent, Apple, Poly Real Estate, and Foxconn have invested in Didi. The relation between these companies and Didi can be described as "入股" which means they have become shareholders of Didi by investing in the company. Therefore, the entities in the sentence are Tencent, Apple, Poly Real Estate, and Foxconn and the relation between them and Didi is "入股".'}
+{'text': '此次交易完成后,ST方源持有中信安泰<N>%股权,成为其第一大股东;同时,方达环宇不再纳入公司合并报表范围。', 'predict': 'relation: 持股，合并\nentity: ST方源，中信安泰，方达环宇'}
+{'text': '中策集团同时表示,公司与博智金融控股的商讨仍继续进行,但“基于本公司现时获悉的数据,本公司仍未能与博智就如何进一步行动达成共识”。', 'predict': "relation tags: ['商讨']\nrelation: 中策集团与博智金融控股进行商讨，但目前还未达成共识。"}
+{'text': '中国平安副董事长孙建一、平安银行董事会秘书周强对网友提出的<N>个提问做出了详细回答。', 'predict': "relation tags: ['unknown', '回答', '提出']\nPossible relation: 孙建一和周强回答了网友的问题。"}
+{'text': '但显然这不能算是戴蒙的最佳战绩,<N>年<N>月<N>日,摩根大通与美一银行正式合并,戴蒙荣任摩根大通COO一职。', 'predict': 'relation tags: [\'合并\']\nThe relation between the entities "美一银行" and "摩根大通" is a merger. On a specific date, they merged and Damon was appointed as COO of Morgan Stanley.'}
+{'text': '近期频频套现的熊猫烟花大股东广州攀达国际投资有限公司又有新的套现举动。', 'predict': 'relation: 减持'}
+{'text': '据悉,今年年内,联想通过完成对IBMx<N>业务的收购,联想将成为全球x<N>服务器领域的第三名。', 'predict': "relation tags：['被收购']\nentity：IBM\nrelation：IBM被联想收购。"}
+{'text': '如此,深投控股改承诺的<N>亿元资产注入,通过此次资产置换,深物业得到了三块资产:一块深深房“白送”都没看上的地皮,被涨价<N>倍塞给深物业;', 'predict': 'relation tags: [\'注资\', \'被注资\']\n\nThe sentence suggests that there was a capital injection of a certain amount of money into Shenzhen Investment Holdings Co., Ltd. (深投控) and as a result of an asset swap, Shenzhen Real Estate and Properties Development Co., Ltd. (深物业) acquired three assets, including a piece of land that was originally not of interest to Shenzhen Real Estate and was sold to them at a higher price. However, the sentence does not provide information about the specific entity that provided the capital injection. Therefore, the relation between the two entities can only be assumed to be "注资" (capital injection) or "被注资" (being injected with capital).'}
+{'text': '中集安瑞科间接全资附属公司中集安瑞科投资控股有限公司分别与SOEG PTE LTD、江苏太平洋造船集团股份有限公司及春和集团三名卖家签订了股权转让协议及', 'predict': 'relation: 股权转让'}
+{'text': '世纪证券:许继电气国网入主利在长远给予买入评级', 'predict': "relation tags: ['买入评级', '入主', '长远']\nrelation: \n世纪证券给予许继电气国网买入评级，因为国网入主利在长远具有投资价值。"}
+{'text': '新北洋表示,数码科技向诺恩开创增资后,持股比例由原来的<N>%提高到<N>%,成为其控股股东,符合公司发展战略的要求。', 'predict': "relation tags: ['注资', '持股', '控股股东']\n\nrelation: 新北洋通过向诺恩开创注资，持股比例从原来的<N>%提高到<N>%，成为诺恩的控股股东，符合新北洋的发展战略要求。"}
+{'text': '记者梳理发现,<N>年<N>月,合作期限未到,同兴药业以广药未按承诺将王老吉商标转入王老吉药业和对其经营不善等理由,将广药白云山告上了法庭,', 'predict': 'relation: 纠纷'}
+{'text': '但相比而言,新东方的线下课堂可以直接对接线上转化的付费学生,但YY只有线上没有线下,难以实现学生付费转化。', 'predict': 'relation: 竞争'}
+{'text': '一旦新机制出台,对中石油、中石化,以及民营炼油企业来说都将是利好。', 'predict': "relation tags: ['利好']\nrelation: 新机制的出台对中石油、中石化以及民营炼油企业来说是利好的。"}
+{'text': '亿美元,华置主席刘銮雄认购<N>亿美元,嘉里建设主席郭鹤年及迪生创建主席潘迪生各认购<N>亿美元,恒地主席李兆基及西京投资公司主席刘央各认购最少<N>万美元。', 'predict': 'Relation: 注资 (investment)\n\nEntities: \n- 华置 (Huazhi)\n- 刘銮雄 (Liu Luanxiong)\n- 嘉里建设 (Kerry Properties)\n- 郭鹤年 (Guo Henian)\n- 迪生创建 (Desen Creation)\n- 潘迪生 (Pan Disheng)\n- 恒地 (Henderson Land)\n- 李兆基 (Lee Shau Kee)\n- 西京投资公司 (Xijing Investment Company)\n- 刘央 (Liu Yang)\n\nExplanation: The sentence describes several individuals and companies that have made investments. Liu Luanxiong from Huazhi subscribed to a certain amount of US dollars, while Guo Henian from Kerry Properties and Pan Disheng from Desen Creation each subscribed to a certain amount of US dollars. Lee Shau Kee from Henderson Land and Liu Yang from Xijing Investment Company each subscribed to at least a certain amount of US dollars.'}
+{'text': '记者了解到,为实现与苹果的合作,中国联通作出了不少让步,包括给予一定补贴、内置苹果在线软件商店等。', 'predict': 'Relation: 合作\n\nEntity 1: 中国联通\n\nEntity 2: 苹果\n\nExplanation: The sentence talks about the cooperation between China Unicom (中国联通) and Apple (苹果). China Unicom made concessions, such as providing subsidies and pre-installing Apple\'s online software store, to achieve this cooperation. Therefore, the relation between the two entities is "合作" (cooperation).'}
+{'text': '上述变化为山东钢铁集团有限公司重组日照钢铁在一定程度上解决了难题。', 'predict': "relation tags: ['重组', '解决难题']\nrelation: \n山东钢铁集团有限公司重组日照钢铁，解决了一定程度上的难题。"}
+{'text': '上海龙韵广告、乔丹体育、北京华录百纳影视这<N>家公司,同日携手公布了首发招股说明书。', 'predict': 'relation: 合作'}
+{'text': '据中国石油有关人士介绍,中油国投下属子公司与澳洲壳牌共同成立的合资公司CS CSG  Pty Ltd 已与Arrow公司董事会就收购提案签署协议。', 'predict': 'relation: 合资，收购\nentity: 澳洲壳牌，CS CSG Pty Ltd，Arrow公司'}
+{'text': '王老吉发力 广药集团<N>月销售增<N>%', 'predict': "relation tags：['unknown', '注资', '拥有', '纠纷', '自己', '增持', '重组', '买资', '签约', '持股', '交易', '入股', '转让', '成立', '分析', '合作', '帮助', '发行', '商讨', '合并', '竞争', '订单', '减持', '合资', '收购', '借壳', '欠款', '被发行', '被转让', '被成立', '被注资', '被持股', '被拥有', '被收购', '被帮助', '被借壳', '被买资', '被欠款', '被增持', '拟收购', '被减持', '被分析', '被入股', '被拟收购']\nsentence：广药集团与王老吉合作生产王老吉凉茶\nentity：广药集团，王老吉\nrelation：合作"}
+{'text': '据记者了解,云南白药和昆明制药本身并不参与三七种植,其中昆明制药主要通过中间商购买三七;而云南白药除部分品种的订单式生产外,', 'predict': '未提及任何关系标签，因此无法确定二者之间的关系。'}
+{'text': '当时,汇润投资出资<N>亿元,从广控集团手中收购了深航<N>%的股权。', 'predict': "relation tags: ['注资', '拥有', '收购', '持股', '被注资', '被拥有', '被收购', '被持股']\nentity: 汇润投资，广控集团，深航\nrelation: 汇润投资注资<N>亿元，收购广控集团持有的深航<N>%股权。"}
+{'text': '报告期内,整个国美集团所辖的零售资产,包括国美上市公司、大中电器、三联商社共录得销售收入<N>亿元的业绩,总门店数达到<N>间。', 'predict': "relation tags: ['拥有', '销售收入']\nentity: 国美集团, 大中电器\nrelation: 国美集团拥有大中电器，两家公司共录得销售收入<N>亿元的业绩。"}
+{'text': '据悉,王娟凤历任中国农业发展银行总行主任科员,大成基金管理有限公司高级人力资源专员,银河基金管理有限公司北京分公司副总经理、公司总经理助理等职。', 'predict': "relation tags: ['担任', '工作于', '任职于', '是', '管理', '负责', '属于', '管理者', '从事', '工作']\nBased on the given sentence, the following relations can be identified:\n- 王娟凤曾担任中国农业发展银行总行主任科员\n- 王娟凤曾工作于大成基金管理有限公司，担任高级人力资源专员\n- 王娟凤曾工作于银河基金管理有限公司北京分公司，担任副总经理和公司总经理助理"}
+{'text': '昨日,环保部网站消息称,根据金川集团股份有限公司(以下简称金川集团)申请,环保部组织开展了对该公司上市环保核查。', 'predict': 'relation: 被申请环保核查'}
+{'text': '中国证券报记者了解到,根据华侨城的计划,公司目前已经启动了第二轮全国布局:今年<N>月底天津华侨城项目签约;<N>月1<N>日,西安华侨城项目签约;', 'predict': "relation tags: ['签约']\nrelation: 华侨城公司签约了天津华侨城项目和西安华侨城项目。"}
+{'text': '国航母公司中国航空集团签订的战略合作框架协议,北京航空由国航与北京控股集团有限公司、北京市国有资产经营有限责任公司和中达银瑞投资有限公司共同出资<N>亿元', 'predict': 'Relation: 合作 (cooperation)\n\nExplanation: The sentence describes a strategic cooperation framework agreement signed by China Aviation Group, the parent company of Air China, and Beijing Aerospace Holding Group Co., Ltd. The agreement involves the joint investment of a certain amount of money into Beijing Aerospace. Beijing Aerospace Holding Group Co., Ltd. is a state-owned enterprise and a subsidiary of Beijing State-owned Assets Management Co., Ltd.'}
+{'text': '<N>年,国家电力体制改革之后,原有的国家电力公司被拆分为两大电网公司和五大发电公司,中国电力投资集团正是新成立的五大发电公司之一。', 'predict': 'Relation: 被成立\nEntity 1: 国家电力公司\nEntity 2: 中国电力投资集团'}
+{'text': '清科研究中心分析师张亚男告诉《第一财经日报》记者,博纳影业集团多年来致力于内容制作和院线拓展,而新闻集团也有一定的电影制作经验和内容资源,', 'predict': '暂无关系。'}
+{'text': '中国经济网编者按:高端女装企业上海拉夏贝尔服饰股份有限公司(下称“拉夏贝尔”)近日公布招股说明书,拟登陆上交所。', 'predict': 'relation: 发行'}
+{'text': '公告称,根据爱使股份目前的盈利能力及经营状况,经讨论决定,公司放弃此次鑫宇高速增资的优先认购权。', 'predict': 'Relation: 注资 (Investment)\n\nEntity 1: 爱使股份 (Aishifu Corporation)\n\nEntity 2: 鑫宇高速 (Xinyu Expressway)\n\nExplanation: The announcement states that Aishifu Corporation has decided to waive its priority subscription right for the current round of investment in Xinyu Expressway due to the company\'s current profitability and operating conditions. This suggests that Aishifu Corporation was considering investing in Xinyu Expressway, but ultimately decided against it. Therefore, the relation tag for this sentence is "注资" (investment).'}
+{'text': '昨日市场传来的进一步消息称,美国银行计划将所持建设银行<N>%股权的至少一半出售给由美国、马来西亚和中东等国主权财富基金和机构组成的团体,', 'predict': 'relation: 被转让'}
+{'text': '浙江加佰利控股集团有限公司拟向滨海开发公司转让其持有的三鑫公司<N>.<N>%的股权。', 'predict': '被转让'}
+{'text': '管理层亦表示,近期国美股价的大幅下跌与黄光裕家族激化矛盾的行为不无关系,“<N>年,黄光裕出事就导致公司股价大跌,去年贝恩资本入股后国美股价有所上涨。', 'predict': 'relation: 入股'}
+{'text': '中投“探讨”参与西班牙储蓄银行重组', 'predict': '关系标签：合作'}
+{'text': '同一天,国美电器高调与美的、科龙等国内外主流空调厂家签订首批高达<N>亿元的采购大单,其中定速高效能空调及变频空调占据绝大多数。', 'predict': 'relation tags: [\'签约\']\n\nThe relation in the given sentence is "签约". The sentence states that on the same day, Gome Electrical Appliances signed a high-value procurement contract worth billions of yuan with major domestic and foreign air conditioning manufacturers such as Midea and Kelon. Therefore, the relation "签约" (signed a contract) is appropriate in this context.'}
+{'text': '据新华社电在新加坡上市的糖果制造商徐福记国际集团<N>日证实,瑞士食品巨头雀巢有意收购徐福记,双方正在进行初步洽谈。', 'predict': 'Relation: 拟收购\nEntity 1: 雀巢\nEntity 2: 徐福记国际集团'}
+{'text': '长江证券股票呢?深交所信息显示,昨日共有两个机构席位分别买入<N>万元和298<N>万元,分列买入前<N>名的第一位和第三位,另外国泰君安北京知春路证券营业部', 'predict': 'relation: 买资 (buying)'}
+{'text': '其二,安途生首届全国加盟商大会在天津津卫大酒店召开。', 'predict': "relation tags: ['举办']\nrelation: 安途生首届全国加盟商大会在天津津卫大酒店举办。"}
+{'text': '通用电气并购贝克休斯 世界第二大油服公司成立', 'predict': 'Relation: 合并\n\nExplanation: 通用电气并购了贝克休斯，两家公司合并成为了世界第二大油服公司。'}
+{'text': '因公司大股东中国信达资产管理公司筹划与公司相关的重大资产重组事项,ST钛白于<N>年<N>月<N>日起停牌。', 'predict': 'Relation: 拥有\n\nExplanation: 中国信达资产管理公司是ST钛白的大股东，因此可以认为中国信达资产管理公司拥有ST钛白的一部分股份。此外，由于中国信达资产管理公司正在筹划与ST钛白相关的重大资产重组事项，可能会对ST钛白的股权产生影响。'}
+{'text': '去年<N>月,卡夫并购吉百利后拥有约<N>亿美元营收,成为全球最大的休闲食品、糖果公司,占近<N>%市场份额。', 'predict': "relation tags: ['并购', '拥有', '营收', '占据市场份额']\nrelation: \n卡夫通过并购吉百利后，拥有约<N>亿美元的营收，成为全球最大的休闲食品和糖果公司，占据近<N>%的市场份额。"}
+{'text': '埃尼集团和阿纳达科石油公司是在莫桑比克有领先地位的石油企业,', 'predict': "relation tags: ['拥有', '竞争']\nrelation: 埃尼集团和阿纳达科石油公司在莫桑比克竞争石油市场的领导地位，可能存在彼此拥有一定的石油资源。"}
+{'text': '中投顾问食品行业研究员简爱华接受《证券日报》记者采访时表示,此次杜康酒与酒仙网达成战略合作,为杜康提供了进入高端酒争夺的机会,未来公司发展比较乐观。', 'predict': 'relation: 合作'}
+{'text': '花旗集团将提供<N>.<N>亿美元<N>个月期的信贷支持,柯达预计在<N>年完成其美国业务的重组。', 'predict': "relation tags：['注资', '拥有', '重组']\nrelation：花旗集团将为柯达注资并提供信贷支持，以帮助其完成美国业务的重组。"}
+{'text': '赋予宏碁公司以方正科技、事业单位等商业PC客户供货的权利。', 'predict': 'relation: 拥有'}
+{'text': '陕西省国资委出资<N>.<N>亿元为其第一大股东,同时还引入了延长石油、西安城投、长安银行、陕国投等大型国有企业和优质金融机构为战略性股东,', 'predict': "relation: 注资, 拥有, 持股, 合作\n\nThe sentence suggests that the Shaanxi Provincial State-owned Assets Supervision and Administration Commission has invested a certain amount of money to become the largest shareholder of a company. In addition, they have brought in other large state-owned enterprises and financial institutions such as YanChang Petroleum, Xi'an Investment, Chang'an Bank, and Shanxi Investment as strategic shareholders. The entities mentioned in the sentence are Xi'an Investment and Chang'an Bank. The relations between the entities and the company are that they have become strategic shareholders by investing in the company, holding shares, and cooperating with the company."}
+{'text': '值得一提的是,正道集团在<N>月<N>日发布公告称,自今年<N>月<N>日起至<N>年<N>月<N>日,全资子公司天津正道将托管东润投资的管理权及投票指示权,', 'predict': 'relation：托管'}
+{'text': '中国铅笔公告,计划向控股股东黄浦区国资委发行不超过<N>万股,收购其所拥有的上海老凤祥有限公司<N>.<N>%的股权以及上海工艺美术总公司<N>%的权益。', 'predict': 'relation: 收购\nentity: \n- 上海老凤祥有限公司, <N>%的股权\n- 上海工艺美术总公司, <N>%的权益'}
+{'text': '恒大二次举牌万科携旗下<N>公司持股<N>%', 'predict': "relation: 增持\ntags: ['增持', '持股']"}
+{'text': '据霸王招股说明书显示,公司创始人陈启源夫妇通过FortuneStation公司拥有霸王集团<N>亿股份,占总股本<N>亿股的<N>%。', 'predict': 'relation：拥有'}
+{'text': '在德意志银行和高盛的安排下,融创中国的国际配售获得中投和西京投资刘央的青睐,分别投入<N>万美元和<N>万美元。', 'predict': "Relation tags: ['注资', '持股']\n\nEntity 1: 融创中国\nEntity 2: 中投，西京投资刘央\n\nRelation: 中投和西京投资刘央注资融创中国，持有其股份。"}
+{'text': '随后,首钢公开发表声明表示,将以法律、法规规定的形式和程序保持首钢总公司在华夏银行第一大股东的地位。', 'predict': 'Relation: 持股\nEntity 1: 首钢\nEntity 2: 华夏银行'}
+{'text': '昨晚,公司公告称,其拟向星马集团、富华投资、楼必和先生发行股份收购其合计持有的华菱汽车<N>%股权,预估价值约为<N>.<N>亿元。', 'predict': 'relation: 拟收购\nentity 1: 公司\nentity 2: 华菱汽车'}
+{'text': '当年<N>月<N>日,Rosneftegaz与埃克森美孚达成合作勘探北极油气田的协议。', 'predict': 'relation：合作'}
+{'text': '<N>月<N>日,距<N>年徐工集团工程机械有限公司和凯雷亚洲投资基金(下称“凯雷”)在上海签署第一份正式的“股权买卖协议”整整一年。', 'predict': 'Relation: 持股\nEntity 1: 徐工集团工程机械有限公司\nEntity 2: 凯雷亚洲投资基金'}
+{'text': '会决议出售拥有<N>.2<N>%股权的益科创业,投资<N>.<N>亿元参加天平汽车保险股份有限公司增资扩股,<N>年<N>月<N>日,天平注册资本变更为<N>.<N>亿元人民币,', 'predict': "relation tags: ['拥有', '注资', '增资扩股', '注册资本变更']\nrelation: 益科创业拥有天平汽车保险股份有限公司<N>.2<N>%的股权，投资<N>.<N>亿元参加天平的增资扩股。同时，天平的注册资本在<N>年<N>月<N>日变更为<N>.<N>亿元人民币。"}
+{'text': '理范梦强称,<N>年<N>月<N>日,国务院法制办作出国复<N>号裁决,责成国家工商总局删除民生银行变更登记表中有关梦达股权变更登记给上海巴士公司的内容。', 'predict': 'Relation: 被删除\n\nEntity 1: 民生银行\n\nEntity 2: 上海巴士公司'}
+{'text': '他领导了中材集团<N>年的改制,并与同事一起把中材股份引入香港资本市场。', 'predict': "relation tags: ['重组', '发行']\nentity: 中材股份，中材集团\n\nPossible relation: 中材集团进行了重组，将中材股份引入香港资本市场进行发行。"}
+{'text': '目前川汽纯电动公交车一辆车所用电池容量为<N>万AH,如此测算,中航锂电项目达产后,能满足<N>辆纯电动公交车电池配套需求。', 'predict': 'relation: 拥有\n\n中航锂电拥有能够满足川汽纯电动公交车电池配套需求的生产能力。'}
+{'text': '资料显示,时代天使实业注册资本为<N>万元,南宁天庆医疗投资有限责任公司、深圳力合创业投资有限公司和李华敏现持股份额分别为<N>%、<N>%和<N>%。', 'predict': "relation tags: ['持股']\n\nThe sentence suggests that both NanNing Tianqing Medical Investment Co., Ltd. and Shenzhen Lihe Entrepreneurship Investment Co., Ltd. hold a certain percentage of shares in Era Angel Industrial Co., Ltd. The exact percentage is not mentioned in the sentence."}
+{'text': '一周前的<N>月<N>日,万达体育迎来了里程碑意义的一天:万达体育控股有限公司全球总部正式落户广州。', 'predict': "relation tags：['落户']\nsentence：万达体育控股有限公司全球总部正式落户广州。\nentity：万达体育控股有限公司，广州\nrelation：落户"}
+{'text': '沃达丰所持中国移动股份是最容易脱手的部分,因为该中国最大运营商在香港证券交易所上市。', 'predict': "relation tags: ['持股', '脱手', '上市']\nrelation: 沃达丰持有中国移动股份，由于中国移动在香港证券交易所上市，因此沃达丰可以很容易地脱手这部分股份。"}
+{'text': '此外,新湖创业、新湖中宝的贸易业务也分别有<N>.<N>%和<N>.<N>%。', 'predict': "relation tags: ['拥有']\nrelation: 新湖创业和新湖中宝分别拥有贸易业务。"}
+{'text': '根据相关法规及北京银行与荷兰保险有限公司达成的有关协议,首创安泰人寿必须在股权变更有关手续完成之日起的<N>个月内对公司股权结构进行调整,', 'predict': "relation tags: ['拥有', '签约']\nrelation: 北京银行拥有首创安泰人寿的股权，双方曾签约达成有关协议。"}
+{'text': '事实上,即便按照上述净资产评估值计算,宝鸡钢管、咸阳宝石标的股权合计价值也高达<N>.<N>亿元,', 'predict': '根据该句话，可以推断出宝鸡钢管和咸阳宝石存在某种股权关系，但具体是什么关系需要更多上下文信息来判断。可能涉及到持股、合资、收购等关系标签。'}
+{'text': '中航投资为控股型公司,其通过子公司中航证券、中航信托、中航财务分别经营证券、租赁及财务公司业务,中航投资母公司则主要经营财务性实业股权投资业务。', 'predict': 'relation：拥有\n中航投资拥有子公司中航信托。'}
+{'text': '大龙地产全称为北京市大龙伟业房地产开发股份有限公司,公司注册地址:北京市顺义区府前东街甲<N>号。', 'predict': "relation tags: ['被成立', '注册地址']\nentity: 北京市顺义区府前东街甲<N>号\nrelation: 北京市大龙伟业房地产开发股份有限公司被注册在北京市顺义区府前东街甲<N>号。"}
+{'text': '目前,万科的股权结构已形成新的格局,宝能以<N>.<N>%的持股位列第一大股东,', 'predict': '拥有'}
+{'text': '据农行内部一位人士透露,银行高层曾经专门考察过的荷兰合作银行,但因为其已经成为杭州联合银行海外战略投资者,', 'predict': '可以标注出荷兰合作银行和农行之间存在着"被成立"和"合作"的关系。同时还可以添加"被注资"和"拥有"的关系，因为荷兰合作银行可能是杭州联合银行的投资者之一，也可能拥有杭州联合银行的股份。'}
+{'text': '<N>月<N>日,王石现身万科的媒体交流会,王石对<N>世纪经济报道记者也没有就恒大持股做出回应。', 'predict': "relation tags: ['持股']\nsentence: 王石没有就恒大持股做出回应。\nentity: 王石，恒大"}
+{'text': 'T源发再向傅克辉及其一致行动人山东鲁信实业集团以及山东长源信投资股份有限公司以定向增发方式收购鲁信置业<N>%的股权,其中傅克辉持有鲁信置业<N>%股权。', 'predict': "relation tags: ['定向增发', '收购', '持股']\nrelation: 源发以定向增发方式收购了鲁信置业<N>%的股权，其中傅克辉持有鲁信置业<N>%股权。"}
+{'text': '一位双汇国际内部人士昨日透露,双汇内部对于“双币双股”这种模式上市还没有完全确定。', 'predict': "relation tags: ['未确定']\n\nrelation: 双汇国际内部人士透露，双汇公司目前还未确定是否采用“双币双股”模式上市。"}
+{'text': '事实上,在国外其实有很多类似中航信的订座系统,比如欧洲的航空公司就主要运用AMADUES的订座系统,美国和其他亚洲航空公司也都有运用比较广泛的订座系统。', 'predict': 'relation: unknown'}
+{'text': '就在同一天,*ST九发发布股票交易异常波动公告称:“山东九发食用菌股份有限公司股票价格于<N>年<N>月<N>日至<N>日三个交易日内触及跌幅限制,', 'predict': "关系标签：['股票交易异常波动']\n实体：九发，山东九发食用菌股份有限公司\n关系：九发发布了股票交易异常波动公告，公告中提到了山东九发食用菌股份有限公司股票价格的问题。"}
+{'text': '交银施罗德决定增聘华昕先生担任交银稳健基金经理,该基金由李立先生、华昕先生共同管理。', 'predict': '拥有/持股'}
+{'text': '汽车零配件的万向钱潮和宁波华翔;。', 'predict': '无法确定实体之间的关系，请提供更多上下文信息。'}
+{'text': '宝钢股份<N>日晚的公告显示,宝钢集团拟无偿划转股份给诚通金控、国新投资和中石油集团,所划转股份分别占上市公司总股本的<N>.<N>%、<N>.<N>%和<N>.<N>%。', 'predict': 'relation: 被划转股份持股，被拟收购'}
+{'text': '据悉,上海国际集团直接或间接持有的金融资产主要包括上海国际信托<N>.<N>%股权、上海证券<N>%股权、上投摩根基金<N>%股权等十余项资产。', 'predict': "relation tags: ['持股']\nrelation: 上海国际集团直接或间接持有上海证券<N>%股权。"}
+{'text': '为保壳求生,*ST天一于<N>年<N>月即对外公告披露,称长城资产有意对*ST天一进行重组,然而此后的一年资产重组方案迟迟未见出台。', 'predict': 'Relation: 拟收购\nExplanation: 根据句子中的描述，长城资产有意对*ST天一进行重组，可以理解为长城资产计划收购*ST天一。而且，资产重组方案迟迟未出台，说明这个计划可能还在进行中。因此，可以将关系标注为拟收购。'}
+{'text': '<N>月<N>日消息,国美电器发布公告称,于<N>年<N>月<N>日收到黄光裕拥有并控制的北京国美发来的终止函,', 'predict': '关系标签：被拥有\n\n北京国美是被黄光裕拥有并控制的公司，根据句子中的描述，国美电器收到了北京国美发来的终止函，可以推测两家公司之间存在某种合作关系，而北京国美是国美电器的母公司或控股公司。因此，两家公司之间的关系可以用“被拥有”这个关系标签来描述。'}
+{'text': '中国玻纤公告称,公司控股子公司巨石集团有限公司拟收购中外合资企业巨石攀登电子基材有限公司<N>%股权,以及中外合资企业浙江倍特耐火材料有限公司<N>%股权,', 'predict': 'relation: 拟收购\n\nThe sentence is about China Fiberglass Co. announcing that its subsidiary, Jushi Group, plans to acquire a certain percentage of equity in two Sino-foreign joint ventures, namely Jushi Pinnacle Electronic Substrate Co., Ltd. and Zhejiang Beitai Refractory Materials Co., Ltd. The relation between the entities and the sentence is "拟收购" (planning to acquire).'}
+{'text': '即便是C<N>选择了国外发动机,中标的CFM国际公司也计划与中航工业在在国内共同装配生产LEAP-X<N>C发动机,但这一合作并未涉及核心技术的转移。', 'predict': 'Relation: 合作。中航工业和CFM国际公司在国内共同装配生产LEAP-X<N>C发动机，这是一项合作项目。'}
+{'text': '第二,今年适当进行了工厂改造,预计<N>年上海大众、上海通用的产能均将达<N>万辆以上;', 'predict': 'relation tags: [\'增加产能\', \'改造工厂\', \'预计达到\']\n\nThe relation between the entities "上海大众" and "上海通用" in the given sentence is that they are both expected to reach a production capacity of over N thousand vehicles per year after the factory renovation this year. Therefore, the relation tag for this sentence could be "增加产能" or "预计达到". Additionally, the sentence also mentions that a factory renovation was carried out, which suggests a relation of "改造工厂".'}
+{'text': '据了解,目前中铝方面尚未最终选定派驻力拓的两名董事人选,中铝倾向从公司内部选择一名,再从公司外部派驻一名独立董事。', 'predict': "relation tags: ['unknown', '派驻', '选择', '独立董事']\nrelation: \n中铝尚未最终确定派驻给力拓的两名董事人选，但倾向于从公司内部选择一名，再从公司外部派驻一名独立董事。"}
+{'text': '雅培赞助天津黄崖关长城国际马拉松', 'predict': "relation tags: ['赞助']\nsentence: 雅培赞助天津黄崖关长城国际马拉松\nentity: 雅培, 天津黄崖关长城国际马拉松\nrelation: 雅培赞助天津黄崖关长城国际马拉松"}
+{'text': '<N>月<N>日下午,祁连山董秘办一位人士在接受本报记者电话查询时表示,目前增发询价已经结束,中材集团确实将成为本次定向增发引入的股东之一,', 'predict': '中材集团将成为本次定向增发引入的股东之一，存在“被持股”关系。'}
+{'text': '谷歌、Facebook将与一家中国公司联手打造中美超高速光缆', 'predict': '关系：合作'}
+{'text': '自<N>月开始,启德教育集团的核心产品已在京东商城全面上线。', 'predict': 'relation: 发行'}
+{'text': '而招商证券一位地产分析师此前也对媒体表示,重庆金科地产借壳ST东源是最早上报的方案,而且该公司各方面都比较规范。', 'predict': 'Relation: 借壳\n\nEntity 1: 招商证券\n\nEntity 2: 重庆金科地产\n\nExplanation: The sentence mentions that a real estate analyst from China Merchants Securities (招商证券) previously stated that Chongqing Jinke Real Estate (重庆金科地产) using ST Dongyuan as a shell company was the earliest reported plan and that the company was relatively standardized in all aspects. This implies that Chongqing Jinke Real Estate is planning to use ST Dongyuan as a shell company to go public, which is known as "借壳" (shell acquisition) in Chinese.'}
+{'text': '中国玻纤公告称,公司控股子公司巨石集团有限公司拟收购中外合资企业巨石攀登电子基材有限公司<N>%股权,以及中外合资企业浙江倍特耐火材料有限公司<N>%股权,', 'predict': 'relation: 拟收购\nentity: 巨石攀登电子基材有限公司，浙江倍特耐火材料有限公司'}
+{'text': '三季度末,证金公司持有招商银行<N>.<N>亿股,相比半年报减持<N>万股;', 'predict': 'relation tag: 减持\nExplanation: The sentence talks about the holding of shares by China Investment Corporation (证金公司) in China Merchants Bank (招商银行) at the end of the third quarter. It also mentions that the corporation reduced its holding by a certain number of shares compared to the first half of the year. Therefore, the relation tag for this sentence is "减持" (reduction of holdings).'}
+{'text': '据洪人刚供述,<N>年夏天的一天,他接到蔡达标电话,得知蔡想收购中山市联动创业投资有限公司(以下简称中山联动公司)掌握的真功夫<N>%股权。', 'predict': '被收购'}
+{'text': '远兴能源今日公告,拟收购西格玛公司持有的博源联化2<N>.<N>%股权,使公司所持博源联化股权比例进一步提升至<N>%。', 'predict': "relation tags: ['拟收购', '持有', '股权比例提升']\nrelation: 西格玛公司持有博源联化2<N>.<N>%股权，远兴能源拟收购该股权，使其持有博源联化股权比例进一步提升至<N>%。"}
+{'text': '今日公布半年报的汽车股还有福田汽车和一汽夏利。。', 'predict': 'relation：\n无关系。'}
+{'text': '本报讯中国联通今日公告称,联通红筹公司正与中国网络通信集团公司、中国联合通信有限公司就其各自拥有和经营固网业务与资产未来发展方向进行初步研究。', 'predict': "Relation: 合作\n\nExplanation: The announcement states that China Unicom's red chip company is conducting preliminary research with China Network Communications Group Corporation and China United Network Communications Limited on the future development direction of their respective ownership and operation of fixed network business and assets. This suggests a potential collaboration or partnership between the companies."}
+{'text': '紫金矿业表示,域佳集团将向金盏时代退还相关已收取费用,而终止原定交易符合公司及股东整体利益,且不会对公司现有业务及财务状况构成重大不利影响。', 'predict': "Relation: 终止交易\n\nTags: ['交易', '终止', '公司及股东整体利益', '业务', '财务状况']"}
+{'text': '海医药集团董事长吕明方<N>月<N>日在接受《第一财经日报》专访时表示,<N>月<N>日上海医药将正式签约以<N>亿元收购中信医药,届时还将宣布上海医药北京分部成立。', 'predict': 'Relation: 被收购\n\nEntity 1: 中信医药\n\nEntity 2: 上海医药'}
+{'text': '<N>年<N>月<N>日,必和必拓向力拓股东提出正式换股收购要约,将换股比例调整为<N>.<N>比<N>。', 'predict': "relation tags: ['收购']\nrelation: 必和必拓向力拓股东提出正式换股收购要约。"}
+{'text': '王永彬提供了上海柏新投资管理合伙企业等<N>个有限合伙企业的入伙协议,由彭晨发动齐鲁证券下属的北京、吸收客户投资。', 'predict': 'relation：被入股'}
+{'text': '至于利润高增长的原因,长春高新的解释为:该公司控股制药企业——长春百克生物科技有限公司<N>年上半年没有产品进入市场实现生产和销售,', 'predict': '拥有/控股'}
+{'text': '华润励致执行董事兼首席财务官王添根称,通过收购华润燃气,对于华润励致及其股东来说是一个重大的发展里程,', 'predict': '被收购'}
+{'text': '继<N>月<N>日与博茨瓦纳国有电力公司签署总额<N>.<N>亿美元的贷款协定,工行董事长姜建清又于<N>月1<N>日在乌干达召开的新闻发布会上透露,', 'predict': '关系：签约\n描述：工行与博茨瓦纳国有电力公司签署了总额为N.N亿美元的贷款协定。'}
+{'text': '此外,铁总旗下<N>家上市公司<N>年“成绩单”中,只有客运业务居多的广深铁路净利润同比增长,铁龙物流、净利润去年双双下降。', 'predict': "relation tags: ['属于', '包括', '提供', '位于', '建设', '投入使用', '开业', '运营', '拥有', '增加', '改造', '落成', '启用', '销售', '推出', '扩建', '升级', '研发', '生产', '销售额', '亏损', '盈利', '下线', '停业', '关闭', '退出市场', '涨价', '降价', '受益于', '受影响', '受损于', '关停', '破产', '扩产', '缩产', '提升', '降低', '竣工', '卖给', '收购', '合作', '推广', '负责', '加盟', '启动', '出售', '保持', '竞争', '获得', '失去', '裁员', '扩招', '重组', '并购', '拟建', '拟投资', '拟收购', '拟合作', '被收购', '被合并', '被拆分', '被关闭', '被淘汰', '被替代', '被取代', '被裁员', '被重组', '被并购', '被拟建', '被拟投资', '被拟收购', '被拟合作']\nsentence: 这家公司位于北京，是一家专门提供移动支付服务的公司，去年的销售额比前一年增加了30%。\nentity: 北京，这家公司\nrelation: 位于，提供，销售额增加"}
+{'text': '同日公布减持公告的还包括广东明珠、博汇纸业等上市公司。', 'predict': "relation tags: ['减持']\nrelation: 广东明珠和博汇纸业公布了减持公告。"}
+{'text': '目前在沃尔沃集团内部共有四个重卡品牌,分别是迈克卡车、优迪卡车和沃尔沃卡车。', 'predict': 'relation：拥有'}
+{'text': '中国乐凯胶片集团(乐凯控制人,下称乐凯集团)公司副总经理王英茹告诉《中国经济和信息化》:“乐凯胶片其实早已意识到危机的来临,转型已在悄悄进行”。', 'predict': 'relation tags: [\'转型\']\n\nThe sentence suggests that the company, China LeKai Film Group (controlled by LeKai Group), is undergoing a transformation to address the challenges it is facing. The specific details of the transformation are not mentioned, but the relation tag that best fits this sentence is "转型" (transformation).'}
+{'text': '亚所被推到了舆论的风口浪尖,据投资者表示,“在此前用作客户资金抵押品的稀土金属价格暴跌之后,泛亚所逐渐拒绝兑付曾许诺<N>%至<N>的回报率的日金宝产品”。', 'predict': "relation tags: ['拒绝兑付', '许诺回报率', '用作抵押品', '价格暴跌']\nentity: 日金宝, 泛亚所\n\nPossible relation: 泛亚所拒绝兑付日金宝产品的许诺回报率，因为这些产品的抵押品稀土金属价格暴跌，导致无法兑现承诺。"}
+{'text': '公司发布公告称,公司以<N>.<N>万元收购了光耀热电有限公司<N>%股权,这也是宁波热电在发布拟投资<N>亿元在北仑区域内投资天然气热电项目后又一新举动。', 'predict': "relation tags: ['收购']\nrelation: 宁波热电以<N>.<N>万元收购了光耀热电有限公司<N>%股权。"}
+{'text': '下辖金陵船厂、长航电机厂、长江航运物资总公司等<N>家全资及<N>家合资企业。', 'predict': "relation tags: ['下辖', '全资', '合资']\nrelation: 下辖"}
+{'text': '<N>月<N>日,苏宁集团董事长张近东、万达集团董事长王健林、恒大集团董事局副主席夏海钧等一同现身苏宁智慧零售大开发战略发布会。', 'predict': "relation tags: ['合作']\n\nrelation: 苏宁集团和万达集团在苏宁智慧零售大开发战略发布会上一同现身，可能是在商讨合作事宜。"}
+{'text': '与此同时,中国联通<N>月初启动的WCDMA招标也有结果,爱立信、阿尔卡特朗讯以及新邮通六家厂商参与了此次竞标。', 'predict': "relation tags: ['竞标', '参与']\nrelation: 爱立信参与了中国联通的WCDMA招标竞标。"}
+{'text': '继济南钢铁、莱钢股份重组大局已定后,山东钢铁集团对省内钢铁行业的整合再次迈出一步。', 'predict': 'relation：重组'}
+{'text': '昨天,复星国际宣布与希腊著名时尚品牌FolliFollie集团签署协议。', 'predict': "relation tags: ['签约']\nentity: FolliFollie集团，复星国际\nrelation: 签署协议"}
+{'text': '另外,李欣旗下的济南大龙时装有限公司、山东巨龙装饰工程有限公司与上述三家公司也存在关联交易。', 'predict': 'relation: 关联交易'}
+{'text': ',本次交易标的为陕西省耀县水泥厂所持<N>,<N>,16<N>股秦岭水泥股份,以每股<N>.<N>元的价格转让给冀东水泥,该笔股权占当前秦岭水泥总股本的<N>.<N>%。', 'predict': "relation tags: ['转让', '持股', '占股比例']\nrelation: 本次交易是秦岭水泥股份的股权转让交易，将陕西省耀县水泥厂所持有的16股秦岭水泥股份以每股N.N元的价格转让给冀东水泥。冀东水泥将持有这部分股权，占据当前秦岭水泥总股本的N.N%。"}
+{'text': '最后,中国平安在揭开收购谜底时,表示以其控股子公司平安人寿自有资金和负债期限<N>年以上的保险资金来认购深发展新股,投资者心里的一块石头才算落了地。', 'predict': 'Relation: 被认购\n\nExplanation: 中国平安通过其控股子公司平安人寿，使用自有资金和负债期限超过N年的保险资金来认购深发展新股。在这个句子中，“被认购”是深发展与中国平安之间的关系。'}
+{'text': '<N>亿元,尚未使用的授信额度约<N>亿元,且海航在各地银行均有良好的合作基础,上海家化在需要融资的情况下可分享海航集团在银行的授信额度和银行资源,', 'predict': "relation tags: ['合作']\nrelation: 海航与上海家化有良好的合作基础，上海家化可分享海航在银行的授信额度和银行资源，以帮助自己融资。"}
+{'text': '电子城和丽水嘉园作为北京电控下属企业中仅有的两家拥有房地产开发资质的企业,通过本次交易全部进入上市公司。', 'predict': 'relation: 拥有\nentity: 电子城，丽水嘉园，上市公司'}
+{'text': '本报综合消息据悉,广药集团将在明年投入<N>亿市场费用打造红罐王老吉品牌。', 'predict': 'relation：注资'}
+{'text': '公司公告表示,截至《权益变动报告书》签署日,存在未来<N>个月内改变ST博信主营业务或者对ST博信投资主营业务作出重大调整的可能;', 'predict': 'Relation: 未来可能重组（重大调整）  \nEntity 1: ST博信  \nEntity 2: 博信投资'}
+{'text': '伯克希尔哈撒韦将以每股<N>.<N>澳元的价格购买大约<N>,<N>万股Insurance Australia的新股,', 'predict': "relation tags: ['拟收购', '买资']\nrelation: 伯克希尔哈撒韦拟以每股<N>.<N>澳元的价格购买大约<N>,<N>万股Insurance Australia的新股。"}
+{'text': '今年<N>月,中国国航宣布控股股东中航集团公司进行航空货运物流混合所有制改革。', 'predict': "relation tags: ['控股', '进行', '改革']\nrelation: 中国国航控股中航集团公司，进行航空货运物流混合所有制改革。"}
+{'text': '收益将达到<N>.<N>~<N>.<N>元左右,其中地产业务将贡献<N>.<N>-<N>.<N>元,预计未来房地产业绩贡献来源主要是:象山宏润花园、无锡宏诚花园、山东龙口宏润花园项目。', 'predict': "relation tags: ['贡献']\nrelation: \n地产业务将贡献<N>.<N>-<N>.<N>元，其中象山宏润花园和无锡宏诚花园是预计未来房地产业绩的主要贡献来源之一，而山东龙口宏润花园项目也可能对收益产生一定的贡献。"}
+{'text': '根据公司以往公告的表述,九台投资减持并非见好就收,而可能是为ST玉源还债。', 'predict': '九台投资减持可能与ST玉源的还债有关，暗示了这两家公司之间可能存在欠款的关系。因此，可以使用“欠款”关系标签。'}
+{'text': '宝钢股份<N>日晚的公告显示,宝钢集团拟无偿划转股份给诚通金控、国新投资和中石油集团,所划转股份分别占上市公司总股本的<N>.<N>%、<N>.<N>%和<N>.<N>%。', 'predict': 'relation tags: [\'拟划转\']\n\nThe relation between the entities "宝钢集团" and "诚通金控、国新投资和中石油集团" is that "宝钢集团拟无偿划转股份给诚通金控、国新投资和中石油集团".'}
+{'text': '继日前汇丰控股选定财务顾问欲抢国际板首单后,昨日,包括中国移动、中海油、联想集团等红筹股回归A股的消息再次传出。', 'predict': 'relation: 回归A股'}
+{'text': '这一担忧的根源来自于十年前欧拉雅对中国本土品牌小护士和羽西的整合失败。', 'predict': 'relation：合并失败'}
+{'text': '分析人士指出,此次汇丽集团<N>%的股权转让,受让方可能是三林集团。。', 'predict': "relation tags: ['被转让']\n\nentity: 汇丽集团<N>%的股权，三林集团\n\nrelation: 汇丽集团<N>%的股权被转让给了可能是三林集团。"}
+{'text': '据悉,今年年内,联想通过完成对IBMx<N>业务的收购,联想将成为全球x<N>服务器领域的第三名。', 'predict': 'relation: 收购'}
+{'text': '<N>家法人股东分别是天津博信一期投资中心、北京秉原创业投资有限责任公司、凤凰资产管理有限公司。。', 'predict': "relation tags: ['拥有']\nrelation: 北京秉原创业投资有限责任公司拥有凤凰资产管理有限公司的股份。"}
+{'text': '中小板上市公司轴研科技今日公告,将以向大股东中国机械工业集团定向增发的方式收购其全资拥有的洛阳轴承研究所有限公司<N>%的股权。', 'predict': "relation tags: ['拥有', '收购']\nrelation: 中国机械工业集团拥有洛阳轴承研究所有限公司，并将通过向其定向增发的方式收购该公司<N>%的股权。"}
+{'text': '同时,太古公司也向本报记者表示,国航增持国泰股份,确认其对国泰航空的充分支持,以及对国泰航空日后作为世界领先航空公司之一抱有的信心,', 'predict': 'Relation: 增持\n\nEntity 1: 国航\n\nEntity 2: 国泰股份'}
+{'text': '去年初截至转让日,广东明珠集团韶关众力发电设备有限公司亏损<N>.<N>万元,涂传岚领导的明珠建筑亏损1<N>.<N>万元、振邦房地产亏损<N>.<N>万元。', 'predict': 'relation：被拥有'}
+{'text': '广西有色待嫁:中铝中色争夺意在稀土', 'predict': 'relation: 竞争'}
+{'text': '万盛公司拟以日照港岚山港区<N>号泊位为依托,', 'predict': '被拟收购'}
+{'text': '据权益报告书,泓泽世纪以每股<N>元,从大连实德投资有限公司手中受让了大元股份<N>万股,', 'predict': "relation tags: ['受让']\nrelation: 泓泽世纪从大连实德投资有限公司受让了大元股份。"}
+{'text': '而融胜方面则认为,自己为东盛偿还了共计<N>.<N>亿元的债务,加上已支付的<N>万元,已经完全履行之前的<N>.<N>亿元合同,无需再支付任何价款。', 'predict': "relation tags: ['偿还', '履行', '合同', '支付']\nrelation: 融胜偿还了东盛共计<N>.<N>亿元的债务，并已支付<N>万元，履行了之前的<N>.<N>亿元合同，无需再支付任何价款。"}
+{'text': '冀中能源今日披露,将斥资<N>.<N>亿元增资子公司沽源金牛能源有限责任公司及山西冀中能源集团矿业有限责任公司,其中<N>.<N>亿元增资沽源金牛,', 'predict': "relation tags: ['注资', '拥有', '增持']\nrelation: 冀中能源将斥资<N>.<N>亿元注资其子公司沽源金牛能源有限责任公司和山西冀中能源集团矿业有限责任公司，以增持其股权。"}
+{'text': '尽管整体规模还有差距,但比亚迪电子的这份财报与其老对手富士康可谓大相径庭。', 'predict': 'relation: 竞争'}
+{'text': '值得一提的是,正道集团在<N>月<N>日发布公告称,自今年<N>月<N>日起至<N>年<N>月<N>日,全资子公司天津正道将托管东润投资的管理权及投票指示权,', 'predict': 'relation：被托管'}
+{'text': '招商证券分析师对记者表示,深长城今年前三季度共亏损<N>多万元,', 'predict': '分析（招商证券，深长城）'}
+{'text': '此前,<N>月<N>日,猎豹移动还宣布与今日头条在个性化内容和社交直播领域达成战略合作,今日头条参与猎豹移动子公司Live.meB轮融资,', 'predict': "relation tags: ['合作', '参与', '融资']\nsentence: 今日头条参与猎豹移动子公司Live.meB轮融资。\nentity: 今日头条，猎豹移动，Live.meB\nrelation: 今日头条参与猎豹移动子公司Live.meB轮融资，表明了两家公司在融资方面的合作关系。"}
+{'text': '康师傅上周五宣布将以子公司康师傅饮品<N>.<N>%权益,收购连续亏损的百事可乐在中国的<N>家装瓶厂;', 'predict': "relation tags: ['收购', '连续亏损', '位于']\nrelation: 康师傅将以子公司康师傅饮品<N>.<N>%权益收购连续亏损的百事可乐在中国的<N>家装瓶厂。"}
+{'text': '资料显示,海诺尔环保生活垃圾直接处置业务毛利率相比是最高的,<N>年、<N>.<N>%和<N>.<N>%;其余几家数据最好的南海发展,最差的是城投控股。。', 'predict': "The sentence is providing information about the gross profit margin of several companies in the business of direct disposal of household waste. According to the data, the company with the highest gross profit margin is Hai'noer Environmental Protection, while the worst performing company is City Investment Holdings. The sentence does not contain any explicit relation tags, but it does provide a comparison between the companies mentioned."}
+{'text': '天上午,从事互联网广告行业的盘石信息技术有限公司在省人民大会堂举办“盘石战略融资”新闻发布会,宣布获得上海联创投资管理有限公司的<N>万美金战略投资。', 'predict': 'relation：注资'}
+{'text': '继中节能、中材集团对赛维LDK眉目传情之后,中国冶金科工集团是否会成为赛维LDK新的救助者?', 'predict': "relation tags: ['救助']\nThe sentence suggests that China Metallurgical Group may become a new rescuer for LDK Solar after China Energy Conservation and Environmental Protection Group and China National Building Material Group showed interest in investing in the company. However, the exact nature of the relationship between China Metallurgical Group and LDK Solar is unknown, and it is possible that they may only be discussing a potential rescue plan."}
+{'text': '和讯网:梁总您好,欢迎接受和讯的访谈,关于古井走的市场路线的问题,是不是现在像五粮液和汾酒一样走的是高端路线和连锁,还是说已经这样了没有扩大?', 'predict': "Sorry, I couldn't find any relation between the entities mentioned in the sentence. Would you like me to help you with anything else?"}
+{'text': '从<N>年开始,与金威啤酒保持这样“暧昧”关系的企业有:<N>年的青岛啤酒、<N>年的燕京啤酒。', 'predict': "relation tags: ['保持关系']\nrelation: 金威啤酒与青岛啤酒、燕京啤酒保持着“暧昧”关系。"}
+{'text': '<N>年,国家电力体制改革之后,原有的国家电力公司被拆分为两大电网公司和五大发电公司,中国电力投资集团正是新成立的五大发电公司之一。', 'predict': 'relation tags: [\'被成立\']\n\nThe relation between the entities is that "中国电力投资集团" was newly established as one of the "五大发电公司" after the restructuring of the "国家电力公司". Therefore, the relation tag for this sentence is "被成立".'}
+{'text': '华工科技在公告中表示,到目前为止,公司控股股东武汉华中科技大产业集团有限公司没有整体上市的计划,没有整体上市的具体方案,也没有具体的时间表。', 'predict': "relation tags: ['控股', '没有计划', '没有具体方案', '没有时间表']\nrelation: 华工科技的控股股东是武汉华中科技大产业集团有限公司，根据华工科技的公告，目前为止，武汉华中科技大产业集团有限公司没有整体上市的计划，也没有具体的上市方案和时间表。"}
+{'text': '事实上,在国外其实有很多类似中航信的订座系统,比如欧洲的航空公司就主要运用AMADUES的订座系统,美国和其他亚洲航空公司也都有运用比较广泛的订座系统。', 'predict': 'relation: 运用、主要运用\nentity: 欧洲的航空公司、美国和其他亚洲航空公司'}
+{'text': '此前,以中国石化、上港集团、中国铝业等在内的多家央企巨头正是通过换股吸收合并的方式实现整体上市。', 'predict': 'Relation: 合并'}
+{'text': '洋河股份承认向五粮液买基酒称主导品牌靠自产', 'predict': '关系标签：买资，竞争，自己\n\n根据这个句子，可以看出洋河股份向五粮液买基酒，说明两家公司之间存在买卖关系，标签为“买资”。此外，由于这两家公司都是白酒行业的知名企业，因此它们之间也存在竞争关系，标签为“竞争”。最后，“洋河股份称主导品牌靠自产”，说明洋河股份在自主生产方面比较强，标签为“自己”。'}
+{'text': '中国移动曾和宏达电并签署TD-SCDMA终端合作备忘录。', 'predict': 'relation tag: 合作\nrelation: 中国移动和宏达电签署了TD-SCDMA终端合作备忘录。'}
+{'text': '<N>月<N>日,与海南省人民政府在海口签订了战略合作框架协议,与此同时,中国人寿资产管理有限公司还与海南省投资控股有限公司也配套签署了“投资合作备忘录”。', 'predict': 'relation: 合作'}
+{'text': '同一时间,天海集团曾与海航集团协商,选择适当时机尽快启动股改工作。', 'predict': 'Relation: 合作'}
+{'text': '王儒林表达了吉林省对恒大集团及恒大冰泉的“三最”,一是对恒大在长白山的投资最重视,', 'predict': '注资'}
+{'text': '同时,在其它符合黄石环保发展规划的项目上,黄石政府将支持天翔环境、欧绿保与黄石市国资平台合作,', 'predict': 'relation: 合作'}
+{'text': '至此,通程控股已拥有<N>家五星级酒店,通程温泉大酒店与商务型的通程国际大酒店、生态休闲度假型的同升湖山庄酒店交相辉映,', 'predict': "relation tags: ['拥有']\nrelation: 通程控股拥有通程温泉大酒店。"}
+{'text': '而双汇集团总经理游牧表示,在肉制品销售方面,双汇计划今年<N>月底基本恢复到正常的每日<N>吨的水平。', 'predict': 'relation：unknown'}
+{'text': '所以,这次广药虽成功收回王老吉商标,但却收不回消费者的心,至少我是碰都不会碰广药版的产品的。', 'predict': 'relation: 被收购\nentity: 广药'}
+{'text': '创业板指数样本股调入样本包括,欧比特、科融环境、天源迪科、蒙草抗旱。', 'predict': 'relation: unknown'}
+{'text': 'S深物业A、新大陆、美菱电器等均出现在了本周一的涨停股榜单之中,股价也均在本周创出了年内新高。', 'predict': 'Sorry, I cannot extract any relation from the given sentence and entities as they do not have any clear relationship or action between them. Can you please provide more information or a specific question for me to assist you better?'}
+{'text': '此时,海王生物购回海王杭州公司花费<N>.<N>亿元,海王集团在此往返交易中净赚<N>万元。', 'predict': "relation tags: ['购回', '净赚']\nrelation: 海王生物购回海王杭州公司，海王集团在此往返交易中净赚<N>万元。"}
+{'text': '五粮液集团董事长唐桥曾告诉笔者,面临行业调整,唯有创新才能驱动发展,中国白酒行业已经经历了几次调整期,而每一次调整期中,正是创新,让五粮液更加强大。', 'predict': 'relation: unknown'}
+{'text': '盛融在线自救方案日前出炉,将由另一家广东P<N>P平台好又贷组建新的平台。', 'predict': 'relation: 合并\n好又贷和盛融在线将合并，由好又贷组建新的平台来实施盛融在线的自救方案。'}
+{'text': '健康元内部人士昨日对本报表示,目前国家食品药品监督管理局和焦作市政府方面已经各自派出调查组,调查子公司焦作健康元用勾兑地沟油生产<N>-ACA的实际情况。', 'predict': 'relation：被调查'}
+{'text': '第一阵营里的厂商?这不就是指苹果和三星吗?既然剑指苹果和三星,那么联想的下一步发力必然会加大力度。', 'predict': 'relation: 竞争'}
+{'text': '夏普、LG和索尼等外资彩电企业也将在国内推出带有网络功能的电视产品。', 'predict': "relation tags: ['推出']\nrelation: \n夏普、LG和索尼等外资彩电企业也将在国内推出带有网络功能的电视产品。 这句话中的“推出”是企业与电视产品之间的关系，因此可以理解为“推出”是关系。"}
+{'text': '华立科泰为华立药业控股子公司,公司持股比例为<N>.<N>%。', 'predict': 'relation：拥有'}
+{'text': '“东航是属国务院国资委管辖,上航属上海市国资委管辖,因此操作起来相当复杂。', 'predict': "relation tags: ['属于', '管辖']\nrelation: \n东航属于国务院国资委管辖，上航属于上海市国资委管辖，因此操作起来相当复杂。"}
+{'text': '而综合来看,从<N>月<N>日渤海证券上海彰武路营业部、中国银河证券厦门美湖路营业部的率先杀入,到如今这两大证券的获利出逃,在莱茵生物这波行情中,', 'predict': '可能涉及到的关系有：持股、交易、减持、收购、增持、注资、被持股、被收购。但是根据这个句子的语境，无法确定具体的关系。'}
+{'text': '但另一方面,四川长虹旗下以上海长虹空调有限公司为主体的优质空调资产,并未出现在此次出售的资产之内。', 'predict': '拥有'}
+{'text': '招商基金旗下最赚钱的三只基金虽然均为货币基金,但截至去年底的规模却都没有突破千亿元,最大的招商现金增值货币也仅有<N>.<N>亿,这和建信基金、中银基金等银', 'predict': '行旗下的货币基金相比较而言规模较小。这句话中并没有明显的关系标签，只是在比较招商基金和建信基金的规模大小。'}
+{'text': '尽管骏威汽车称,“以H股形式的非现金对价交换骏威股东持有的骏威股票,', 'predict': '被成立，被持股'}
+{'text': '<N>年<N>月,复星国际斥资约<N>亿人民币收购以色列保险、资本管理公司Phoenix Holdings。', 'predict': "relation tags: ['收购']\nrelation: 复星国际收购以色列保险、资本管理公司Phoenix Holdings。"}
+{'text': '南方航空在公告中称,从控股股东中国南方航空集团公司及公司执行董事处获悉,目前南航集团正在筹划通过向公司注入中央国有资本经营预算拨款等资金。', 'predict': "relation tags: ['注资']\n\nThe relation between the entities in this sentence is that China Southern Airlines Group Co., Ltd. (中国南方航空集团公司) is planning to inject funds, including central state-owned capital operating budget appropriations, into Southern Airlines Group (南方航空) through capital injection, according to an announcement by Southern Airlines. Therefore, the relation tag for this sentence is '注资' (capital injection)."}
+{'text': '根据重组方案,首先,绿景地产向广州天誉出售花都绿景<N>%股权、恒大广州<N>%股权、广西天誉<N>%股权、永福美景<N>%股权及永福绿景<N>%股权,', 'predict': '被出售的股权中涉及到的实体有广州天誉和恒大广州。由于没有明确的关系标签，无法确定它们之间的具体关系。'}
+{'text': '华兴资本在本次交易中担任神州租车的独家财务顾问。', 'predict': "Relation tag: ['帮助']\n华兴资本帮助神州租车进行本次交易，担任其独家财务顾问。"}
+{'text': '其中,中航国际将以现金<N>亿元认购<N>,<N>,<N>股,扣除发行费用之后,将投入到公司赣州中航城项目、三期项目之中,', 'predict': '关系：注资\n中航国际将以现金亿元认购股份，并将投入到公司赣州中航城项目、三期项目之中，这说明中航国际将向该公司注资。'}
+{'text': '张志勇告诉《证券日报》记者,“这里也包含历史原因,与奥迪、宝马的销售模式不同,', 'predict': 'unknown'}
+{'text': '目前,融发公司持有该项目<N>%的权益,融发公司由深国商及其原第一大股东马来西亚和昌父子以<N>∶<N>控股。', 'predict': 'relation: 拥有\nentity: 融发公司，该项目'}
+{'text': '和讯网消息 <N>月<N>日有媒体报道,称娃哈哈集团有限公司有意斥资<N>.<N>亿英镑收购英国联合饼干公司旗下的零食业务分支KP Snacks,', 'predict': 'relation: 拟收购\nentity: 娃哈哈集团有限公司，英国联合饼干公司'}
+{'text': '民生银行有关人士昨日对记者表示,“中国人寿应该不会减持民生。', 'predict': 'Relation: 减持\nEntity 1: 中国人寿\nEntity 2: 民生银行'}
+{'text': '<N>年<N>月<N>日,“王老吉”商标案在中国国际经济贸易仲裁委员会开庭,广药集团和加多宝集团围绕着价值<N>亿元的商标权,展开了近<N>个小时的论战。', 'predict': "relation tags: ['纠纷', '商标权']\nrelation: 广药集团和加多宝集团在中国国际经济贸易仲裁委员会就价值<N>亿元的“王老吉”商标权发生了纠纷。"}
+{'text': '会决议出售拥有<N>.2<N>%股权的益科创业,投资<N>.<N>亿元参加天平汽车保险股份有限公司增资扩股,<N>年<N>月<N>日,天平注册资本变更为<N>.<N>亿元人民币,', 'predict': '拥有-益科创业-股权，注资-天平-增资扩股，被注资-天平，持股-益科创业-股权。'}
+{'text': '云南铜业集团是云南省头号国企,其有色金属产量位居国内前三甲,去年中国铝业成功并购云铜集团后,便拉开投资、资源等方面的整合,至今仍未结束。', 'predict': 'Relation: 被收购\n\nExplanation: 中国铝业成功并购了云南铜业集团，因此云南铜业集团被收购。'}
+{'text': '<N>年<N>月,深圳中技集团以41<N>6万元现金同时承担<N>.<N>亿债务的代价,从广东罗定市政府手中收购广东罗定铁路总公司<N>%股权,', 'predict': '关系标签：被收购\n\n解释：这句话描述了深圳中技集团以现金和承担债务的方式收购了广东罗定铁路总公司的股权，因此关系标签为“被收购”。'}
+{'text': '从产量上看,借壳欣网视讯后,义煤集团煤炭资产基本实现了整体上市。', 'predict': 'relation: 借壳'}
+{'text': '中海油与壳牌签订合同勘探南海莺歌海两区块', 'predict': '关系标签：签约\n\n解释：这个句子中提到了中海油和壳牌签订了合同，因此它们之间的关系是签约。'}
+{'text': '天信投资分析师颜冬竹认为,辽宁成大利润主要依赖于参股广发证券收益的情况将会改变,公司油页岩项目在稳步推进中有望成为公司新的利润增长点。', 'predict': 'Relation: 持股\n\nExplanation: 辽宁成大持有广发证券的股份，其利润主要依赖于广发证券的收益。'}
+{'text': '与此同时,根据有关公开信息,五矿集团在之前也控股两家期货公司:五矿海勤期货和五矿实达期货。', 'predict': "relation tags: ['控股']\nrelation: 五矿集团控股五矿海勤期货。"}
+{'text': '广发证券机械分析师邱世梁及前述中联重科管理层指出,中联环卫有优势的是两个产品——清扫车和垃圾车。', 'predict': "relation tags: ['分析']\nrelation: \n广发证券机械分析师邱世梁分析认为，中联环卫在清扫车和垃圾车领域具有优势。"}
+{'text': 'BP官方向第一财经记者透露,<N>月<N>日,公司宣布与中石油已经签署了第二个页岩气勘探、开发和生产的产品分成合同。', 'predict': 'Relation: 合作\nEntity 1: BP\nEntity 2: 中石油'}
+{'text': '不仅如此,<N>年<N>月<N>日,昆钢和丽江市人民政府、云南圣乙投资有限公司签署合作协议,开发丽江白沙航空旅游基地项目。', 'predict': 'Relation: 合作\n\nEntity 1: 云南圣乙投资有限公司\n\nEntity 2: 昆钢'}
+{'text': '目前在A股市场上具有铁路背景的上市公司共有<N>家,其中属于央企序列的有中国中铁、中国南车和中国北车。', 'predict': "relation tags：['属于']\nsentence：中国南车和中国中铁属于央企序列。\nentity：中国南车，中国中铁\nrelation：属于"}
+{'text': '“我们的项目距离迪士尼<N>.<N>公里,距离轨交<N>号线川沙站<N>公里,距离浦东国际机场<N>公里,', 'predict': 'unknown'}
+{'text': '本次转让完成后,国大集团将成为新嘉联控股股东与实际控制人。', 'predict': "relation tags: ['转让', '控股', '实际控制人']\nrelation: 国大集团通过本次转让，将成为新嘉联的控股股东和实际控制人。"}
+{'text': '继日前汇丰控股选定财务顾问欲抢国际板首单后,昨日,包括中国移动、中海油、联想集团等红筹股回归A股的消息再次传出。', 'predict': 'relation: 无关系。'}
+{'text': '对于雪花啤酒来讲,<N>年惟一的遗憾或许就是金威啤酒大股东奥海控股行使优先购买权,“截和”买下金威啤酒被转让的部分股权,阻止了雪花入股金威的计划。', 'predict': 'relation：被转让'}
+{'text': '拉与华为之间的商业合同转移给诺西,使诺西能获得及使用华为的保密信息为摩托罗拉通过华为产品和技术在全球部署的网络提供服务,从而解决对摩托罗拉和诺西的指控。', 'predict': 'relation: 转让\n\n华为与拉之间的商业合同被转移给诺西，使诺西能够获得和使用华为的保密信息。这使得摩托罗拉能够通过华为的产品和技术在全球范围内部署网络并提供服务，从而解决了对摩托罗拉和诺西的指控。'}
+{'text': '今后,卓尔集团将牢牢抓住国家扩大内需、天门棉花交易中心、武汉金融产权交易所等有影响力的内需交易平台集群。', 'predict': "relation tags: ['合作', '成立', '交易']\nrelation: 卓尔集团与天门棉花交易中心将合作成立交易平台。"}
+{'text': '三元放弃北京麦当劳优先购股权', 'predict': "relation tags: ['放弃', '优先购股权']\nrelation: 三元放弃北京麦当劳的优先购股权。"}
+{'text': '至于成立合资公司,自<N>年起,中海发展先后与华能集团成立时代航运公司、与上港集团合资组建中海浦远航运有限公司,', 'predict': '关系标签：成立，合资\n华能集团和中海发展成立了时代航运公司和中海浦远航运有限公司，这两个公司都是合资公司。'}
+{'text': '根据上海机场的测算,春秋航空现在上海机场占到<N>%的吞吐量。', 'predict': "relation tags: ['占据', '属于', '合作', '竞争', '位于', '提供服务', '拥有', '运营', '签订合同', '使用', '购买', '销售', '生产', '出售', '服务于', '合作伙伴', '供应', '分布于', '租赁', '承包', '建造', '管理', '负责', '开发', '注册', '推广', '投资', '研发', '加入', '生产于', '销售于', '生产企业', '销售企业', '持有', '加盟']\nsentence: 该公司位于上海市浦东新区张江，主要提供软件开发服务。\nentity: 该公司，上海市浦东新区张江\nrelation: 提供服务"}
+{'text': '本报讯 中国南车子公司南车四方机车车辆股份有限公司与铁道部北京铁路局<N>月<N>日签订了长大编组卧铺动车组销售合同,', 'predict': "relation tags: ['合作', '签约']\nThe sentence describes a sales contract signed between China South Locomotive and Rolling Stock Corporation Limited (CSR) subsidiary, CSR Sifang, and the Beijing Railway Bureau of the Ministry of Railways. The two entities have signed a cooperation agreement for the sale of a long-distance sleeping-car train set."}
+{'text': '“还没有达到<N>%,所以我也认为上海市政府将认购此次东航增发的一定比例的东航股权以达到持有新东航<N>%以上股份”。', 'predict': 'Relation: 注资 (investment)\nEntity 1: 上海市政府 (Shanghai Municipal Government)\nEntity 2: 东航 (Eastern Airlines)\nExplanation: The sentence suggests that the Shanghai Municipal Government plans to invest in Eastern Airlines by subscribing to a certain proportion of its newly issued shares. This will enable them to hold a certain percentage of shares in the newly formed company, New Eastern Airlines. However, the exact percentage is not specified.'}
+{'text': '根据证监会公告,发审委对南航传媒取得南方航空媒体资源关联交易定价公允性、是否对南航及关联航空公司有重大依赖等问题进行了问询。', 'predict': "relation tags: ['关联交易', '问询']\nrelation: 南航传媒取得南方航空媒体资源的关联交易引起了证监会发审委的关注，发审委对该交易的定价公允性和是否对南航及其关联航空公司有重大依赖等问题进行了问询。"}
+{'text': '以方便面和饮料为主业的康师傅控股有限公司(下称康师傅)在整体业绩不出色的情况下开始发力休闲食品。', 'predict': "relation tags: ['发力']\nrelation: 康师傅控股有限公司开始发力休闲食品。"}
+{'text': '有消息称,此次中移动将以广东公司为投资主体,以财务投资的形式入股浦发银行,对此王建宙称,“中国移动会选择旗下某个子公司进行入股,', 'predict': '关系标签：被入股\n中移动被作为投资主体，以财务投资的形式入股浦发银行。王建宙表示，中国移动会选择旗下某个子公司进行入股。'}
+{'text': '资料表明,早在<N>年,横店控股以及横店集团有限公司与太原市财政局签订了《转让协议》,共同受让太原市财政局所拥有的刚玉集团<N>%的股权及其一切权益。', 'predict': "relation tags: ['拥有', '签订', '受让']\nrelation: 横店控股以及横店集团有限公司与太原市财政局签订了《转让协议》，共同受让太原市财政局所拥有的刚玉集团<N>%的股权及其一切权益。根据协议，横店控股和横店集团有限公司现在拥有刚玉集团的一部分股权。"}
+{'text': '“恒大健康是服务于老人,恒大旅游是服务于少年儿童,恒大金融是服务社会”。', 'predict': "relation tags: ['服务于']\nrelation: \n恒大健康、恒大旅游、恒大金融与不同人群提供不同服务。其中，恒大健康服务于老人，恒大旅游服务于少年儿童，恒大金融服务于社会。"}
+{'text': '传通用汽车欲收购Uber对手Lyft 但被拒绝了', 'predict': 'Relation: 拟收购\nEntity 1: 通用汽车\nEntity 2: Lyft'}
+{'text': '与此同时,增加了贵州茅台、大秦铁路和中兴通讯等符合国家产业发展导向的龙头股票。', 'predict': "relation tags: ['持股', '增持']\n\nentity: Chat assistant\n\nrelation: 暂无关系。"}
+{'text': '截至<N>年底,华润电力结欠中国华润总公司的债务总额约<N>.<N>亿港元。', 'predict': "relation tags: ['欠款', '被拥有']\n\nrelation: 华润电力欠中国华润总公司约N亿港元的债款，中国华润总公司拥有这笔债务。"}
+{'text': '公开的数据表明,200<N>年,新飞冰箱年销量为<N>万台,位居行业第二,仅次于海尔,而<N>年,新飞市场份额已跌出国内品牌前<N>位。', 'predict': 'relation: 竞争'}
+{'text': '亚洲市值最高公司这个宝座上,中国石油、日本丰田等传统巨头曾经轮流坐过。', 'predict': "relation tags：['轮流坐过']\nrelation：曾经轮流坐过"}
+{'text': '上投房地产公司和通达房地产公司累计预收款达到<N>.<N>亿元,这有望为公司的未来业绩提供一定的保障。', 'predict': "relation tags: ['合作', '增长']\nrelation: 上投房地产公司和通达房地产公司可能会在未来合作，共同增长业务。"}
+{'text': '这其中,既有像SST华塑一样陷入泥潭的SST华新、SST中纺,也有豪门中石化集团旗下的S仪化、SST天海,以及股改方案只等证监会批准的准券商股S前锋。', 'predict': 'relation: 未知 (unknown)'}
+{'text': '由于承销华泰证券,今年第一季度海通证券证券承销净收入同比增长<N>.<N>倍。', 'predict': 'Relation: 承销\n\nEntity 1: 海通证券证券\n\nEntity 2: 华泰证券\n\nExplanation: 海通证券证券在今年第一季度承销了华泰证券的证券，从而导致其承销净收入同比增长了N倍。'}
+{'text': '同时,有消息称,上海电气方面将不再出售交大泰阳的股权。', 'predict': 'Relation: 被拥有\n\nExplanation: The sentence mentions that Shanghai Electric will no longer sell its equity in Jiaotong University Taiyang. This implies that Shanghai Electric owns some portion of Jiaotong University Taiyang\'s equity. Therefore, the relation between the entities is "被拥有" (owned by).'}
+{'text': '冠生园于<N>年创立的冠生园互联网金融园区已布局互联网金融、智慧社区等板块。', 'predict': "relation tags: ['创立']\nsentence: 冠生园创立于<N>年。\nentity: 冠生园\nrelation: 创立"}
+{'text': '而后也不排除格力还会与珠海银隆有业务上的合作”。', 'predict': 'Relation: 合作\nEntity 1: 格力\nEntity 2: 珠海银隆'}
+{'text': '出让方长江联合置地有限公司是长江经济联合发展股份有限公司控股子公司,由长江经济联合发展股份有限公司和上海国有资产经营有限公司共同出资组成,', 'predict': "relation tags: ['注资', '拥有', '成立', '持股']\n\nBased on the given sentence, we can infer that the relation between the entities '江经济联合发展股份有限公司' and '长江经济联合发展股份有限公司' is that the latter is the holding company of the former. Additionally, both companies jointly invested in the creation of '长江联合置地有限公司'. Therefore, the possible relations could be '注资', '拥有', '成立', or '持股'."}
+{'text': '据黄秀虹透露,国美集团正着手对已拥有两家门店的国美悦动进行品牌升级,未来国美集团的版图中,将着力以鹏润投资为主导,', 'predict': '拥有：国美集团拥有两家门店的国美悦动。\n注资：国美集团将以鹏润投资为主导进行未来的版图。'}
+{'text': '冀中能源今日披露,将斥资<N>.<N>亿元增资子公司沽源金牛能源有限责任公司及山西冀中能源集团矿业有限责任公司,其中<N>.<N>亿元增资沽源金牛,', 'predict': "relation tags: ['注资', '拥有']\nrelation: 冀中能源注资沽源金牛能源有限责任公司和山西冀中能源集团矿业有限责任公司，拥有这两家公司的股份。"}
+{'text': '和讯网:工商银行在<N>“和讯财经风云榜”评比中获得"最佳投资者关系奖",您作为工行投资者关系工作的主要负责人,', 'predict': 'relation: 拥有'}
+{'text': '尚德电力今年的产能将继续维持<N>年的水平<N>万千瓦,CSI阿特斯的扩产计划也不过是从<N>兆瓦扩大到<N>兆瓦而已,', 'predict': 'unknown'}
+{'text': '有关资料显示,闽东电力携手中广核能建设的抽水蓄能电站,', 'predict': '合作'}
+{'text': '张裕年报显示,中诚信托已不再是裕华投资的股东,裕华投资是张裕集团的第一大股东,持股<N>.<N>%。', 'predict': 'relation tags: [\'持股\']\n\nThe relation between the entities "中诚信托" and "裕华投资" in the given sentence is that "中诚信托" is no longer a shareholder of "裕华投资". The sentence also mentions that "裕华投资" is the largest shareholder of "张裕集团" with a certain percentage of ownership. However, there is no other relation tag that applies to this sentence.'}
+{'text': '浦东科投在完成对锐迪科的资本评估,', 'predict': 'relation：unknown'}
+{'text': '从哈佛毕业后,戴蒙轻而易举地得到了高盛、雷曼和摩根士丹利的青睐。', 'predict': "relation tags: ['拥有', '竞争']\nentity: 雷曼\nrelation: 雷曼与高盛、摩根士丹利竞争，但戴蒙还是得到了这三家公司的青睐。"}
+{'text': '根据相关法规及北京银行与荷兰保险有限公司达成的有关协议,首创安泰人寿必须在股权变更有关手续完成之日起的<N>个月内对公司股权结构进行调整,', 'predict': "relation tags: ['持股', '签约', '股权变更']\nrelation: 首创安泰人寿必须在股权变更有关手续完成之日起的<N>个月内，与北京银行签约，调整公司股权结构，使北京银行持股比例符合相关法规要求。"}
+{'text': '<N>年<N>月<N>日,中核集团与中国国电集团共同出资建立中核国电漳州能源有限公司,', 'predict': '关系标签：成立，注资，拥有\n\n该句话中提到了中核集团和中国国电集团共同出资，建立了中核国电漳州能源有限公司，因此它们之间的关系是成立。同时，由于它们共同出资，所以它们之间的关系也是注资。最后，由于它们共同出资建立了这个公司，所以它们之间的关系也是拥有。'}
+{'text': '华天酒店大股东违规抛售<N>万股抛售日恰为定向增发限售股解禁日,华天集团竟称不知年报披露提前', 'predict': 'Relation: 违规抛售\n\nEntity 1: 华天酒店\n\nEntity 2: 华天集团'}
+{'text': '<N>年<N>月<N>日上海电气与上电股份联合刊登了《上海电气集团股份有限公司首次公开发行A股暨换股吸收合并上海输配电股份有限公司换股与现金选择权实施公告》,', 'predict': 'relation tag: 合并 (merger)\n\nThe sentence describes that on a certain date, Shanghai Electric and Shangdian Corporation jointly published an announcement regarding the first public offering of A-shares and the merger of Shanghai Electric Power Transmission and Distribution Co., Ltd. through share exchange and cash options. Therefore, the relation tag is "合并" (merger).'}
+{'text': '中国网财经<N>月<N>日讯 证监会上周五晚间核发<N>家IPO企业批文,宁波合力模具科技股份有限公司(以下简称“合力模具”)榜上有名。', 'predict': "relation tags: ['注资', '拥有', '被注资', '被拥有']\nrelation: 未提及任何关系标签，因此无法确定实体之间的关系。"}
+{'text': '作为西湖公司的控股方,<N>%的股权的委托管理将对青岛啤酒在浙江市场的进一步发展产生较为深远的影响。', 'predict': "relation tags: ['拥有', '委托管理', '影响', '发展']\nrelation: 西湖公司拥有青岛啤酒<N>%的股权，并委托管理，这将对青岛啤酒在浙江市场的进一步发展产生深远影响。"}
+{'text': '中粮方面长春地区油品销售负责人于经理告诉本报记者,目前长春地区所销售的中粮油品主要以大豆油、玉米油等油品为主,暂时还未听说降价,也未接到相关通知。', 'predict': 'Sorry, I am unable to identify any relation between the entities mentioned in the sentence. Can you please provide more context or information about what kind of relation you are looking for?'}
+{'text': '这起丑闻事件不但导致《世界新闻报》停刊和数位高管辞职,还迫使新闻集团放弃竞购尚未持有的英国天空广播公司部分股权。', 'predict': "relation tags: ['竞购', '放弃持股']\n\nentity 1: 新闻集团\nentity 2: 英国天空广播公司\n\nrelation: 新闻集团放弃竞购英国天空广播公司部分股权。"}
+{'text': '易联众今天披露,公司全资子公司福州易联众信息技术有限公司与农行泉州分行及中行漳州分行分别签订了购销合同,', 'predict': "relation tags: ['签约']\nrelation: 福州易联众信息技术有限公司与农行泉州分行签订了购销合同。"}
+{'text': '业内人士表示,此次挂牌转让的<N>.<N>%股权很可能是中旅集团持有幸福人寿的<N>亿股。', 'predict': "relation tags: ['转让', '持有']\nrelation: 中旅集团持有幸福人寿的股权将进行挂牌转让。"}
+{'text': '大公国际发布的《中国种子集团有限公司评级报告》称,中种集团是我国农业产业化国家重点龙头企业,构建了较为完善的研发体系,整体科研水平较高;', 'predict': "relation tags: ['评级']\nrelation: 大公国际发布了《中国种子集团有限公司评级报告》，其中评价中种集团是我国农业产业化国家重点龙头企业，具有较高的整体科研水平。"}
+{'text': '美国银行按照上限比例增持建行股份至<N>.<N>%的交易也完成过户,其增持股份购自汇金公司。', 'predict': 'Relation: 增持\nEntity 1: 美国银行\nEntity 2: 建行'}
+{'text': '商报讯高油价与节能减排重压,让美国波音与中国商飞这两大飞机制造领域的对手化敌为友,联手提炼“地沟油”。', 'predict': 'relation: 合作'}
+{'text': '<N>日,凯马临时停牌,声称“为维护投资者利益,正就此问询上海全冠,并自即日停牌至相关信息公告后才复牌”。', 'predict': "relation tags: ['问询']\nrelation: 凯马向上海全冠发出问询。"}
+{'text': '《<N>世纪》:<N>年国寿集团和各家子公司的经营状况怎么样?国寿股份扭转负增长的局面了吗?', 'predict': "relation tags: ['分析']\n\nBased on the sentence, it seems like the question is asking for an analysis of the operating conditions of China Life Insurance Group and its subsidiaries in a certain year, as well as whether China Life Insurance Company has reversed its negative growth trend."}
+{'text': '今年<N>月<N>日,ST玉源曾公告,为降低负债风险、九台投资分批支付不超过<N>亿元给ST玉源,代为偿还债务。', 'predict': "relation tags: ['注资', '被注资', '欠款', '被欠款']\nentity: 九台投资注资了ST玉源，并代为偿还了其债务。"}
+{'text': '宁波联合今日公告,于<N>年<N>月<N>日收到股东五矿发展减持通知:五矿发展于<N>年<N>月<N>日通过上海证券交易所大宗交易系统减持公司股份<N><N>.<N>万股,', 'predict': '关系：减持'}
+{'text': '成霖股份今日公告,公司控股股东GlobeUnionIndustrialCorp.于<N>月<N>日至<N>月<N>日,', 'predict': '被持股关系。因为该公告中提到了成霖股份的控股股东为GlobeUnionIndustrialCorp.，说明GlobeUnionIndustrialCorp.拥有成霖股份的股份。'}
+{'text': '友阿股份昨天召开的临时股东大会通过了《关于投资天津滨海新区“奥特莱斯”项目的议案》,两个月之内,公司相继投入了湖南奥特莱斯和天津奥特莱斯两个项目,', 'predict': "relation tags: ['投资']\nrelation: 友阿股份投资了天津奥特莱斯和湖南奥特莱斯两个项目。"}
+{'text': '梦洁家纺称遭罗莱家纺富安娜捏造假新闻诋毁', 'predict': 'relation: 纠纷'}
+{'text': '农业部陈晓华副部长、中国移动沙跃家副总裁等各级领导,各省、工信部电信研究院等各方专家及中国移动代表等共计<N>余人出席了会议。', 'predict': "relation tags：['出席会议']\nsentence：中国移动沙跃家副总裁出席了会议。\nentity：中国移动沙跃家副总裁\nrelation：出席会议"}
+{'text': '记者在现场看到,涉嫌“山寨”的手机机身正面、外包装等均使用了与步步高“BBK”商标近似的标识,', 'predict': '被侵权'}
+{'text': '相对于之前《杭州沙钢经销商致沙钢的公开信》,《致鞍钢集团的公开信》的语气缓和许多,没有提到要停止销售鞍钢钢材和停止合同的执行和打款等强硬措施。', 'predict': 'relation：纠纷'}
+{'text': '记者注意到,截至<N>年<N>月<N>日,FTIF亚洲基金持有深赤湾B股<N>万股,', 'predict': "relation tags: ['持股']\nrelation: FTIF亚洲基金持有深赤湾B股。"}
+{'text': '国联通与中国电信商定停止开发该服务新用户,但会维持现有用户服务,中国电信可能会开发国际CDMA/GSM双模卡服务,并依据商定的条款与中国联通联合开发”。', 'predict': 'relation: 合作'}
+{'text': '对此,正和集团董秘范玉明表示:“中石化统购统销,对我们的影响不会太大。', 'predict': 'relation: 合作'}
+{'text': '湘潭九华国际新城项目,是广东黄河实业集团有限公司投资<N>亿元,在湘潭市九华经济开发区整体开发集旅游、会展于一体的现代社区项目。', 'predict': 'relation: 注资 (investment)\n\n因为句子中提到了广东黄河实业集团有限公司投资了湘潭九华国际新城项目，所以可以判断出它们之间的关系是注资。'}
+{'text': '另外,对于冀东水泥此次突然搁置*ST秦岭重组、转而欲先引进“外援”的做法,市场一时间传闻四起。', 'predict': 'relation: 重组'}
+{'text': '华电集团在股改时曾特别承诺:将华电能源定位为华电集团在东北地区的电力发展主体和资本运作平台;', 'predict': '拥有'}
+{'text': '自<N>年入主深圳龙珠医院以来,实德已投入了<N>亿多元的运营经费,算上银行<N>亿多元债务及当年控股医院所花的费用,实德在这个项目上投资不小。', 'predict': "relation tags: ['投资']\nrelation: 实德投资深圳龙珠医院，投入了<N>亿多元的运营经费。"}
+{'text': '从增长前景来看,农行能受惠于中国下一波的经济增长,资产扩张可高于工行和建行<N>~<N>个百分点;', 'predict': "relation tags: ['比较', '受益于', '资产扩张']\nrelation: \n根据句子中的描述，可以看出这是一句比较句，比较了农行、工行和建行的资产扩张情况。其中，农行能受益于中国下一波的经济增长，资产扩张可高于工行和建行。因此，可以将关系标注为“比较”、“受益于”、“资产扩张”。"}
+{'text': '第二,朱善璐表示方正集团目前遇到的困难是暂时的,“方正没倒,不能倒,不会倒,不允许倒”。', 'predict': 'relation tags: [\'unknown\', \'支持\', \'保持\', \'反对\', \'评价\', \'关注\', \'批评\', \'支持者\', \'反对者\', \'评价者\', \'关注者\', \'批评者\']\n\nBased on the given sentence, there is no clear relation between the entities "方正" and "方正集团". However, it can be inferred that the speaker, Zhu Shanlu, is expressing support for the company, as he states that it will not fail and that he will not allow it to fail. Therefore, a possible relation could be "支持".'}
+{'text': '与农业银行A股路演前的低迷气氛不同,机构投资者对光大银行抱以浓厚兴趣。', 'predict': "relation tags：['投资', '竞争', '合作', '收购', '拟收购', '并购', '合资', '注资', '减持', '增持', '持股', '转让', '被收购', '被拟收购', '被并购', '被合资', '被注资', '被减持', '被增持', '被持股', '被转让']\nsentence: 公司计划通过并购的方式扩大业务范围。\nentity: 公司\nrelation: 计划通过并购的方式扩大业务范围。"}
+{'text': '而在与巢湖达成协议、意图控股国通管业后,京博才停止卖出,改为不断加仓,并成为了国通管业的第三大股东。', 'predict': 'Relation: 持股\nEntity 1: 京博\nEntity 2: 国通管业'}
+{'text': '昨日,相关拍卖公告称,S*ST三农股权拍卖标的共分两个:一个是第五大股东福建塞克赛思投资有限公司所持有的S*ST三农非流通法人股<N>.<N>万股,', 'predict': '被拥有'}
+{'text': '中海油与壳牌签订合同勘探南海莺歌海两区块', 'predict': '关系标签：签约\n中海油和壳牌之间签订了合同，合作勘探南海莺歌海两个区块。'}
+{'text': '存续,但金科集团的法人资格将予以注销,其全部资产、业务以及人员将由公司承继或承接,公司将向有关审批部门申请拟变更上市公司名称为“金科地产股份有限公司”。', 'predict': '被注资，承继或承接，拟变更上市公司名称为“金科地产股份有限公司”。'}
+{'text': '通用汽车、腾中重工否认<N>日签约', 'predict': 'relation: 否认签约'}
+{'text': '乐凯胶片上周五晚间发布澄清公告称,截至目前,控股股东乐凯集团没有接到国资委下发的有关乐凯集团重组的任何通知或决定。', 'predict': "relation tags: ['拥有', '重组']\nentity: 乐凯集团，乐凯胶片\nrelation: 乐凯集团是乐凯胶片的控股股东，乐凯胶片发布澄清公告称截至目前，乐凯集团没有接到国资委下发的有关乐凯集团重组的任何通知或决定。"}
+{'text': '商报讯尽管招商证券否认拿到IPO批文,但中海海盛、中粮地产两家参股招商证券的上市公司昨日逆势大涨。', 'predict': '招商证券持股中海海盛和中粮地产两家上市公司逆势大涨。'}
+{'text': '按照上半年利润计算,中信证券、海通证券的市盈率目前为<N>倍、<N>倍,因此即使是光大证券<N>.<N>倍市盈率也已然不低。', 'predict': "Sorry, I couldn't find any relation tags in the given sentence. Can you please provide more context or information so that I can assist you better?"}
+{'text': '上述变化为山东钢铁集团有限公司重组日照钢铁在一定程度上解决了难题。', 'predict': 'relation: 重组'}
+{'text': '旗下的深业物流集团正全面向现代高端物流企业转型,持续对存量物业进行升级经营,正在罗湖区笋岗宝安北路核心位置打造全球物流总部基地——深业物流中心项目,', 'predict': '被成立'}
+{'text': '而今年<N>月到<N>月,尚德电力、中电光伏、阿特斯太阳能等企业,分别报出了<N>.<N>亿美元、<N>万美元和43<N>0万美元的亏损。', 'predict': 'relation: 无关联关系。'}
+{'text': '日立制作所执行役会长兼CEO中西宏明的语调自信饱满,他的介绍中,仿佛日立集团已经脱离困境,走在金色大道上。', 'predict': "relation tags: ['unknown', '脱离困境', '走在金色大道上']\nrelation: 日立集团脱离困境，走在金色大道上。"}
+{'text': '此前TCL集团通过A股定向增发的方式募资到4<N>亿元后,主要运作深圳<N>.<N>代线项目的华星光电又获得了一笔来自由各大银行组成的银团高达<N>.<N>亿美元的贷款。', 'predict': 'Relation: 注资 (Investment)\n\n华星光电获得了一笔来自银团的贷款，这意味着银团向华星光电注资了一定的资金。而此前TCL集团通过A股定向增发的方式募资到4亿元后，也可以被视为对华星光电的注资行为。因此，华星光电和TCL集团之间存在注资关系。'}
+{'text': '对于目前市场最为关心的银行房地产贷款质量问题,农行副行长郭浩达透露,截至<N>年末,农行公司类房地产贷款余额为<N>亿元,', 'predict': "relation tags: ['拥有', '持股', '注资', '成立', '收购', '合作', '签约', '交易', '入股', '转让', '重组', '合并', '帮助', '减持', '增持', '借壳', '欠款']\nIt seems like there is no clear relation between the entities mentioned in the sentence. Can you provide more context or information so I can better understand what you are looking for?"}
+{'text': '增值服务商”概念的网络股们纷纷冲破了纳市涨幅均值,最高的空中网股价增幅达到<N>.<N>%,表现最“逊”的新浪、搜狐,今年以来的股价涨幅业已达到了<N>%。', 'predict': 'relation: 无关联，该句话主要是在描述网络股的涨幅情况，没有具体的关联实体或者事件。'}
+{'text': '公司发布公告称,公司以<N>.<N>万元收购了光耀热电有限公司<N>%股权,这也是宁波热电在发布拟投资<N>亿元在北仑区域内投资天然气热电项目后又一新举动。', 'predict': "relation tags: ['拥有', '收购']\nrelation: 宁波热电拥有光耀热电有限公司<N>%股权，通过收购实现的。"}
+{'text': '截至<N>年<N>月,中冶集团旗下房地产旗舰中冶置业公司通过全力开发市场,', 'predict': "relation tags: ['unknown', '注资', '拥有', '纠纷', '自己', '增持', '重组', '买资', '签约', '持股', '交易', '入股', '转让', '成立', '分析', '合作', '帮助', '发行', '商讨', '合并', '竞争', '订单', '减持', '合资', '收购', '借壳', '欠款', '被发行', '被转让', '被成立', '被注资', '被持股', '被拥有', '被收购', '被帮助', '被借壳', '被买资', '被欠款', '被增持', '拟收购', '被减持', '被分析', '被入股', '被拟收购']\nsentence: 截至<N>年<N>月，中冶集团旗下房地产旗舰中冶置业公司通过全力开发市场，未涉及任何与其他公司的关系或交易，因此无法确定该句话中的关系标签。\nentity: 中冶集团，中冶置业公司"}
+{'text': '募集资金全部用于对全资子公司河北三元进行增资,并由河北三元用于竞买三鹿集团的部分破产财产及后续整合、运营,不足部分由河北三元通过银行借贷等方式解决。', 'predict': "relation tags: ['注资', '竞购', '整合', '运营', '借贷']\nentity 1: 全资子公司河北三元\nentity 2: 三鹿集团\nrelation: 全资子公司河北三元将获得募集资金进行注资，并用于竞购三鹿集团的部分破产财产，随后进行整合和运营。如资金不足，河北三元将通过银行借贷等方式解决。"}
+{'text': '一周前的<N>月<N>日,万达体育迎来了里程碑意义的一天:万达体育控股有限公司全球总部正式落户广州。', 'predict': "relation tags: ['成立', '控股']\nrelation: 万达体育控股有限公司在<N>月<N>日成立，并将全球总部设在广州。"}
+{'text': '朱立南<N>年加盟联想,任深圳联想总经理,筹建并管理联想集团第一个产业基地,为联想板卡行销海外奠定了坚实的制造基础。', 'predict': "relation tags: ['任职', '筹建', '管理', '奠定基础']\nrelation: 朱立南任深圳联想总经理，筹建并管理联想集团第一个产业基地，为联想板卡行销海外奠定了坚实的制造基础。"}
+{'text': '技有限公司告上法庭的,一是北京搜狗科技发展有限公司,该公司是“搜狗拼音输入法”软件的著作权人;二是北京搜狗信息服务有限公司,该公司是软件的被许可使用人。', 'predict': "relation tags: ['告上法庭', '著作权', '许可使用人']\nrelation: 技有限公司告上法庭，原因是针对北京搜狗科技发展有限公司，该公司是“搜狗拼音输入法”软件的著作权人，以及北京搜狗信息服务有限公司，该公司是软件的被许可使用人。"}
+{'text': '公司决定以<N>万元收购湖北宜昌磷化工业集团有限公司所持宜昌楚磷化工有限公司<N>.<N>%的股权。', 'predict': "relation tags: ['拥有', '收购']\nrelation: 湖北宜昌磷化工业集团有限公司拥有宜昌楚磷化工有限公司的股权，公司决定以N万元收购宜昌楚磷化工有限公司的部分股权。"}
+{'text': '有意思的是,佳士科技和<N>月<N>日过会的瑞凌实业渊源颇深,', 'predict': 'relation: unknown'}
+{'text': '根据该协议,自<N>年到<N>年期间,国家开发银行将为电广传媒提供融资,以帮助电广传媒有线电视网络跨区域整合,做强做大有线数字电视业务。', 'predict': "relation tags: ['注资', '帮助']\nrelation: 国家开发银行注资电广传媒以帮助其有线电视网络跨区域整合，做强做大有线数字电视业务。"}
+{'text': '外媒援引知情人士的话说,考虑竞标Las Bambas铜矿的中国企业包括中铝矿业国际、五矿资源和中信资源。', 'predict': 'relation: 竞争'}
+{'text': '梦洁家纺称遭罗莱家纺富安娜捏造假新闻诋毁', 'predict': "relation tags: ['纠纷']\nrelation: 纠纷"}
+{'text': '宝能系再度出手,重新成为万科第一大股东。', 'predict': 'relation：持股'}
+{'text': '公司控股火电企业整体燃煤价格仍在高位运行,其中靖远第二发电有限公司和国投曲靖发电有限公司坑口燃煤价格同比出现较大幅度增长。', 'predict': "relation tags: ['持股', '合作', '竞争', '收购', '减持', '合资', '重组']\n\nBased on the given sentence, there is no clear relation between the two entities mentioned (靖远第二发电有限公司 and 国投曲靖发电有限公司) and any of the relation tags provided. However, it is possible that they may have a business relationship such as a partnership or competition in the same industry. It is also possible that they may have been involved in a merger or acquisition, or have holdings in each other's companies. Without more context, it is difficult to determine the exact nature of their relationship."}
+{'text': '东航正式结盟阿里巴巴声言要打破携程网上订票垄断', 'predict': "relation tags: ['合作', '竞争', '订单', '发行', '商讨']\nrelation: 东航和阿里巴巴正式合作，旨在打破携程在网上订票市场的垄断。他们将商讨如何共同发行订单，提供更好的服务。"}
+{'text': '而*ST华源与飞乐股份之间、*ST华源与外高桥之间“互保”历史,可以追溯到<N>年:', 'predict': 'relation: unknown'}
+{'text': '同时,早在19<N>8年<N>月,日本与越南达成协议,“由帝国石油公司和三菱石油公司与越南进行合作开发”。', 'predict': "relation tags: ['合作']\nrelation: 帝国石油公司和三菱石油公司与越南进行合作开发。"}
+{'text': '中国武夷与中行合作 获<N>亿元授信', 'predict': '关系标签：合作\n中行和中国武夷合作，获得了一笔金额为N亿元的授信。'}
+{'text': '在中国平安官方手机网站上,可实现多项保险产品投保,包括交通意外险、家财与人身双保障的金万福自助保险卡等。', 'predict': '金万福是中国平安的一项保险产品，可以在中国平安官方手机网站上投保。这里没有涉及到任何关系标签。'}
+{'text': '龙湖、保利、百仕达等国内多家实力派房地产开发商,就在人们以为这块抢手的低密度用地将在这些知名房企中产生时,此前一直默默无闻的北京大龙(系大龙地产子公司,', 'predict': 'unknown'}
+{'text': '根据昨天国美电器发布的股东大会决议公告显示,贝恩投资提名的竺稼等三名人选此前就曾担任国美董事,后由公司董事会一致同意继续加入新一届国美董事会。', 'predict': "relation tags: ['担任', '提名']\nrelation: 贝恩投资提名的竺稼等三名人选此前就曾担任国美董事，后由公司董事会一致同意继续加入新一届国美董事会。"}
+{'text': '今年<N>月<N>日,ST玉源曾公告,为降低负债风险、九台投资分批支付不超过<N>亿元给ST玉源,代为偿还债务。', 'predict': 'relation tags: [\'注资\', \'拥有\', \'纠纷\', \'增持\', \'买资\', \'持股\', \'交易\', \'入股\', \'转让\', \'成立\', \'分析\', \'合作\', \'帮助\', \'发行\', \'商讨\', \'合并\', \'竞争\', \'订单\', \'减持\', \'合资\', \'收购\', \'借壳\', \'欠款\', \'被发行\', \'被转让\', \'被成立\', \'被注资\', \'被持股\', \'被拥有\', \'被收购\', \'被帮助\', \'被借壳\', \'被买资\', \'被欠款\', \'被增持\', \'拟收购\', \'被减持\', \'被分析\', \'被入股\', \'被拟收购\']\nThe relation between the entities "玉源" and "九台投资" in the given sentence is "注资" (capital injection).'}
+{'text': '<N>年酒鬼酒发生了<N>.<N>亿元的巨额亏损,<N>年酒鬼酒公司经营亏损仍旧高达<N>.<N>亿元。', 'predict': "relation tags: ['经营亏损', '发生了', '巨额亏损']\nrelation: 酒鬼酒公司经营亏损高达<N>亿元，<N>年酒鬼酒发生了<N>.<N>亿元的巨额亏损。"}
+{'text': '<N>日,中海油宣布斥资<N>.<N>亿美元,购买美国第二大天然气生产商切萨皮克公司位于德克萨斯的页岩油气项目股权。', 'predict': 'Relation: 收购\nEntity 1: 中海油\nEntity 2: 切萨皮克公司'}
+{'text': '此后,关于红星美凯龙与吉盛伟邦将携手整合的消息不断传出,而历经<N>年之久,两家公司经过长时间的战略谋划,国内家居业“第一并购案”成功落地。', 'predict': 'Relation: 合并'}
+{'text': '最终,中民投原本定位于“民营版中投”和“中国摩根”的计划,被缩编为投资股份公司,并定位于专注引领民营经济转型、整合产能过剩产业。', 'predict': '关系：未知'}
+{'text': '此次中国五矿在郴州确定的投资项目,是中国五矿集团与湖南省政府战略合作的一项重要具体内容。', 'predict': 'relation tags：[\'注资\', \'拥有\', \'合作\', \'签约\', \'持股\', \'成立\', \'入股\', \'转让\', \'分析\', \'帮助\', \'发行\', \'商讨\', \'合并\', \'竞争\', \'订单\', \'减持\', \'合资\', \'收购\', \'借壳\', \'欠款\', \'被发行\', \'被转让\', \'被成立\', \'被注资\', \'被持股\', \'被拥有\', \'被收购\', \'被帮助\', \'被借壳\', \'被欠款\', \'被增持\', \'拟收购\', \'被减持\', \'被分析\', \'被入股\', \'被拟收购\']\nrelation：战略合作\nExplanation: The sentence mentions that the investment project in Chenzhou is an important concrete content of the strategic cooperation between China Minmetals and the Hunan provincial government. Therefore, the relation between the entities "China Minmetals" and "Hunan provincial government" is "战略合作" (strategic cooperation).'}
+{'text': '在Monki进驻内地市场并推出COS品牌专营店之后,H&amp;M又推出&amp;OtherStories,其价格将高于H&amp;M,但低于COS。', 'predict': "relation tags: ['推出']\nrelation: H&M推出OtherStories。"}
+{'text': '中成股份<N>月<N>日与KIWIRA煤电有限公司签署了总价<N>.<N>亿美元的《基畏那煤矿设计采购施工总承包合同》,', 'predict': '合作'}
+{'text': '六福集团首席财务长陈素娟去年<N>月曾放言称每年在内地开设<N>家门店,终究还是食言了,瑞信在研判六福三季报时指出,六福管理层下调中国大陆开店数为<N>至<N>', 'predict': "relation tags: ['下调']\nrelation: 六福集团管理层下调了在中国大陆开店的数量。"}
+{'text': '以华映光电<N>年末经审计的净资产<N>.<N>亿元折算,福日电子所持<N>.<N>%股权约为<N>.<N>亿元;', 'predict': '拥有'}
+{'text': '盛融在线自救方案日前出炉,将由另一家广东P<N>P平台好又贷组建新的平台。', 'predict': 'Relation: 合并\nEntity 1: 盛融在线\nEntity 2: 好又贷'}
+{'text': '“天赐良缘”,联想控股的弘毅投资在<N>年开始与中联重科“联姻”,并在中联重科改制重组进程中起到了非同一般的作用。', 'predict': "relation tags: ['重组', '合作', '起作用']\nrelation: 弘毅投资与中联重科合作重组，弘毅投资在重组进程中起到了非同一般的作用。"}
+{'text': '<N>年,新百伦进入中国市场,相比阿迪达斯、耐克等国际一线运动品牌,新百伦更强调运动鞋的舒适性。', 'predict': "relation tags: ['竞争']\nrelation: 新百伦与阿迪达斯是运动品牌市场的竞争对手。"}
+{'text': '按理说,中冶集团此次提及的重组、增资及整体上市对岳阳纸业应是利好消息,但机构却选择了用脚投票,高位出逃迹象明显。', 'predict': 'relation: 未知 (unknown)'}
+{'text': '业内分析,鉴于二者在高原水产品线上布局互补,加之加油站往往被看做是中高端水必争之地,中石化以旗下易捷·卓玛泉和西藏<N>的组合,', 'predict': '合作'}
+{'text': '中国神华持有国华南苏发电有限公司<N>%股权。', 'predict': 'relation: 持股'}
+{'text': '事实上,早在<N>年<N>月<N>日,中航重机曾宣布与中航投资、沈阳万家利车轮制造有限公司三家公司以现金或实物资产出资组建中航沈阳先进制造有限公司,', 'predict': '关系标签：注资，成立，拥有\n\n解释：中航重机与中航投资、沈阳万家利车轮制造有限公司三家公司出资注资，共同成立了中航沈阳先进制造有限公司，中航重机、中航投资和沈阳万家利车轮制造有限公司共同拥有该公司。'}
+{'text': '中航工业年均收入增速近<N>%,年均利润增长<N>.<N>%,预计今年利润达<N>亿,但集团的资产证券化率只达到<N>%,由于中航工业集团旗下涉及制造歼击机、歼击', 'predict': '暂无关系信息。'}
+{'text': '在国家药监局给“霸王”两款产品定性为“虚假宣传”后,家乐福、沃尔玛、物美等京城超市纷纷对问题产品发出了下架令。', 'predict': "Sorry, I couldn't find any relevant relation tags for the given sentence and entities. The sentence seems to be related to a news article about certain products being labeled as falsely advertised by the National Medical Products Administration, and several supermarkets including Walmart and Wumart issuing a recall on these products."}
+{'text': '佛塑股份是广新集团继今年年初入主星湖科技之后的又一重要融资平台,“我们希望今后每年都能增加一家上市公司”。', 'predict': 'relation: 注资\nentity: 佛塑股份'}
+{'text': '华东医药同时公告,公司控股子公司杭州中美华东制药有限公司出资<N>万元独家受让杭州华东医药集团生物工程研究所有限公司他克莫司新药技术。', 'predict': "relation tags: ['注资', '拥有']\nrelation: 华东医药通过其控股子公司杭州中美华东制药有限公司注资<N>万元，独家拥有杭州华东医药集团生物工程研究所有限公司他克莫司新药技术。"}
+{'text': '在物流地产开发领域,将对中集集团现有的闲置土地资源进行开发整合,在确保资产保值增值的情况下,中集将优先与普洛斯合作。', 'predict': 'relation: 合作'}
+{'text': '“天赐良缘”,联想控股的弘毅投资在<N>年开始与中联重科“联姻”,并在中联重科改制重组进程中起到了非同一般的作用。', 'predict': 'relation tag: 合作\n\nThe relation between 弘毅投资 and 联想控股 is not explicitly mentioned in the given sentence. However, it is mentioned that they started a partnership with 中联重科, which was facilitated by 弘毅投资. Therefore, the relation tag for this sentence would be 合作 (cooperation).'}
+{'text': '重组后的风电资产由中核汇能控股,但新能源公司仍有少量股权。', 'predict': 'Relation: 持股\nEntity 1: 中核汇能\nEntity 2: 新能源公司'}
+{'text': '今日,中国太平洋保险股份有限公司(以下称“中国太保”)在香港刊登并派发H股招股说明书。', 'predict': "relation tags：['发行']\nrelation：中国太保在香港刊登并派发H股招股说明书，属于发行相关的活动。"}
+{'text': '标的公司的股东队伍壮大,包括<N>家上市运营商歌华有线、天威视讯、广电网络,并曾经获得著名私募的垂青。', 'predict': "relation tags: ['拥有', '获得垂青']\nentity pairs: (标的公司, 歌华有线), (标的公司, 天威视讯)\nrelations: \n- 标的公司拥有歌华有线的股份\n- 标的公司拥有天威视讯的股份\n- 标的公司曾获得著名私募对其的青睐和支持"}
+{'text': '中国保利集团公司是驰名商标“保利”的商标持有人,北京保合利佳文化俱乐部有限公司盗用此驰名商标以“保利俱乐部”名义向社会公众进行服务宣传与推介,', 'predict': '关系标签：纠纷、拥有、被盗用\n\n分析：中国保利集团公司是商标“保利”的持有人，北京保合利佳文化俱乐部有限公司盗用了这个商标。因此，这两个实体之间存在纠纷关系，同时中国保利集团公司拥有这个商标，北京保合利佳文化俱乐部有限公司被指控盗用了这个商标。'}
+{'text': '根据<N>月<N>日康师傅控股和百事中国达成的协议,康师傅饮品控股有限公司(下称“康师傅饮品”)将成为百事公司在华特许经营装瓶商。', 'predict': 'relation：合作'}
+{'text': '<N>月<N>日晚间,宝能系声明,欢迎深圳地铁集团投资万科,作为财务投资者,支持万科健康稳定的发展。', 'predict': 'Relation tags: [\'注资\', \'拥有\', \'纠纷\', \'自己\', \'增持\', \'重组\', \'买资\', \'签约\', \'持股\', \'交易\', \'入股\', \'转让\', \'成立\', \'分析\', \'合作\', \'帮助\', \'发行\', \'商讨\', \'合并\', \'竞争\', \'订单\', \'减持\', \'合资\', \'收购\', \'借壳\', \'欠款\', \'被发行\', \'被转让\', \'被成立\', \'被注资\', \'被持股\', \'被拥有\', \'被收购\', \'被帮助\', \'被借壳\', \'被买资\', \'被欠款\', \'被增持\', \'拟收购\', \'被减持\', \'被分析\', \'被入股\', \'被拟收购\']\n\nThe sentence mentions that Baoneng Group welcomes the investment of Shenzhen Metro Group in Vanke, supporting its healthy and stable development as a financial investor. Therefore, the relation tag that best fits this context is "注资" (investment).'}
+{'text': '上周末,澳洲财长LindsayTanner指出,否决五矿集团欲以<N>亿澳元收购澳洲Oz矿业公司的计划,不会影响中铝母公司注资力拓的交易。', 'predict': 'relation: 被收购'}
+{'text': '本报近日还曾报道,马钢股份和马钢集团多名现任和前任管理层已经陆续被带走调查。', 'predict': 'relation tags: [\'被帮助\', \'被拥有\', \'被成立\', \'被持股\', \'被注资\', \'被转让\', \'被收购\', \'被减持\', \'被分析\', \'被入股\']\n\nBased on the given sentence, there is no clear relation between the entities "马钢集团" and "马钢股份" and any of the relation tags. However, it can be inferred that they are both involved in a legal investigation as some of their current and former management personnel have been taken away for questioning.'}
+{'text': '这也是光线传媒与华策影视、华谊兄弟等公司在商业模式上最大的不同:华谊兄弟和华策影视是比较纯粹的影视制作公司。', 'predict': "relation tags: ['比较', '纯粹', '商业模式上的不同']\nrelation: 光线传媒与华策影视、华谊兄弟等公司在商业模式上存在不同，其中华策影视和华谊兄弟是比较纯粹的影视制作公司，而光线传媒则有其他不同的商业模式。"}
+{'text': '北京商报综合报道 美国美中互利工业公司(CHDX,以下简称“美中互利”)昨日披露,', 'predict': 'unknown'}
+{'text': '尽管骏威汽车称,“以H股形式的非现金对价交换骏威股东持有的骏威股票,', 'predict': '关系标签：被转让\n\n这句话中提到了骏威汽车和骏威股票的交换，其中骏威股东持有的股票被转让给了骏威汽车，因此可以使用关系标签“被转让”。'}
+{'text': '这就是“酒鬼”初出江湖时就敢和茅台、五粮液抗衡,一举成为公认高端白酒的天赋潜质。', 'predict': 'relation tags: [\'竞争\']\nrelation: "酒鬼"与茅台、五粮液竞争，成为公认高端白酒的天赋潜质。'}
+{'text': '因为锦龙股份有意参股东莞证券,锦龙股份的股价随着收购消息披露一路上涨,至此锦龙股份走上了券商概念的漫漫征途。', 'predict': "relation tags: ['拟收购']\nsentence: 锦龙股份计划拟收购东莞证券的股份，以进一步加强公司在券商行业的地位。\nentity: 东莞证券，锦龙股份\nrelation: 拟收购"}
+{'text': '根据广东证监局的要求,ST方源应进一步加强与股改义务人珠海华信泰投资有限公司、吴为荣的沟通协调,', 'predict': '关系标签：拥有、纠纷、帮助\n\n珠海华信泰投资有限公司是股改义务人，可能拥有ST方源的股份。由于存在纠纷，ST方源需要加强与华信泰投资的沟通协调，可能需要华信泰投资的帮助解决问题。'}
+{'text': '日本前<N>大市值公司里面,武田制药<N>亿美元市值,这个也比恒瑞要几乎多一倍。', 'predict': "relation tags: ['比较']\nrelation: \n武田制药市值比恒瑞高几乎一倍。"}
+{'text': '工商资料显示,发起股东共<N>家,主要股东为腾讯、立业集团,出资比例为<N>%、<N>%。', 'predict': "relation tags: ['注资', '拥有']\nrelation: 立业集团注资公司，腾讯拥有公司股份。"}
+{'text': '细读ST有色《向特定对象发行股份购买资产、重大资产置换暨关联交易报告》发现,要把公司从连年亏损甚至被终止上市泥潭中解救出来,广晟有色显得有些力不从心。', 'predict': 'relation: 被发行'}
+{'text': '但具体于苏宁而言,其生态构成与阿里、<N>.<N>亿零售体系会员,以及供应链上的数万家供应商和平台商户,都是苏宁金融体系的基础客户。', 'predict': 'relation：竞争'}
+{'text': '今日宣布大股东完成增持计划的还有海博股份和广州药业。。', 'predict': '广州药业和海博股份都与大股东完成了增持计划。'}
+{'text': '其中,中南传媒持有<N>%的股权,华为持有<N>%的股权。', 'predict': "relation tags: ['持股', '拥有']\nrelation: \n中南传媒持有华为<N>%的股权。"}
+{'text': '据悉,今年年内,联想通过完成对IBMx<N>业务的收购,联想将成为全球x<N>服务器领域的第三名。', 'predict': "relation tags: ['被收购']\n\nentity: IBM, 联想\n\nrelation: IBM被联想收购。"}
+{'text': '在北京稻香村食品有限责任公司(以下简称“北京稻香村公司”)因此而松一口气的时候,苏州稻香村公司发布声明称,公司已经积极申请复议。', 'predict': 'Sorry, I am unable to determine the relation between the entities mentioned in the sentence without additional context or information. Can you please provide more details or clarify the relation you are looking for?'}
+{'text': '此前,上药集团制定的整体上市方案是,上实医药和中西药业两家上市公司被注销,上海医药吸纳三家上市公司的医药资产。', 'predict': 'Relation: 被注资\n\nExplanation: 上药集团将上实医药和中西药业两家上市公司注销，这两家公司的医药资产被上海医药吸纳，即上海医药被注资。'}
+{'text': '依据深航与河南省及郑州市人民政府签订的战略合作框架协议,在原有深航郑州分公司基础上,鲲鹏航空落户河南。', 'predict': 'relation: 合作\n\nentity 1: 深航郑州分公司\n\nentity 2: 鲲鹏航空\n\n根据该句话中提到的战略合作框架协议，深航与河南省及郑州市政府合作，鲲鹏航空在深航郑州分公司的基础上落户河南，可以推断出两家公司之间是一种合作关系。'}
+{'text': '华星化工是中化集团的子公司,与科达集团没有任何关联关系。', 'predict': 'Relation: 无关联 (unknown)'}
+{'text': '在中国平安官方手机网站上,可实现多项保险产品投保,包括交通意外险、家财与人身双保障的金万福自助保险卡等。', 'predict': "relation tags: ['投保']\nrelation: 中国平安官方手机网站上提供多项保险产品投保，其中包括金万福自助保险卡。"}
+{'text': '主席台下座无虚席,坐满了来自于申银万国、民生证券等众多券商分析师、证券公司的自营业务部门经理和基金经理及保险公司的相关人士。', 'predict': "relation tags: ['分析', '自营业务', '经理', '保险公司', '基金经理']\nrelation: 申银万国和民生证券的分析师、证券公司的自营业务部门经理和基金经理以及保险公司的相关人士都在主席台下座位上。"}
+{'text': '转让完成后,TCL集团将增加在TCL多媒体的权益,直接或间接持有TCL多媒体的股份比例由<N>.<N>%提升至<N>.<N>%,', 'predict': '拥有/持股'}
+{'text': '值得注意的是,中航信目前的股东构成中,南航、东航、国航等国内航空公司不仅持有<N>.<N>%的权益,', 'predict': '拥有'}
+{'text': '双汇国际收购史密斯菲尔德获美CFIUS审批许可', 'predict': "relation tags: ['收购']\nrelation: 双汇国际收购史密斯菲尔德"}
+{'text': '资料显示,龙腾风电成立于<N>年<N>月,位于黑龙江省龙江县,注册资本<N>亿元,是为建设龙江哈拉海乡风电场项目而由中航新能源全资设立的。', 'predict': "relation tags: ['注资', '拥有', '成立', '全资设立']\nrelation: 中航新能源全资设立了龙腾风电，为建设龙江哈拉海乡风电场项目注资并拥有了龙腾风电。"}
+{'text': '目前,“宝能系”旗下前海人寿和钜盛华一共持有南玻集团A股及B股合计比例达到<N>.<N>%。', 'predict': "relation tags: ['持股']\nrelation: 钜盛华和前海人寿是南玻集团的股东之一，持有南玻集团的A股和B股。"}
+{'text': '在<N>月<N>日的电广传媒公告中显示,根据北京湘资国际资产评估有限公司出具的《保定百世开利有线广播电视综合信息网络有限公司股东全部权益价值资产评估报告》,', 'predict': "relation tags: ['注资', '拥有', '被注资', '被拥有']\n\n根据公告显示，电广传媒可能会对百世开利有线广播电视综合信息网络有限公司进行注资或者拥有其全部或部分股权。同时，该评估报告也可能会影响到百世开利有线广播电视综合信息网络有限公司被注资或被拥有的情况。具体的注资或拥有情况需要进一步确认。"}
+{'text': '<N>月<N>日,恒达地产与佳兆业地产均发布公告,前者子公司盛誉有限公司以<N>亿元收购后者旗下子公司中国农业科技有限公司全部股权。', 'predict': "relation tags: ['收购', '被收购']\nrelation: 盛誉有限公司以<N>亿元收购中国农业科技有限公司的全部股权。中国农业科技有限公司被收购。"}
+{'text': '以<N>.<N>元/股的价格,向丰盛控股发行<N>.<N>亿股,用于购买其拥有的上海局一房地产发展公司<N>%股权和丰盛地产发展公司(以下简称丰盛地产)<N>%股权。', 'predict': "relation tags: ['发行', '购买', '拥有']\n\nThe relation between the entities '丰盛控股' and '丰盛地产' in the sentence is that '丰盛控股' will issue shares at a price of <N>.<N>元/股 to raise funds to purchase the ownership stakes of Shanghai Ju Yi Real Estate Development Company and <N>% stake in Fengsheng Real Estate Development Company from '丰盛地产'. Therefore, the relation tags for this sentence are '发行', '购买', and '拥有'."}
+{'text': '中广传播作为国家手持电视运营商,<N>年加大手持电视市场开拓力度,与中国一汽、上汽等各大汽车厂商合作推广车载CMMB设备,', 'predict': '拥有/持股：中广传播拥有手持电视运营资质和市场份额。\n合作：中广传播与中国一汽、上汽等汽车厂商合作推广车载CMMB设备。'}
+{'text': '募集资金全部用于对全资子公司河北三元进行增资,并由河北三元用于竞买三鹿集团的部分破产财产及后续整合、运营,不足部分由河北三元通过银行借贷等方式解决。', 'predict': "Relation tags: ['注资', '竞购', '整合', '运营', '借贷']\n\nEntity 1: 河北三元\nEntity 2: 三鹿集团\n\nRelation: 募集资金将被用于对河北三元进行注资，以便它能够竞购三鹿集团的部分破产财产，并在后续的整合和运营中使用。如果资金不足，河北三元将通过银行借贷等方式解决。"}
+{'text': '日前,生产红罐装王老吉的加多宝集团召开了一个新闻发布会,呼吁有关国有企业要尊重加多宝的知识产权,严格遵守国家法律法规。', 'predict': "relation tags: ['呼吁', '尊重', '遵守']\nrelation: 加多宝集团呼吁有关国有企业尊重其知识产权并严格遵守国家法律法规。"}
+{'text': '因是销售房产收到现金,<N>.<N>亿元预收账款相当于恒顺醋业<N>年房地产销售收入的两倍,镇江骏和退出后将不再参与镇江恒顺拥有的相关地块的开发和收益分配。', 'predict': 'relation：被退出'}
+{'text': '经证监会查明,宝利国际存在以下违法事实:一、未如实披露宝利俄罗斯国际投资有限责任公司(以下简称俄罗斯宝利)设立信息的变更情况。', 'predict': 'relation：被成立'}
+{'text': '而在<N>年时,蔡希有担任中石化股份公司的全资子公司——中国国际石油化工联合有限责任公司的总经理,', 'predict': '拥有'}
+{'text': '<N>月<N>日,双鹤药业收到闽发证券破产管理人 《关于北京双鹤药业股份有限公司部分股东变更情况的函》及福建省福州市中院《民事裁定书》。', 'predict': "relation tags: ['被收购', '被持股', '被注资', '被成立']\n\nBased on the given sentence, it seems that there is no clear relation tag that can be assigned to it. However, it may be possible that the company, Beijing Shuanghe Pharmaceutical Co., Ltd. (北京双鹤药业股份有限公司), is undergoing some changes in ownership or management due to the mentioned documents from the bankruptcy administrator and the civil court in Fuzhou, Fujian province. Without more context or information, it is difficult to determine a specific relation."}
+{'text': '其中,郑州重卡是经纬纺机控制人中国恒天旗下项目,目标建设年产<N>万辆中重型卡车产能。', 'predict': "relation tags: ['控制', '旗下项目']\nrelation: 经纬纺机控制中国恒天旗下的郑州重卡项目。"}
+{'text': '据了解,此次增发募集资金将全部投向金地的主营业务,将用于上海格林世界四期、沈阳长青、武汉金银湖等六个项目。', 'predict': '金地注资了上海格林世界四期、沈阳长青、武汉金银湖等六个项目。'}
+{'text': '而今年<N>月到<N>月,尚德电力、中电光伏、阿特斯太阳能等企业,分别报出了<N>.<N>亿美元、<N>万美元和43<N>0万美元的亏损。', 'predict': 'relation: 未知 (unknown)'}
+{'text': '五矿集团<N>.<N>亿收购湖南有色<N>%股权', 'predict': "relation tags: ['收购']\n\nThe relation between the entities '五矿集团' and '湖南有色' in the sentence '五矿集团<N>.<N>亿收购湖南有色<N>%股权' is '收购'. The sentence implies that the company '五矿集团' has acquired a certain percentage of equity in '湖南有色' by paying a certain amount of money."}
+{'text': '公司拥有能源环保公司<N>%的股权,运营深圳南山、宝安和盐田三个垃圾发电厂;<N>年<N>月,公司与中广核集团签署《战略合作框架协议》,', 'predict': 'relation: 合作\n\nExplanation: The sentence states that the company owns a certain percentage of shares in an energy and environmental protection company and operates three garbage power plants in Shenzhen Nanshan, Baoan, and Yantian. In addition, the company signed a strategic cooperation framework agreement with China General Nuclear Power Group (CGN) in a certain year and month. Therefore, the relation between the company and CGN is "合作" (cooperation).'}
+{'text': '茅台镇上最有名的三家酒坊品牌中,有两个老牌子已经跟茅台集团有了商标纠纷。', 'predict': "relation tags：['unknown', '注资', '拥有', '纠纷', '自己', '增持', '重组', '买资', '签约', '持股', '交易', '入股', '转让', '成立', '分析', '合作', '帮助', '发行', '商讨', '合并', '竞争', '订单', '减持', '合资', '收购', '借壳', '欠款', '被发行', '被转让', '被成立', '被注资', '被持股', '被拥有', '被收购', '被帮助', '被借壳', '被买资', '被欠款', '被增持', '拟收购', '被减持', '被分析', '被入股', '被拟收购']\nsentence：茅台集团是中国最大的白酒生产企业之一，拥有茅台、五粮液等知名品牌。\nentity：茅台集团，茅台，五粮液\nrelation：拥有"}
+{'text': '武钢的调价通知显示,热轧上调<N>元/吨;冷轧上调<N>元/吨;轧板上调<N>元/吨;镀锌上调<N>元/吨;硅钢中,', 'predict': "relation tags: ['unknown', '调价']\nrelation: 武钢对硅钢的调价通知显示，热轧、冷轧、轧板和镀锌的价格都上调了一定的金额，具体数字未知。"}
+{'text': '在品质方面,比亚迪汽车向来严格要求,提出了“品质完美三部曲”,从整车制造到产品销售再到最后的售后服务,都进行严格的监控,从而提高F<N>的整车质量,', 'predict': "relation tags: ['unknown', '提高', '监控']\nrelation: 比亚迪向来严格要求品质，提出了“品质完美三部曲”，从整车制造到产品销售再到最后的售后服务，都进行严格的监控，以提高F<N>的整车质量。"}
+{'text': '正川股份在招股说明书中透露:“公司是行业内规模最大的药用玻璃管制瓶生产企业之一,长期客户包括国药集团、云南白药集团、复星医药集团等多家大中型医药集团等”', 'predict': "relation tags: ['客户']\nrelation: 云南白药集团是正川股份的客户之一。"}
+{'text': '近年来,包括南京斯威特、TCL、上海通盛等知名企业都曾就有意S*ST长岭的重组。', 'predict': "entity: S*ST长岭\nrelation tags: ['重组']\nrelation: TCL和上海通盛等知名企业有意S*ST长岭的重组。"}
+{'text': ',法国南特商业法庭<N>月<N>日就TTE欧洲重组诉讼案进行了初审,要求TCL集团、TCL多媒体及其<N>家全资子公司向TTE欧洲的法定清盘人赔偿2<N><N>万欧元,', 'predict': 'Relation: 没有明确的关系标签。'}
+{'text': '附属公司Pension Insurance Corporation是英国领先的养老保险公司之一,涉资<N>.<N>亿英镑,占PICG发行后总股本的<N>.<N>%,', 'predict': '拥有(PICG, Pension Insurance Corporation)。'}
+{'text': '通用募股书中的许多条款规定,通用可以“推迟、延期或阻止股东的要约收购或收购企图”——尽管对于上汽等亲密盟友友情持有的股份而言,这个问题毫无意义。', 'predict': 'Relation: 持股\nEntity 1: 上汽\nEntity 2: 通用\n\n根据句子中提到的内容，上汽是通用的股东之一，持有通用的股份。通用募股书中规定，通用可以推迟、延期或阻止股东的要约收购或收购企图，但对于上汽等亲密盟友友情持有的股份而言，这个规定没有实际意义。因此，可以推断出上汽和通用之间存在持股关系。'}
+{'text': '随后长百集团向高力集团以<N>.1<N>元/股的价格定向发行<N>万股股份,以从后者手中收购高力集团旗下的<N>家子公司,价值逾<N>亿元。', 'predict': "relation tags: ['发行', '收购']\nrelation: 长百集团向高力集团以<N>.1<N>元/股的价格定向发行<N>万股股份，以收购高力集团旗下的<N>家子公司，价值逾<N>亿元。"}
+{'text': '作为仅次于迪士尼的主题公园集团,默林娱乐集团进入中国市场并不晚。', 'predict': "relation tags: ['进入']\nrelation: 默林娱乐集团进入中国市场"}
+{'text': '<N>年<N>月,青海华鼎分别向丰镇科技和四维担保发行3<N>00万股和1<N>00万股,每股增发价格仅为<N>.<N>元。', 'predict': "relation tags: ['发行', '持股']\nrelation: 青海华鼎向丰镇科技发行了3亿股，持有丰镇科技的股份。"}
+{'text': '今年半年报显示,广弘控股和ST成功目前的前十大流通股股东全部为个人股东。', 'predict': "relation tags: ['持股', '拥有']\nrelation: 广弘控股和ST成功拥有前十大流通股股东的股份。"}
+{'text': '据悉,迅雷采用的是VIE结构,通过协议,深圳迅雷网络技术有限公司已将迅雷网络的全部股权抵押给千兆科技。', 'predict': '拥有'}
+{'text': '前<N>名无限售股东中除重庆渝富外,其余全部为证券投资基金;其中,富国旗下天惠、天博两基金、金鹏三品种以及嘉实所属的策略增长和研究精选更是重仓持有。', 'predict': "relation tags: ['持股', '属于']\nentity: 天博，富国\nrelation: 天博和富国旗下的天惠基金持有该公司的股份。"}
+{'text': '从<N>月下旬开始,香港市场上再次出现密集的融资潮,碧桂园、保利香港、世茂房地产和远洋地产等都以配股或发优先票据的形式融资。', 'predict': 'relation: 注资'}
+{'text': '北京诺思兰德生物技术股份有限公司成立于<N>年<N>月,系由<N>年成立的北京诺思兰德生物技术有限责任公司整体改制而来,', 'predict': '关系标签：成立，重组\n\n说明：北京诺思兰德生物技术股份有限公司是由北京诺思兰德生物技术有限责任公司整体改制而来，即进行了重组，最终成立了股份有限公司。'}
+{'text': '目前,万科的股权结构已形成新的格局,宝能以<N>.<N>%的持股位列第一大股东,', 'predict': '拥有'}
+{'text': '本报乌鲁木齐<N>月<N>日讯<N>日,位居国内油页岩开发领域前列的辽宁成大股份有限公司与宝塔石化集团签署战略合作协议,将携手做大新疆油页岩产业。', 'predict': 'relation: 合作'}
+{'text': '上市子公司并不代表中海油国有控股母公司的所有产出,但仍是中国石油业当下处境的较好写照。', 'predict': 'Relation: unknown'}
+{'text': '而国美乱战开始前,以<N>月<N>日开始计算,大摩一直小幅增持国美电器。。', 'predict': 'Relation: 增持\nExplanation: 大摩一直在增持国美电器的股份。'}
+{'text': '中南传媒的非公开发行颇受湖南本土创投资本青睐,此次<N>家参与认购的公司背后基本上都有湘籍资本的身影,其中达晨创投虽然注册地在深圳,', 'predict': '注资'}
+{'text': ',本次交易标的为陕西省耀县水泥厂所持<N>,<N>,16<N>股秦岭水泥股份,以每股<N>.<N>元的价格转让给冀东水泥,该笔股权占当前秦岭水泥总股本的<N>.<N>%。', 'predict': "relation tags: ['转让', '持股']\nrelation: 陕西省耀县水泥厂以每股<N>.<N>元的价格将其所持有的16%秦岭水泥股份转让给冀东水泥，使得冀东水泥现在持有秦岭水泥的股份。"}
+{'text': '印力董事长兼CEO丁力业称:“此次印力与万科携手,是基于双方在平台资源、团队协同和战略目标上相互认同”。', 'predict': "relation tags: ['合作']\nrelation: 印力与万科合作，基于双方在平台资源、团队协同和战略目标上相互认同。"}
+{'text': '据统计,武商联及其关联方、一致行动人自<N>年<N>月<N>日至<N>年<N>月<N>日累计持有鄂武商A权益变动达到<N>.0<N>%。', 'predict': "relation tags: ['持股']\nrelation: \n武商联及其关联方、一致行动人持有鄂武商A权益变动达到<N>.0<N>%。"}
+{'text': '《每日经济新闻》记者注意到,西安金旅置业有限公司的股权结构中,陕旅西安文化产业公司持有<N>%股权,陕西旅游集团投资管理有限公司<N>%股权。', 'predict': 'relation tags: [\'拥有\', \'持股\']\n\nThe relation between the entities "西安金旅置业有限公司" and "陕旅西安文化产业公司" is that the latter entity "持有" a certain percentage of the former entity\'s "股权" or shares. Therefore, the relation between the two entities can be described as "陕旅西安文化产业公司持有西安金旅置业有限公司的股权".'}
+{'text': '华润强势联姻乐购整合待考验', 'predict': "relation tags: ['合并', '重组', '竞争', '待考验']\nrelation: 合并/重组/竞争待考验"}
+{'text': '北京联合信源音视频技术有限公司持有<N>万股,持有其<N>.<N>%股权,联合信源是公司与中科院计算技术研究所等业界精英单位共同发起成立的高科技公司,联合', 'predict': '拥有的<N>万股可能与其他股东存在注资、增持、减持、转让、收购等交易或纠纷。同时，联合信源作为一家高科技公司，可能会与其他公司进行合作、签约、合资、重组、并购等商讨和订单。但具体情况需要根据公司的实际情况进行分析和确认。'}
+{'text': '<N>年我国天然气产量为<N>.<N>亿立方米,其中,中石油以<N>.<N>亿立方米独占鳌头,中海油产量也达<N>亿立方米,不过中石化受制于上游资源不足,', 'predict': 'Sorry, I am not able to identify any relation between the entities mentioned in the sentence. Can you please provide more context or information about the relation you are looking for?'}
+{'text': '据新华社电在新加坡上市的糖果制造商徐福记国际集团<N>日证实,瑞士食品巨头雀巢有意收购徐福记,双方正在进行初步洽谈。', 'predict': 'Relation: 拟收购\nEntity 1: 雀巢\nEntity 2: 徐福记国际集团'}
+{'text': '青岛啤酒并购山东银麦之后,行业集中度进一步提高,可并购的资源越来越少,这也将使得啤酒巨头间的竞争将越发激烈。', 'predict': "relation tags: ['合并', '竞争', '并购']\nrelation: 青岛啤酒和山东银麦进行了并购，这导致啤酒行业的集中度进一步提高，可供并购的资源越来越少。因此，啤酒巨头之间的竞争将变得更加激烈。"}
+{'text': '尽管整体规模还有差距,但比亚迪电子的这份财报与其老对手富士康可谓大相径庭。', 'predict': 'relation：竞争'}
+{'text': '而后中原内配又取代美国竞争对手成为国际卡车的供应商,目前占有康明斯、国际卡车汽缸套供应量<N>%的份额。', 'predict': "relation tags: ['占有']\nrelation: 中原内配占有康明斯、国际卡车汽缸套供应量<N>%的份额。"}
+{'text': '两家公司称,作为交易的一部分,沃尔玛将获得京东<N>%的股权。', 'predict': "relation tags: ['持股']\nrelation: 沃尔玛将持有京东<N>%的股权。"}
+{'text': '和讯网:梁总您好,欢迎接受和讯的访谈,关于古井走的市场路线的问题,是不是现在像五粮液和汾酒一样走的是高端路线和连锁,还是说已经这样了没有扩大?', 'predict': "Sorry, I'm not sure what you're asking for. Could you please provide more information or clarify your request?"}
+{'text': '湘西芙蓉镇景点圈旅游投资开发股份有限公司出售旗下包括湘西猛洞河旅游开发有限公司、湘西坐龙峡旅游开发有限公司和吉首德夯旅游实业有限公司在内三宗资产的股权,', 'predict': "relation tags: ['出售', '旗下', '包括', '股权']\nentity: 湘西芙蓉镇景点圈旅游投资开发股份有限公司，湘西猛洞河旅游开发有限公司，湘西坐龙峡旅游开发有限公司，吉首德夯旅游实业有限公司"}
+{'text': '澳大利亚雅文氧化铝厂以及波恩电解铝厂是全球一体化、现代化程度最高的氧化铝厂和电解铝厂之一,与韦帕铝土矿一起构建完整的铝产业链,中铝获得雅文氧化铝厂<N>%', 'predict': "relation tags: ['拥有']\nrelation: 中铝拥有澳大利亚雅文氧化铝厂。"}
+{'text': '国信证券分析师王继林在其研报中指出,平安的股价上涨几乎全依赖于其良好的业绩驱动。', 'predict': "relation tags: ['分析']\nThe relation in the sentence is that Wang Jilin, an analyst from Guosen Securities, analyzed that the rise in Ping An's stock price is almost entirely driven by its good performance."}
+{'text': '并购深发展引投资者恐慌 平安称尚无再融资计划', 'predict': 'relation: 未知 (unknown)\n\nAs there is no clear relationship mentioned between the entities in the given sentence, the relation tag is "unknown".'}
+{'text': '中国电子信息产业集团旗下两公司——长城信息、长城电脑今日双双发布公告,双方同意在湖南省进行“长城”品牌计算机整机产业转移合作。', 'predict': 'relation: 合作'}
+{'text': '此前的<N>月2<N>日,湖北省食品药品监督管理局在其网站通报了华润三九子公司黄石三九生产的泰脂安胶囊两个批次产品、牛黄蛇胆川贝胶囊四个批次产品铬含量超标。', 'predict': "relation tags: ['生产']\nrelation: 华润三九子公司黄石三九生产了泰脂安胶囊和牛黄蛇胆川贝胶囊。"}
+{'text': '<N>日,“借壳”华盛达的刚泰控股在上交所举行了更名及上市仪式。', 'predict': "relation tags: ['借壳']\nentity: 刚泰控股，华盛达\nrelation: 借壳"}
+{'text': '华电国际收购华瑞全部股权', 'predict': 'relation tag: 收购\nExplanation: The sentence describes that "华电国际" is acquiring all the shares of "华瑞". The relation tag here is "收购" which means acquisition in English.'}
+{'text': '“还没有达到<N>%,所以我也认为上海市政府将认购此次东航增发的一定比例的东航股权以达到持有新东航<N>%以上股份”。', 'predict': 'relation tags: [\'增持\', \'持股\']\nentity: 上海市政府，东航，新东航\n\nThe relation between the entities can be described as follows: \n\nThe sentence suggests that the Shanghai Municipal Government plans to subscribe to a certain proportion of the new shares issued by China Eastern Airlines (东航) in order to increase its stake in the newly formed company, New Eastern Airlines (新东航), to over N%. This plan is aimed at increasing the government\'s holdings in the company, which is why the relation tags "增持" (increase holdings) and "持股" (holdings) are relevant.'}
+{'text': '中国网财经<N>月<N>日讯中信国安今日晚间发布对外投资进展公告,称公司持有三六零科技股份有限公司股权比例为<N>.<N>%。', 'predict': "relation tags: ['持股']\nrelation: 中信国安持有三六零科技股份有限公司的股权比例为<N>.<N>%。"}
+{'text': '本报讯光华控股今日表示,首方投资管理有限公司近期在买入光华控股股票,', 'predict': 'relation: 增持'}
+{'text': '公司近期收购上海圣德曼铸造有限公司<N>%股权、上海幸福摩托<N>%股权和两宗土地和房产,收购价格相当于净资产,将小幅增厚业绩。', 'predict': "relation tags: ['收购', '持股', '增厚业绩']\nrelation: 公司收购了上海圣德曼铸造有限公司和上海幸福摩托的股权，以及两宗土地和房产，收购价格相当于净资产。这将增加公司的持股，并且预计会小幅增厚业绩。"}
+{'text': '中广传播作为国家手持电视运营商,<N>年加大手持电视市场开拓力度,与中国一汽、上汽等各大汽车厂商合作推广车载CMMB设备,', 'predict': '拥有/持股：中广传播拥有车载CMMB设备的市场份额；上汽是其中一家与中广传播合作推广车载CMMB设备的汽车厂商。'}
+{'text': '该事件曝出后,销售额下降、董事会改组,加上与阿尔迪和利德连锁超市的竞争加剧令投资者信心流失,乐购公司市值大幅缩水,其股价一年以来已下跌超过<N>%。', 'predict': 'relation: 竞争'}
+{'text': '招商银行于<N>月2<N>日在香港金钟美国银行中心宣布设立招商银行私人财富管理中心,即招商银行香港私人银行。', 'predict': "relation tags: ['成立']\nrelation: 招商银行私人财富管理中心在香港金钟美国银行中心成立。"}
+{'text': '建银国际认为,由于行业竞争加剧,增长放缓无可避免,但预计这一市场在未来数年仍维持健康发展,最重要是腾讯能进一步获取市场份额,表现继续优于整体大市。', 'predict': "relation tags: ['竞争', '获取市场份额', '表现优于']\nrelation: 建银国际认为，腾讯在当前行业竞争加剧的情况下，能够进一步获取市场份额，从而在未来数年仍能保持健康发展。腾讯的表现也将继续优于整体大市。"}
+{'text': '而后中原内配又取代美国竞争对手成为国际卡车的供应商,目前占有康明斯、国际卡车汽缸套供应量<N>%的份额。', 'predict': "relation tags: ['占有']\nrelation: 中原内配占有康明斯、国际卡车汽缸套供应量<N>%的份额。"}
+{'text': '<N>月<N>日,公司披露,公司控股子公司雅戈尔投资有限公司与首开股份签署了《首开股份与雅戈尔投资有限公司关于首开股份非公开发行股票之认购协议》,', 'predict': '关系标签：签约\n\n该句话中提到了雅戈尔投资有限公司和首开股份签署了一份关于首开股份非公开发行股票的认购协议。因此，两个实体之间的关系标签是签约。'}
+{'text': '得<N>年FIFA巴西世界杯大中华区水具品项授权制造商和销售商资格后,浙江哈尔斯真空器皿股份有限公司携优质水具产品亮相第<N>届中国进出口商品交易会。', 'predict': 'relation: 拥有\nentity: 浙江哈尔斯真空器皿股份有限公司'}
+{'text': '中兴通讯应诉爱立信IPR专利诉讼', 'predict': "relation tags: ['纠纷', '应诉']\nrelation: 中兴通讯与爱立信之间存在知识产权专利纠纷，中兴通讯对此进行了应诉。"}
+{'text': '而在<N>年时,蔡希有担任中石化股份公司的全资子公司——中国国际石油化工联合有限责任公司的总经理,', 'predict': '拥有'}
+{'text': '自<N>年<N>月<N>日上海联和投资有限公司在披露《简式权益变动报告书》后共减持新海宜股份合计<N>.<N>万股,累计占本公司总股本的<N>%。', 'predict': "relation tags: ['减持']\nrelation: 上海联和投资有限公司减持了新海宜股份的<N>.<N>万股，占本公司总股本的<N>%。"}
+{'text': '当日公告宣称其拟非公开发行募资总额不超过<N>.<N>亿元用于增资中航锂电有限公司(下称“中航锂电”)建设“锂离子动力电池项目”。', 'predict': "relation tags: ['注资', '增资', '发行']\nrelation: 公司拟通过非公开发行募资的方式，注资中航锂电有限公司，用于增资中航锂电建设锂离子动力电池项目。"}
+{'text': '《叶问<N>》由神开股份控股股东上海业祥投资管理有限公司之母公司上海快鹿投资有限公司参与投资。', 'predict': "relation tags: ['控股', '参与投资']\nrelation: \n神开股份控股上海业祥投资管理有限公司，而上海快鹿投资有限公司则是上海业祥投资管理有限公司的母公司，两家公司共同参与了《叶问》的投资。"}
+{'text': '今日,ST东源发布补充公告称,股权受让主体由金科集团变更为金科投资;转让价按<N>.<N>元/股计算,总计<N>.<N>亿元。', 'predict': "relation tags: ['转让', '变更']\nrelation: 金科集团将其持有的ST东源股权转让给了金科投资，转让主体由金科集团变更为金科投资。"}
+{'text': '第五类是海外业务,包括香港公司、沪光基金;。', 'predict': "relation tags: ['拥有']\nrelation: 无\n\nentity: 沪光基金，香港公司\n\n根据句子中提到的实体，可以推测它们可能是该公司的拥有者或者子公司。然而，由于句子中没有提到具体的关系标签，无法确定它们之间的关系。"}
+{'text': '朱兴明曾是华为电气产品线总监,创立汇川技术时,其创业团队已颇为精通变频器技术。', 'predict': "{'汇川技术': {'被成立': '朱兴明'}, '华为': {'拥有': '朱兴明', '被持股': '朱兴明', '被注资': '汇川技术', '被成立': '朱兴明'}}"}
+{'text': '另外,华夏复兴、华夏红利、基金兴华是在去年四季度完成建仓,<N>只基金合计持股约有<N>万股。', 'predict': 'relation：持股'}
+{'text': '产管理委员会办公室及国资控股的开平市工业资产经营公司、开平市装饰工程开发公司三个月内无将公司股份进行股权转让、资产重组以及实施其他对公司有重大影响事项。', 'predict': "relation tags: ['股权转让', '资产重组', '其他对公司有重大影响事项']\nrelation: \n开平市工业资产经营公司和开平市装饰工程开发公司在未经产管理委员会办公室及国资控股同意的情况下，三个月内不得进行股权转让、资产重组或实施其他对公司有重大影响的事项。"}
+{'text': '近一年来,云南白药动作颇多,公司目前已获得文山壮族苗族自治州政府名下持有的云南白药集团文山七花有限责任公司<N>.<N>%的股权。', 'predict': 'relation: 被持股\n\nExplanation: According to the sentence, it states that Yunnan Baiyao has acquired a certain percentage of equity in Yunnan Baiyao Group Wenshan Qihua Co., Ltd. This implies that Yunnan Baiyao now holds a certain percentage of the shares of the said company, which can be represented by the relation "被持股" (being held as a shareholder).'}
+{'text': '而同行业五粮液和茅台的纯利率达到<N>%”。', 'predict': 'Sorry, I cannot extract a relation from the given sentence as there is no mention of any relation between the entities "五粮液" and "茅台". Can you please provide me with more context or a specific question?'}
+{'text': '但相比而言,新东方的线下课堂可以直接对接线上转化的付费学生,但YY只有线上没有线下,难以实现学生付费转化。', 'predict': 'Sorry, I cannot generate a relation for this sentence as there is no clear indication of a relationship between the two entities mentioned (New Oriental and YY). The sentence simply highlights a difference between the two companies in terms of their offline and online presence.'}
+{'text': '曾希望以华北制药作为平台来接手,后因种种原因最终花落石药集团。。', 'predict': 'Relation: 拟收购 \n\n华北制药曾希望以其作为平台来拟收购石药集团，但最终因各种原因未能实现，石药集团成为了最终的买家。'}
+{'text': '此外,铁总旗下<N>家上市公司<N>年“成绩单”中,只有客运业务居多的广深铁路净利润同比增长,铁龙物流、净利润去年双双下降。', 'predict': "relation tags: ['属于']\nrelation: 广深铁路属于铁总旗下的上市公司之一，其净利润同比增长。铁龙物流也是铁总旗下的上市公司之一，但其净利润去年下降。"}
+{'text': '库存互通,主要是将京东与沃尔玛的线上线下库存信息共享,商品存量打通。', 'predict': 'Relation: 合作\n\nExplanation: The sentence describes a cooperation between two entities, Jingdong and Walmart, in which they share their online and offline inventory information to improve their product inventory. Therefore, the relation between the entities is "合作" (cooperation).'}
+{'text': '位于北京市昌平区的北京蒙伊通运输服务有限公司是伊利集团合作配送商,这里的物流仓储库房有着同伊利工厂同步的管理标准。', 'predict': "relation tags: ['合作']\nrelation: 北京蒙伊通运输服务有限公司与伊利集团合作，作为配送商为伊利集团提供物流配送服务。"}
+{'text': '民航业调整:刘绍勇离南航去东航意在上航重组。', 'predict': "relation tags: ['重组', '离职', '意在']\nrelation: 刘绍勇离开南航，去东航意在参与上航的重组。"}
+{'text': '有意思的是,佳士科技和<N>月<N>日过会的瑞凌实业渊源颇深,', 'predict': 'relation: 未知 (unknown)'}
+{'text': '作为雪松控股的重要合作伙伴之一,浦发银行与雪松控股一直有着紧密的业务合作,已建立了互信、共同发展,提升在各自领域的品牌优势和竞争优势。', 'predict': 'Relation: 合作\n\nExplanation: The sentence mentions that "浦发银行与雪松控股一直有着紧密的业务合作" which means that they have a close business partnership. Therefore, the relation tag is "合作".'}
+{'text': '摩根大通预估,工行此次的收购价为每股2<N>.<N>港元,', 'predict': "relation tags: ['拟收购', '被收购']\nrelation: 摩根大通拟收购工行，工行被收购。"}
+{'text': '对于京东方A<N>年业绩表现,昨天有业内知情人士分析,近年来,京东方先后进行几轮融资,全部投入到液晶屏制造中,足迹遍布北京、成都等地。', 'predict': 'relation: 注资'}
+{'text': '技有限公司告上法庭的,一是北京搜狗科技发展有限公司,该公司是“搜狗拼音输入法”软件的著作权人;二是北京搜狗信息服务有限公司,该公司是软件的被许可使用人。', 'predict': "relation tags: ['告上法庭', '著作权人', '被许可使用人']\nrelations:\n- 技有限公司告上法庭 北京搜狗科技发展有限公司 著作权人\n- 技有限公司告上法庭 北京搜狗信息服务有限公司 被许可使用人"}
+{'text': '付任何款项”,丁星旺说,国美商都公司已经给予了最大限度的理解和宽容,现在被逼无奈才决定起诉海航置业和海航集团,以通过正常的法律途径公正、公平地解决问题。', 'predict': "relation tags: ['纠纷', '起诉']\nrelation: 国美商都公司起诉海航置业和海航集团，因为存在纠纷问题，希望通过正常的法律途径公正、公平地解决。"}
+{'text': '今年<N>月,奥瑞金与红牛头号竞争对手东鹏特饮签署了一项为期五年的合作协议,东鹏特饮需要将奥瑞金作为惟一核心供应商,', 'predict': "relation tags: ['合作']\nrelation: 奥瑞金与红牛头号竞争对手东鹏特饮签署了一项为期五年的合作协议。"}
+{'text': '报告期内,整个国美集团所辖的零售资产,包括国美上市公司、大中电器、三联商社共录得销售收入<N>亿元的业绩,总门店数达到<N>间。', 'predict': "relation tags: ['拥有']\n\nentity 1: 国美集团\nentity 2: 大中电器\n\nrelation: 国美集团拥有大中电器作为其零售资产之一，共同实现了销售收入亿元的业绩。"}
+{'text': '商报讯高油价与节能减排重压,让美国波音与中国商飞这两大飞机制造领域的对手化敌为友,联手提炼“地沟油”。', 'predict': "relation tags: ['合作']\nrelation: 美国波音与中国商飞在飞机制造领域合作，共同提炼“地沟油”。"}
+{'text': '也就是说“新钢钒”的总股本将增至<N>.<N>亿股,相应地,攀钢集团及其关联企业占总股本的比例也将下降至<N>.<N>%。', 'predict': 'relation: 持股'}
+{'text': '武汉控股<N>月<N>日公告,控股子公司武汉三镇实业房地产开发公司于<N>月<N>日竞得武汉市土地交易中心挂牌出让的一面积达5<N>7<N>.<N>平方米的国有建设用地使用权,', 'predict': '涉及到的关系标签有：被收购、被拥有、被成立、被持股、被注资、被转让、被买资、被增持、被分析、被入股、拟收购。但是从这个句子中并不能确定具体的关系，需要更多的上下文信息来判断。'}
+{'text': '据霸王招股说明书显示,公司创始人陈启源夫妇通过FortuneStation公司拥有霸王集团<N>亿股份,占总股本<N>亿股的<N>%。', 'predict': 'relation：拥有'}
+{'text': '华侨银行作为战略投资者,以每股<N>.<N>元的价格购入宁波银行<N>.<N>亿股,持股比例达到1<N>.<N>%。', 'predict': "relation tags: ['注资', '持股']\nrelation: 华侨银行注资宁波银行，持股比例达到1<N>.<N>%。"}
+{'text': '据介绍,<N>年德国政府通过其下属的德国国际合作机构与国家环保部、中国家电协会达成合作意向,向格力电器援助<N>万欧元,', 'predict': 'Relation: 合作\nEntity 1: 德国国际合作机构\nEntity 2: 格力电器'}
+{'text': '关于滴滴收购优步中国被质疑垄断的问题,滴滴集团公关总监叶耘向《法人》记者回应时表示:“我们没有什么好回应的,具体应该由主管部门进行判断”。', 'predict': "relation tags: ['被质疑垄断', '被收购']\n\nentity: 滴滴集团，优步中国\n\nrelation: 滴滴集团被质疑垄断，收购了优步中国。"}
+{'text': '对于这个将近<N>亿美元的收购价格,麦格理证券公司的一位分析师认为,东芝这一资产仅能卖出<N>亿美元左右的价格。', 'predict': 'Relation: 拟收购\nEntity 1: 无\nEntity 2: 东芝'}
+{'text': '因山东电力集团现已隶属国家电网,招商证券电力行业分析师彭全刚分析认为,上述交易或是为了实现国家确定的“厂网分离”战略。', 'predict': 'Relation: 隶属\nEntity 1: 山东电力集团\nEntity 2: 国家电网'}
+{'text': '素有和平饭店“活化石”之称的爵士乐团,仍在新和平饭店底楼的爵士酒吧驻场。', 'predict': "Sorry, I'm not sure what relation you want me to extract from the given sentence and entity. Can you please provide more context or clarify your question?"}
+{'text': '财华社深圳新闻中心申银万国今日发布行业投资报告,考虑到杭州解百低市销率孕育的高市值成长空间以及公司股价偏离实体资产价值的幅度达到<N>%,', 'predict': "relation tags: ['分析']\nrelation: 申银万国发布的行业投资报告分析了杭州解百的市场表现和股价偏离实体资产价值的幅度。"}
+{'text': '今年<N>月,锦江收购铂涛<N>%股权,锦江和七天合并。', 'predict': "relation tags: ['收购', '合并', '持股']\nrelation: \n锦江公司在今年<N>月份收购了铂涛公司<N>%的股权，并且计划与七天酒店集团进行合并。此次收购意味着锦江公司将持有铂涛公司的一定比例股权，从而增强了其在酒店行业的竞争力。同时，与七天酒店集团的合并也将进一步扩大锦江公司在酒店行业的市场份额。"}
+{'text': '与复星集团为受让豫园商城所持德邦证券<N>.<N>%的股权展开一番较量,经过十轮竞价,复星集团关联方上海兴业投资发展有限公司最终以<N>万元的价格胜出,', 'predict': "relation tags: ['拥有', '收购']\nrelation: 复星集团成功收购了豫园商城所持有的德邦证券<N>.<N>%的股权，现在拥有这部分股权。"}
+{'text': '同时,太古公司也向本报记者表示,国航增持国泰股份,确认其对国泰航空的充分支持,以及对国泰航空日后作为世界领先航空公司之一抱有的信心,', 'predict': 'Relation: 增持\nEntity 1: 国航\nEntity 2: 国泰航空'}
+{'text': '附属公司Pension Insurance Corporation是英国领先的养老保险公司之一,涉资<N>.<N>亿英镑,占PICG发行后总股本的<N>.<N>%,', 'predict': '被拥有。'}
+{'text': '目前中信集团旗下拥有境内A股上市公司中信国安、中信<N>集团,以及中信银行H股。', 'predict': 'relation: 拥有'}
+{'text': '近期,滴滴出行对司机的问卷调查中,有<N>%的司机每天被找厕所难的问题严重困扰着,以滴滴平台上出租车和专车司机数量推算,有<N>万左右的司机受此问题困扰。', 'predict': "Sorry, I'm not sure what relation you are looking for. Could you please provide more context or specify the relation tag you want me to use?"}
+{'text': '据了解,国投电力控股子公司二滩水电目前全面负责雅砻江流域水能资源开发和水电站梯级建设营运。', 'predict': 'relation: 拥有'}
+{'text': '中国企业海外并购其它企业后再整合上市的成功案例此前曾有发生,光明乳业在收购新莱特乳业时,用了<N>个月时间完成了并购整合到成功上市的过程。', 'predict': 'relation: 收购'}
+{'text': '<N>年初,太子奶集团引进英联、高盛等风险投资<N>万美元,并成立“中国太子奶控股有限公司”,意图借此解资金困境和尽快实现上市。', 'predict': 'relation tags: [\'注资\', \'成立\']\n\nThe sentence describes that the TaiZi Milk Group introduced venture capital from companies like Yinglian and Goldman Sachs, and established the "China TaiZi Milk Holdings Co., Ltd." to solve financial difficulties and achieve listing as soon as possible. Therefore, the relation tags for this sentence could be \'注资\' (investment) and \'成立\' (establishment).'}
+{'text': '<N>年<N>月<N>日,阿里巴巴完成对阿里影业的收购,耗资约<N>.<N>亿港元;', 'predict': "relation tags: ['收购']\nrelation: 阿里巴巴收购了阿里影业，耗资约N.N亿港元。"}
+{'text': '和讯网消息<N>月<N>日,振华重工发布公告称,公司与PetrofacLimited在<N>年<N>月<N>日签订了《铺管船建造及销售合同》,', 'predict': "relation tags: ['签约']\nrelation: 振华重工与Petrofac Limited签订了铺管船建造及销售合同。"}
+{'text': '申银万国分析师认为,<N>年以来,中国平安的寿险业务因为没有机构调整压力和<N>年银保高基数的影响,保费增速一直领先于行业平均。', 'predict': 'relation: 分析'}
+{'text': '至此,中国恒天持有*ST凯马B的股权份额达到<N>.<N>%。', 'predict': "relation tags: ['持股']\nrelation: 中国恒天持有凯马B的股权份额达到<N>.<N>%。"}
+{'text': '针对市场上称中行有可能会将中银香港私有化的揣测和传言,肖钢说,中行不会将中银香港私有化。', 'predict': "relation tags: ['否认']\nrelation: 中行否认将中银香港私有化的传言。"}
+{'text': '<N>年<N>月<N>日,中核集团与中国国电集团共同出资建立中核国电漳州能源有限公司,', 'predict': 'Relation: 合资\n\nExplanation: The sentence states that 中核集团 and 中国国电集团 jointly invested to establish a new company called 中核国电漳州能源有限公司, which implies that they formed a joint venture or a partnership. Therefore, the relation tag that best fits this sentence is 合资 (joint venture/partnership).'}
+{'text': '在感慨欧拉雅大手笔收购的同时,业内人士同时对美即的未来不无担忧。', 'predict': 'relation: 被收购\nentity 1: 美即\nentity 2: 欧拉雅'}
+{'text': '据悉,贸易公司注册资本为<N>万元,其中广钢股份和广钢集团出资比例分别为<N>%和<N>%。', 'predict': "relation tags: ['注资', '拥有']\n\nentity 1: 广钢集团\nentity 2: 贸易公司\n\nrelation: 广钢集团注资贸易公司，拥有贸易公司的股份。"}
+{'text': '飞利浦股价<N>日在阿姆斯特丹一度涨逾<N>.<N>%,但今年来已跌逾<N>%,总市值缩水至1<N>9亿欧元,相较之下竞争对手西门子年初迄今下跌<N>%。', 'predict': "relation tags: ['竞争']\nrelation: 飞利浦和竞争对手西门子在股价方面存在竞争关系。"}
+{'text': '这起收购的主角之一中石油国际事业公司系中石油股份旗下的全资子公司。', 'predict': 'relation：拥有'}
+{'text': '光讯科技的保荐机构广发证券公布的初步询价为<N>元多。', 'predict': "relation tags: ['保荐', '询价']\nrelation: 广发证券保荐了光讯科技，并公布了初步询价为<N>元多。"}
+{'text': 'ST联油介绍,近日公司部分高级管理人员及董事前往公司控股子公司天津绿源进行年终尽职调查时,发现该公司已处于停产状态。', 'predict': "relation tags: ['拥有', '控股']\nrelation: ST联油拥有控股子公司天津绿源。"}
+{'text': '日,公众环境研究中心、南京绿石等<N>家民间环保组织联合发布了苹果公司供应商环境污染调查报告《苹果的另一面<N>》,报告称苹果公司的污染排放正随产量扩张而蔓延,', 'predict': 'unknown'}
+{'text': '北京首创期货有限公司研发部能源化工研究员练异洞也表示,早在<N>年,中石油曾以回购方式,对旗下子公司吉林化工、锦州石化、辽河油田完成了私有化,', 'predict': '拥有'}
+{'text': '目前华润、雅居乐、碧桂园等港资内房股均有较大规模的融资计划推进中,融资类型则是清一色的债券融资。', 'predict': 'relation: 注资'}
+{'text': '事出有因,恒大于<N>月<N>日收市后宣布已买入万科股票比例达总股本的<N>.6<N>%。', 'predict': "relation tags: ['买入']\nrelation: 恒大买入了万科股票。"}
+{'text': '另外,腾讯旗下的音乐娱乐集团也将在今年或明年IPO。', 'predict': "relation tags: ['IPO']\nrelation: 腾讯旗下的音乐娱乐集团计划在今年或明年进行IPO。"}
+{'text': '界风电巨头维斯塔斯为例,其<N>年在中国市场的新增装机容量为<N>MW,位居第八,甚至在不久前传出中国风电设备商华锐风电和金风科技收购维斯塔斯的消息。', 'predict': 'Relation: 被收购\nEntity 1: 维斯塔斯\nEntity 2: 华锐风电，金风科技'}
+{'text': '龙腾资本投资总监王海蛟在接受《每日经济新闻》记者采访时表示,双汇国际采用“双币双股”这种模式,', 'predict': '注资，持股'}
+{'text': '正川股份在招股说明书中透露:“公司是行业内规模最大的药用玻璃管制瓶生产企业之一,长期客户包括国药集团、云南白药集团、复星医药集团等多家大中型医药集团等”', 'predict': 'relation: 拥有\n\n正川股份拥有多家大中型医药集团等为长期客户，其中包括云南白药集团。这在招股说明书中透露。'}
+{'text': '“现在看来,美的对小天鹅的收购与整合无疑是成功的。', 'predict': "relation tags: ['收购', '整合', '成功']\nrelation: 美的收购并整合了小天鹅，这次收购被认为是成功的。"}
+{'text': '和讯消息据彭博资讯报道,两名业内人士近日表示,迫于美国监管部门筹资压力,美国银行已卖出所持有的中国建设银行部分股权,此笔交易套现额约为<N>亿美元。', 'predict': 'relation: 被减持\nentity 1: 美国银行\nentity 2: 中国建设银行'}
+{'text': '据了解,目前中铝方面尚未最终选定派驻力拓的两名董事人选,中铝倾向从公司内部选择一名,再从公司外部派驻一名独立董事。', 'predict': 'relation: 未定\n\nExplanation: The sentence provides information about the current situation regarding the selection of two directors by China Aluminum (中铝) to be dispatched to Rio Tinto (力拓). However, there is no specific relation mentioned in the sentence.'}
+{'text': '昨日,由成都高新投资集团发起成立、成都天府软件园旗下孵化器创业场具体运营的互联网主题咖啡馆“灵感咖啡”正式开业。', 'predict': "relation tags: ['成立', '运营', '发起']\nrelation: 成都高新投资集团发起成立了互联网主题咖啡馆“灵感咖啡”，由成都天府软件园旗下孵化器创业场具体运营。"}
+{'text': '淘宝首席市场官王帅:去年<N>月,在阿里巴巴成立<N>周年举办庆典之时,雅虎却宣布将出售其持有的Alibaba.com<N>%的股份,此举让阿里巴巴措手不及;', 'predict': "relation tags: ['被持股', '被拥有', '被转让', '被成立', '被注资', '被收购', '被减持', '被分析']\nentity: 雅虎, Alibaba.com\nrelation: 雅虎被持有Alibaba.com的股份，但宣布将出售，可能导致Alibaba.com的股份被转让或收购，同时也可能导致Alibaba.com的股价受到分析和减持的影响。"}
+{'text': '华联集团并承诺,在收购完成后一年内,将目标股权出售给华联股份。。', 'predict': 'Relation: 收购 -> 股权出售\nRelation Tag: 被收购, 被转让, 拟收购'}
+{'text': '通过并购或借壳重组,天舟文化、中创信测等上市公司上演了一出出“点石成金”的造富神话。', 'predict': "relation tags: ['重组', '上市']\n\nentity: 中创信测，天舟文化\n\nrelation: 中创信测和天舟文化通过重组上市，创造了成功的财富故事。"}
+{'text': '特别是在<N>年,发起设立国内首家消费金融公司——北银消费金融公司,合资成立中荷人寿保险公司,初步打造形成了大零售业务平台的战略布局。', 'predict': 'Relation: 合资成立\nEntity 1: 中荷人寿保险公司\nEntity 2: 北银消费金融公司'}
+{'text': '基金(以下简称金沙江创投)宣布,由“GOScaleCapital”牵头的几家投资机构已经成功收购荷兰皇家飞利浦公司旗下Lumileds<N>.<N>%的股份,', 'predict': '被收购: Lumileds公司的股份被收购。'}
+{'text': '《<N>世纪》:<N>年国寿集团和各家子公司的经营状况怎么样?国寿股份扭转负增长的局面了吗?', 'predict': "relation tags: ['分析']\nrelation: 对于国寿集团和各家子公司的经营状况，需要进行详细的分析才能得出结论。"}
+{'text': '吕明方表示,未来<N>年内国内市场竞争格局已定,将是国药、上药、华润三大集团互相竞争的态势。', 'predict': "relation tags: ['竞争']\n\nentity pairs: (国药, 上药)\n\nrelation: 竞争"}
+{'text': '目前,公司PTFE系列产品的毛利率在<N>%左右,产能上虽然暂无扩张,但已加大对高性能PTFE树脂的研发,力图缩小和杜邦等企业在质量上的差距。', 'predict': "relation tags: ['竞争']\nrelation: 公司力图缩小和杜邦等企业在质量上的差距，表明公司与杜邦等企业存在竞争关系。"}
+{'text': '中国网财经<N>月<N>日讯浩云科技今日发布公告,称公司全资子公司浩云物联与重庆市公安局渝北区分局签署了《渝北区公共安全视频监控工程服务合同书》,', 'predict': '关系：签约'}
+{'text': '当时中国宝安分别以<N>.<N>万元和<N>.<N>万元的价格,将旗下的海南鸿安农场和胜安农场股权全部转让,这次交易给宝安带来约<N>万元的投资收益。', 'predict': "relation tags: ['转让']\nrelation: 宝安将海南鸿安农场股权转让给了买家。"}
+{'text': '中信证券<N>月<N>日最新研究报告显示,全球半导体龙头英特尔公布了二季报。', 'predict': "relation tags: ['分析']\nrelation: 中信证券对全球半导体龙头英特尔的二季报进行了分析。"}
+{'text': '北亚公告称,为了使公司在完成破产重整的基础上重新拥有经营性资产和主营业务,恢复持续经营能力及盈利能力,经初步协商,公司与中航工业就重组事宜于<N>年<N>', 'predict': 'Relation: 重组\nTags: [\'重组\']\n\nSo the relation between the entities "中航工业" and "北亚" is a "重组" or a restructuring, as per the announcement made by 北亚.'}
+{'text': '招商基金旗下最赚钱的三只基金虽然均为货币基金,但截至去年底的规模却都没有突破千亿元,最大的招商现金增值货币也仅有<N>.<N>亿,这和建信基金、中银基金等银', 'predict': '行旗下的货币基金相比较而言规模较小，但并没有涉及到任何关系标签。'}
+{'text': '齐鲁证券年报显示,齐鲁金泰山于200<N>年<N>月<N>日参与平高电气公开发行A股的申购,', 'predict': "relation tags: ['参与', '申购', '公开发行', 'A股']\nrelation: 齐鲁金泰山参与了平高电气的公开发行A股的申购。"}
+{'text': '<N>月<N>日,鲁亿通发布公告称,拟以发行股份和支付现金相结合的方式购买广东昇辉电子控股有限公司<N>%股权,交易价格为<N>亿元。', 'predict': "relation tags: ['拟收购']\nrelation: 鲁亿通拟以发行股份和支付现金相结合的方式购买广东昇辉电子控股有限公司<N>%股权，交易价格为<N>亿元。"}
+{'text': '财政部日前将中诚信托<N>.<N>%的国有股权,以增加国家出资的形式全部划拨给中国人保。。', 'predict': "relation tags: ['注资', '拥有']\nrelation: 中国人保注资中诚信托<N>.<N>%并拥有其国有股权。"}
+{'text': '除了组建新的全球核身平台外,蚂蚁金服还调任了新的首席风险官、首席技术官,以及两个事业群的负责人,并在支付宝事业群尝试“班委制”,', 'predict': '无关联关系。'}
+{'text': '巢湖一塑将归还山东京博的股权转让款、利息及各项费用,而山东京博将撤诉及解除财产保全手续。', 'predict': "relation tags: ['股权转让款', '利息', '费用', '撤诉', '解除财产保全手续']\nrelation: 巢湖一塑将归还山东京博的股权转让款、利息及各项费用，而山东京博将撤诉及解除财产保全手续。"}
+{'text': '鉴此,在托管期间,双方关于铜产品加工业务收益分配比例<N>:<N>,即*ST张铜获得其与沙钢铜业铜产品加工业务产生收益之和的<N>%,', 'predict': '拥有/合作'}
+{'text': 'ST皇台预计,对山庄集团的收购完成后,', 'predict': '拟收购'}
+{'text': '本报北京<N>月<N>日讯记者李岚报道中国银行今天发布消息称,备受全球关注的中国企业在美最大并购案——双汇国际并购史密斯菲尔德项目完美收官。', 'predict': 'relation: 收购\nentity 1: 史密斯菲尔德\nentity 2: 中国银行'}
+{'text': '百联股份,并更名为百联股份,而原百联股份将终止上市并予以注销,同时,百联集团有限公司所持有的上海第一八佰伴有限公司及联华超市部分股权注入重组后的上市公司', 'predict': "relation tags: ['重组', '持股', '注资']\nrelation: 百联集团有限公司注资重组后的上市公司，并持有上海第一八佰伴有限公司的部分股权。"}
+{'text': '有业内人士认为,经营多元化的春兰集团或将利用部分优势业务对*ST春兰进行重组。', 'predict': 'Relation: 重组\nEntity 1: 春兰集团\nEntity 2: *ST春兰'}
+{'text': '日本前<N>大市值公司里面,武田制药<N>亿美元市值,这个也比恒瑞要几乎多一倍。', 'predict': 'Sorry, I am unable to identify the relation between the entities "恒瑞" and "武田制药" in the given sentence as there is no context or information provided about their relationship. Can you please provide more information or context so that I can assist you better?'}
+{'text': '<N>月<N>日,在上海福喜事件发生后一周,麦当劳宣布将改用河南福喜作为供应商,直到2<N>日才改口宣称在全国范围内停用福喜产品。', 'predict': "Relation: 合作\n\nExplanation: The sentence mentions that after the Shanghai Husi incident, McDonald's announced that they will start using Henan Husi as a supplier. This implies that there is a business relationship between McDonald's and Henan Husi, which can be described as a form of cooperation."}
+{'text': '中煤能源、中炬高新获大股东增持', 'predict': "relation tags: ['增持']\nrelation: 大股东增持中煤能源和中炬高新的股份。"}
+{'text': '横店东磁境外销售收入占营业收入的<N>.<N>%左右,而顺络电子出口销售占到总营业收入的<N>.<N>%。', 'predict': "relation tags: ['占比', '出口销售']\nrelation: \n横店东磁境外销售收入占营业收入的<N>.<N>%左右，而顺络电子出口销售占到总营业收入的<N>.<N>%。可以看出，两家公司的出口销售占比较高。"}
+{'text': '腾讯不正当竞争被判赔<N>万 与搜狗之争打成平手', 'predict': 'relation: 竞争'}
+{'text': '仰帆投资同时承诺,在重组完成的前提下,若*ST国药<N>年至<N>年合计净利润低于<N>.<N>亿元,则以现金补足差额。', 'predict': 'relation tags: [\'承诺\', \'重组\', \'净利润\']\n\nThe sentence describes a commitment made by Yangfan Investment to provide cash compensation in case the combined net profit of *ST National Pharmaceutical from year N to year N is less than N.N billion yuan, provided that the restructuring is completed. Therefore, the relation tags can be "承诺" (commitment), "重组" (restructuring), and "净利润" (net profit).'}
+{'text': '公告显示,本次重组华东电脑拟以非公开发行A股股票作为对价收购大股东华东计算技术研究所和自然人宋世民、李仲及谢瀚海持有的华讯网络<N>%股权。', 'predict': "relation tags: ['重组', '收购', '持有', '被持有', '发行', '非公开发行', '股权']\nrelation: 华东电脑计划通过本次重组，以非公开发行A股股票作为对价，收购大股东华东计算技术研究所和自然人宋世民、李仲及谢瀚海持有的华讯网络<N>%股权，从而持有华讯网络的股权。"}
+{'text': '京东商城董事局主席兼CEO刘强东本周二在接受记者采访时谈起了京东商城与沃尔玛历时八个多月的谈判。', 'predict': 'relation: 合作'}
+{'text': '对于伊泰B股旗下的亏损药企内蒙古伊泰药业,康恩贝却垂涎欲滴,拟以<N>亿元收购其<N>%股权,溢价率高达<N>%。', 'predict': "relation tags: ['拟收购', '被收购']\nrelation: 康恩贝拟收购内蒙古伊泰药业的股权。"}
+{'text': '<N>月<N>日,双鹤药业收到闽发证券破产管理人 《关于北京双鹤药业股份有限公司部分股东变更情况的函》及福建省福州市中院《民事裁定书》。', 'predict': "relation tags: ['被收购', '被持股']\n\n根据句子中提到的信息，可以推断出北京双鹤药业股份有限公司可能被收购或者股份被持有。具体情况需要进一步了解《关于北京双鹤药业股份有限公司部分股东变更情况的函》及福建省福州市中院《民事裁定书》的内容。"}
+{'text': '此前,<N>月<N>日,猎豹移动还宣布与今日头条在个性化内容和社交直播领域达成战略合作,今日头条参与猎豹移动子公司Live.meB轮融资,', 'predict': 'relation: 合作、注资\nentity: 猎豹移动、今日头条、Live.meB'}
+{'text': '东方海外于年初以<N>亿美元出售内地房地产项目,此次交易的盈利将于今年入账,市场关心会否因此派发中期特别股息,东方海外财务总裁金柏坚表示,', 'predict': 'relation: 被出售\n\nentity: 内地房地产项目'}
+{'text': 'NBD:娃哈哈集团作为中国饮料行业的领军企业,最核心的元素是什么?', 'predict': "relation tags: ['unknown']\n\nAs an AI chat assistant, I don't have enough information to determine the relation between NBD and Wahaha Group based on the given sentence. Could you please provide more context or information?"}
+{'text': '上海联合产权交易所近日公告,广东发展银行股份有限公司<N>.<N>万股拟以每股<N>元转让,转让股份占广发银行总股本的<N>.<N>%。', 'predict': '被转让'}
+{'text': '值得注意的是,作为新上药在零售和物流渠道方面的合作伙伴,百联集团旗下同样拥有主营医药零售和批发的第一医药。。', 'predict': 'relation：合作'}
+{'text': '农行昨日晚间公告,网上申购最终中签率约为<N>.<N><N>%,虽然低于今年<N>月份创下1<N>年最高纪录的华泰证券,但仍然创下银行大盘股中签率新高。', 'predict': 'relation: 竞争\n\nExplanation: The sentence mentions that the final online subscription rate for Agricultural Bank of China (农行) was lower than the record high set by Huatai Securities (华泰证券) earlier this year. This implies that there is competition between the two companies in terms of attracting investors through online subscriptions.'}
+{'text': '王儒林表达了吉林省对恒大集团及恒大冰泉的“三最”,一是对恒大在长白山的投资最重视,', 'predict': '注资'}
+{'text': '而国美乱战开始前,以<N>月<N>日开始计算,大摩一直小幅增持国美电器。。', 'predict': 'Relation: 增持\nEntity 1: 大摩\nEntity 2: 国美电器'}
+{'text': '微妙的是,驰宏锌锗也于<N>年<N>月<N>日宣布终止收购金鼎锌业的股份,并保证<N>个月内不谈此事。', 'predict': 'relation: 被收购'}
+{'text': '三季度末,证金公司持有招商银行<N>.<N>亿股,相比半年报减持<N>万股;', 'predict': "relation tags: ['持股', '减持']\nrelation: 持股"}
+{'text': '交银国际:农行短期内有望支撑港股 反转言之尚早。', 'predict': "relation tags: ['unknown', '支撑', '反转']\nrelation: 交银国际支撑农行，但反转可能还为时过早。"}
+{'text': '至于成立合资公司,自<N>年起,中海发展先后与华能集团成立时代航运公司、与上港集团合资组建中海浦远航运有限公司,', 'predict': 'Relation: 合资\n\nExplanation: The sentence mentions that 中海发展 (Zhonghai Development) and 华能集团 (China Huaneng Group) have established joint ventures together, including 时代航运公司 (Times Shipping Company) and 中海浦远航运有限公司 (CMG-PuYuan Shipping Co., Ltd.), which indicates a business partnership through a joint venture or a collaboration. Therefore, the relation tag for this sentence is 合资 (joint venture).'}
+{'text': '在京、港两地同时举行的建设银行上半年业绩发布会上,郭树清透露,建行A+H配股融资启动时间没有严格限定,争取年内完成。', 'predict': "relation tags: ['配股融资']\nsentence: 郭树清在建设银行上半年业绩发布会上表示，建行A+H配股融资计划已经启动，预计将在年内完成。\nentity: 建设银行，建行\nrelation: 郭树清表示建行已经启动了A+H配股融资计划，预计将在年内完成。"}
+{'text': '武钢的调价通知显示,热轧上调<N>元/吨;冷轧上调<N>元/吨;轧板上调<N>元/吨;镀锌上调<N>元/吨;硅钢中,', 'predict': 'relation：未知（unknown）'}
+{'text': '对此,雅培公司回应称,雅培婴幼儿配方奶粉均是根据产品销售所在国家和市场规定的产品标准而进行生产的,雅培所有产品绝对安全。', 'predict': "relation tags: ['生产', '回应']\nrelation: 雅培公司回应称，其婴幼儿配方奶粉是根据所在国家和市场规定的产品标准进行生产的。"}
+{'text': '自<N>年<N>月<N>日上海联和投资有限公司在披露《简式权益变动报告书》后共减持新海宜股份合计<N>.<N>万股,累计占本公司总股本的<N>%。', 'predict': "relation tags: ['减持', '持股']\nrelation: 上海联和投资有限公司减持了新海宜股份<N>万股，占总股本的<N>%。"}

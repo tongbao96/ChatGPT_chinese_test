@@ -1,0 +1,238 @@
+{'text': '漫步在这山间的小道上', 'predict': 'entity: 山间，小道\nrelation: Located'}
+{'text': '弄堂是城镇中的一弯静地', 'predict': 'entity: 弄堂，城镇中\nrelation: Located'}
+{'text': '结束了他和波丽娜四十年的传奇恋情。', 'predict': 'entity:他，波丽娜\nrelation:Unknown'}
+{'text': '演出结束后，波丽娜随团离开俄国，屠格涅夫失魂落魄', 'predict': 'entity:波丽娜，俄国，屠格涅夫\nrelation:Unknown'}
+{'text': '有的事要用一生忘记，我的身影在你的眼睛里。', 'predict': 'entity:我，你的眼睛\nrelation:Unknown'}
+{'text': '吉水县电视台，活力吉水报的记者先在小学教室里采访了谢南英、谢琢如', 'predict': 'relation:Social'}
+{'text': '甄黛玉的儿子、儿媳、女儿、女婿得知母亲住院，都蜂拥似的赶到医院探视。女儿哭诉着对高梓泰说：“我们兄妹几岁，父亲就去世了', 'predict': 'relation:Family'}
+{'text': '那是这些树叶的“豆蔻年华”，一个个如芭蕾少女似地单腿立在枝桠树梢', 'predict': 'relation:Part-Whole'}
+{'text': '现在的后门山更是常年树木葱翠、鸟语花香', 'predict': 'relation:Located'}
+{'text': '此山东与淡竹乡林坑村为邻', 'predict': 'entity:山，淡竹乡林坑村\nrelation:Near'}
+{'text': '翻过那个小山头不远处地上有一滩血，黑瞎子曾在这里歇气。', 'predict': 'entity:黑瞎子，这里\nrelation:Located'}
+{'text': '母亲疼爱自己的儿女，尤其偏爱我。', 'predict': 'relation:Family'}
+{'text': '毛巾、糖果、饼干等礼品。', 'predict': 'relation:Part-Whole'}
+{'text': '鱼米之乡(岷江、沱江、青衣江均在犍为郡)、佳茗之乡、美酒之乡(今酒城、酒都、茅台等均属犍为郡)、丝绸之乡、旅游之乡(峨眉山、瓦屋山、彭祖山等山川均在犍为郡)', 'predict': 'entity:犍为郡，峨眉山，彭祖山\nrelation:Located'}
+{'text': '幽深的峡谷中，一块巨石静卧于空谷之中，清清溪水在巨石脚下欢快地流淌着', 'predict': 'relation:Located'}
+{'text': '“坐在石山看水中的小蝌蚪或苇叶上的嫩蜻蜓”', 'predict': 'entity:苇叶，嫩蜻蜓\nrelation:Near'}
+{'text': '一个阿姨介绍用一种水鸟(当地叫翠鸟)的唾液蒸蛋能治气管炎的偏方', 'predict': 'entity: 阿姨，水鸟，蛋，气管炎\nrelation: Unknown (无法确定关系)'}
+{'text': '我看见母亲那颗苦涩的心在滴血', 'predict': 'entity: 母亲，心\nrelation: Unknown'}
+{'text': '瀑布上边的水里沐浴着形象鲜活的石头，一石像蛇', 'predict': 'entity:瀑布上边的水里，石头，石像蛇\nrelation:Part-Whole'}
+{'text': '随着隆隆的马达声在河水中乘风破浪行驶着。', 'predict': 'entity:隆隆的马达声，河水\nrelation:Located'}
+{'text': '听大人们说，后门山是村里的风水山。', 'predict': 'entity: 大人们，后门山\nrelation: Located'}
+{'text': '鱼米之乡(岷江、沱江、青衣江均在犍为郡)、佳茗之乡、美酒之乡(今酒城、酒都、茅台等均属犍为郡)、丝绸之乡、旅游之乡(峨眉山、瓦屋山、彭祖山等山川均在犍为郡)', 'predict': 'relation:General-Special'}
+{'text': '可看到几只天牛、细腰黄蜂，支着触角，弓着肚子在吸吮树汁。', 'predict': 'entity:细腰黄蜂，触角\nrelation:Part-Whole'}
+{'text': '我的家在东北松花江上，那里有森林煤矿，还有那满山遍野的大豆高粱…', 'predict': 'entity:我的家，东北松花江\nrelation:Located'}
+{'text': '鱼米之乡(岷江、沱江、青衣江均在犍为郡)、佳茗之乡、美酒之乡(今酒城、酒都、茅台等均属犍为郡)、丝绸之乡、旅游之乡(峨眉山、瓦屋山、彭祖山等山川均在犍为郡)', 'predict': 'entity:岷江，沱江，青衣江，犍为郡，酒城，酒都，丝绸之乡，峨眉山，瓦屋山，彭祖山\nrelation:General-Special'}
+{'text': '泥太少，它的根施展不开去;搬进屋里', 'predict': 'entity:泥，它\nrelation:Unknown'}
+{'text': '黄河长江是中国最宝贵的河道，长江成为中国内河航运的大动脉', 'predict': 'entity: 黄河，长江\nrelation: Part-Whole'}
+{'text': '时常可以看见头戴草帽的农夫喜悦的脸颊。', 'predict': 'entity:头戴草帽的农夫，脸颊\nrelation:Unknown'}
+{'text': '城乡人们都能吃上放心的食品。', 'predict': 'relation: Use'}
+{'text': '他从来就没有离开过党，事实证明侯文玉同志是一名忠于党的好党员------。', 'predict': 'entity:他，侯文玉同志，党\nrelation:Ownership'}
+{'text': '新娘的身后是她害羞的妹妹，把脸颊靠在她的左肩上', 'predict': 'relation:Part-Whole'}
+{'text': '“我和妻子韩春梅、儿子张民刚来到胡沟时', 'predict': 'entity:我，韩春梅，张民刚\nrelation:Family'}
+{'text': '游人自己买票乘电梯下河边的步行道。', 'predict': 'entity:游人，电梯\nrelation:Use'}
+{'text': '家里有妻子和一个呆傻的儿子。', 'predict': 'entity:家里，妻子，呆傻的儿子\nrelation:Part-Whole'}
+{'text': '做成粑，锅里便是一朵朵盛开的玫瑰。揭开锅盖', 'predict': 'entity:粑，玫瑰\nrelation:Metaphor/Comparison'}
+{'text': '迅速进屋用木杠把门顶住。', 'predict': 'entity: 木杠，门\nrelation: Part-Whole'}
+{'text': '男人围上围腰，俯身抱起谷把子转身走向拌桶两角，甩开臂膀，“砰”', 'predict': 'entity:男人，谷把子，拌桶\nrelation:Use'}
+{'text': '她们的父亲是当时江山有名的富商', 'predict': 'entity:她们的父亲，江山\nrelation:Located'}
+{'text': '五爷家的土屋院西墙门楼紧靠金砀公路东边，北面有一条通往村里的土路。孙进友家长着瓦松的青瓦房挡在五爷家南面;与东邻王恩典家只一截矮墙之隔。', 'predict': 'The relation between the entities in this sentence is not clear. Can you please provide more information or context?'}
+{'text': '我在成都帮助姨爹做小生意', 'predict': 'entity:我，姨爹\nrelation:Ownership'}
+{'text': '它们经历千百年风刀沙斧的讨伐，有的头断臂折，有的皮撕肉裂', 'predict': 'entity:它们\nrelation:Unknown'}
+{'text': '揉进了我的缕缕情思。在我儿子还在读初三的时候，朋友送我一盆红枫盆景。', 'predict': 'entity:我，儿子，朋友，红枫盆景\nrelation:Unknown'}
+{'text': '河蚬钻在洞穴里是不动', 'predict': 'entity:河蚬，洞穴\nrelation:Located'}
+{'text': '恰好河底下有一只河蚬正张开双两个贝壳，蔡妮的舌头不偏不歪的掉在贝壳中', 'predict': 'relation:Part-Whole'}
+{'text': '晴空湛蓝如洗，近坡绿草如毯', 'predict': 'entity:晴空，近坡，绿草\nrelation:Unknown'}
+{'text': '西藏之水给了我太多的回忆：那皑皑雪峰、滔滔江流和蓝蓝错水，那青藏铁路路基旁的大片湿地，那羊八井的沸泉与热池', 'predict': 'entity:西藏之水，皑皑雪峰，滔滔江流，蓝蓝错水，羊八井的沸泉与热池\nrelation:Located'}
+{'text': '一块块梯田状、不规则的庄稼地，披上了一层金黄色的盛装，有高粱粟，有水稻，有玉米，有黄豆等等。', 'predict': 'entity:庄稼地，金黄色的盛装\nrelation:Located'}
+{'text': '鱼米之乡(岷江、沱江、青衣江均在犍为郡)、佳茗之乡、美酒之乡(今酒城、酒都、茅台等均属犍为郡)、丝绸之乡、旅游之乡(峨眉山、瓦屋山、彭祖山等山川均在犍为郡)', 'predict': 'entity:犍为郡，酒城，旅游之乡\nrelation:General-Special'}
+{'text': '<N>年，西洞庭摘得了“全国红旗农场”的桂冠，<N>年被评为“全国农垦先进单位”，<N>年', 'predict': 'relation:Owership'}
+{'text': '到家门口时，候鸟突然从天空俯冲而下', 'predict': 'entity:候鸟，天空，家门口\nrelation:Near'}
+{'text': '她能向谁诉说呢?三母亲的心很悲苦。这不仅在她年轻时失去丈夫，她抚育我们历尽艰难困苦', 'predict': 'relation:Family'}
+{'text': '一个阿姨介绍用一种水鸟(当地叫翠鸟)的唾液蒸蛋能治气管炎的偏方', 'predict': 'entity:阿姨，水鸟，蛋，气管炎\nrelation:Unknown'}
+{'text': '乡间的鸡鸣犬吠、虫琴蛙鼓定是追着了我的屁股，在我深一脚浅一脚的足迹里躲藏着，一直跟随我来到了都市，不然，好多个梦里，怎么老听到它们唤我回家。', 'predict': 'entity:乡间的犬、虫琴、蛙鼓，它们\nrelation:Located'}
+{'text': '四月二十八日我接到绥化铁路司机录取通知书。', 'predict': 'entity:我，绥化铁路司机录取通知书\nrelation:Ownership'}
+{'text': '一位姓沈的老者从河底钩上一只蚬子，他从铁钩上取下蚬子时对我们说：“你们平时只知道钩蚬子', 'predict': 'entity:姓沈的老者，蚬子\nrelation:Part-Whole'}
+{'text': '蚬肉具有很高的营养价值，它有清热润肺的功效，含有丰富蛋白质和各种维生素。有独特的淮河风味。特别是春天的淮河蚬肉更为鲜嫩可口。', 'predict': 'entity:蚬肉，春天的淮河蚬肉\nrelation:General-Special'}
+{'text': '家人把敞廊加上门窗，遂成为巴金写作、会客的地方。', 'predict': 'relation:Part-Whole'}
+{'text': '乡间的鸡鸣犬吠、虫琴蛙鼓定是追着了我的屁股，在我深一脚浅一脚的足迹里躲藏着，一直跟随我来到了都市，不然，好多个梦里，怎么老听到它们唤我回家。', 'predict': 'Sorry, there seems to be a missing relation in the last sentence. Please provide the correct sentence with the relation.'}
+{'text': '归楞、装车用装载机，快捷省力省时间，现代的林业工人是幸福的。', 'predict': 'relation: Use'}
+{'text': '就经常到这口井里挑水，我家住在村西头，要穿过瓶窑街', 'predict': 'relation:Located'}
+{'text': '淮河蚬是生长在淮河水底泥土里的一种贝类软体动物', 'predict': 'entity:淮河蚬，淮河水底泥土\nrelation:Located'}
+{'text': '她一手捂着胸口', 'predict': 'entity: 她，胸口\nrelation: Part-Whole'}
+{'text': '只见五爷一大早挑着货郎挑子出门，手里拎个拨浪鼓', 'predict': 'entity:五爷，货郎挑子，手，拨浪鼓\nrelation:Part-Whole'}
+{'text': '因为那里有我的外婆和舅舅，母亲企盼着得到他们的温暖和照顾。', 'predict': 'entity:外婆，母亲\nrelation:Family'}
+{'text': '乡里从村里选拔文艺骨干参加县里的汇演，他俩就是那时认识的。他会拉，她会唱;她台上', 'predict': 'relation:General-Special'}
+{'text': '淮河蚬是淮河里的独特产物。', 'predict': 'entity:淮河蚬，淮河\nrelation:Located'}
+{'text': '上有蓝天白云，树上偶尔飞来几只麻雀、蓝鹊驻足。', 'predict': 'entity:蓝天，白云，树，麻雀，蓝鹊\nrelation:Located'}
+{'text': '人人都有自己的梦想，有的想做医生，有的想做将军，有的想做科学家……而我的心里也一直有一个梦想：我要与爱同行', 'predict': 'entity:我，爱\nrelation:Unknown'}
+{'text': '却渐渐吹疼了我的心，我的眼睛早被风沙迷住', 'predict': 'relation: Unknown (there is no clear relationship between the entities in this sentence)'}
+{'text': '这时从路边小屋里走出来一个好心的大叔，他先把我领到家里给我吃了一个滚热的山芋', 'predict': 'entity:好心的大叔，我\nrelation:Social'}
+{'text': '的取向么?邻居还说，他有一个熟人，政府给他安排好生活了', 'predict': 'entity:邻居，熟人，政府，生活\nrelation:Unknown'}
+{'text': '上海的武康路是条很有法国风情的路', 'predict': 'entity: 上海，武康路\nrelation: Located'}
+{'text': '女人则理所当然陪客座谈。', 'predict': 'Sorry, the relation is not clear in the given sentence. Can you please provide more context or information?'}
+{'text': '发现婆婆王氏正在与临船上的一位男子偷情。', 'predict': 'entity:婆婆王氏，临船上的一位男子\nrelation:Unknown'}
+{'text': '也挣不多少钱;而现代的农民，春耕运用不同型号的播种机播种，夏季使用农药杀虫灭草', 'predict': 'entity:现代的农民，不同型号的播种机\nrelation:Use'}
+{'text': '是对疼她、关心她的人给以无情的伤害和打击。我想，这种人要自救', 'predict': 'entity:疼她、关心她的人，这种人\nrelation:Unknown'}
+{'text': '我们的祖先把它们与梅花、兰草和菊花并列在一起，称为“四君子”', 'predict': 'entity:兰草，菊花\nrelation:Part-Whole'}
+{'text': '也马不停蹄地寻觅着、追逐着、奔波着', 'predict': 'entity:无\nrelation:Unknown'}
+{'text': '倘若你尚未踏上过西藏的大地，自然会纳闷：在这方号称“世界第三极”', 'predict': 'entity:西藏的大地，世界第三极\nrelation:Located'}
+{'text': '洞中有仙人培植的盆景，为瀑布增添了风采', 'predict': 'entity:洞中，仙人培植的盆景，瀑布\nrelation:Part-Whole'}
+{'text': '当包谷杆上长出第一个包谷棒时', 'predict': 'entity:包谷杆，第一个包谷棒\nrelation:Part-Whole'}
+{'text': '乡里从村里选拔文艺骨干参加县里的汇演，他俩就是那时认识的。他会拉，她会唱;她台上', 'predict': 'relation:General-Special'}
+{'text': '儿子点点头，表示很赞同我的观点。', 'predict': 'entity: 儿子，我的观点\nrelation: Agree'}
+{'text': '人人都有自己的梦想，有的想做医生，有的想做将军，有的想做科学家……而我的心里也一直有一个梦想：我要与爱同行', 'predict': 'entity:我，爱\nrelation:General-Special'}
+{'text': '眉山文化地理环境优势独特九天一出四川盆地，产生成都平原腹地。', 'predict': 'entity:眉山，成都平原\nrelation:Located'}
+{'text': '看门外的车来车往。', 'predict': 'entity:门外的车\nrelation:Located'}
+{'text': '有一户姓苟的船民常年在淮河行船做生意。家里有妻子和一个呆傻的儿子。', 'predict': 'entity:姓苟的船民，淮河，妻子，一个呆傻的儿子\nrelation:Family'}
+{'text': '唐师母一脸怒气点着我脑门数说道', 'predict': 'entity:唐师母，我\nrelation:Unknown'}
+{'text': '只能用我们内心的毅力和自信的眼神给您最有力的支持和帮助。母亲，您是辛苦的!', 'predict': 'entity:我们，母亲\nrelation:Unknown'}
+{'text': '鱼头刺多，你们吃，不注意会卡喉。”', 'predict': 'entity:鱼头，你们\nrelation:Use'}
+{'text': '见到我那两鬓斑白的母亲啊!', 'predict': 'entity:我，母亲\nrelation:Family'}
+{'text': '大概从没有这条小径的时候我的脚印就曾经在这里留下过长长的蜿蜒的蛛丝马迹。', 'predict': 'entity:我的脚印，这条小径\nrelation:Create'}
+{'text': '“你们平时只知道钩蚬子，吃蚬肉，喝蚬汤，拿蚬子卖钱花', 'predict': 'entity:钩蚬子，蚬肉，蚬汤，蚬子\nrelation:Part-Whole'}
+{'text': '似乎只有灵魂附在羽毛上，在空中飘荡。', 'predict': 'entity:灵魂，羽毛，空中\nrelation:Unknown'}
+{'text': '传说他的小茶壶内灌的是黄酒', 'predict': 'entity:他的小茶壶\nrelation:Ownership'}
+{'text': '这样小船就被固定在河水中，于是我们就坐在小船上', 'predict': 'entity:我们，小船\nrelation:Part-Whole'}
+{'text': '小时候看到老年人，冬季有的穿着大棉袍子坐在炕头上', 'predict': 'entity:老年人，大棉袍子，炕头\nrelation:Part-Whole'}
+{'text': '女儿一撅嘴，撒娇地说：“爸爸在家里是第三把手。”', 'predict': 'entity:女儿，爸爸\nrelation:Family'}
+{'text': '“没用的东西，河里这么多的水船都没涮干净', 'predict': 'entity:水船\nrelation:Part-Whole'}
+{'text': '两侧是陡峭的悬崖，崖壁由层层叠叠的红岩构成。', 'predict': 'entity: 崖壁，红岩\nrelation: Part-Whole'}
+{'text': '因生活困难，他没多余的钱为我们买书读', 'predict': 'entity:他，我们\nrelation:Ownership'}
+{'text': '现在，老曹家住城南村的农民集中居住片。', 'predict': 'entity:老曹家，城南村的农民集中居住片\nrelation:Located'}
+{'text': '后来，我们长大一点，姐姐就帮母亲烧火煮饭，我和哥哥就到田边井里取水', 'predict': 'entity:姐姐，母亲，我，哥哥，田边井\nrelation:Part-Whole'}
+{'text': '亲人、朋友、相识的与不相识的人们，总有一份埋怨、不解、困惑------，然而爷爷却执着而坚定地履行着他作为一名共产党员的职责。', 'predict': 'relation:Social'}
+{'text': ')流进了放好的木盆里，杀猪匠、主人家和帮忙的人均松了一口气;此时', 'predict': 'Unknown'}
+{'text': '莫扎特的歌曲让我联想起朱自清的那篇名作《春》', 'predict': 'relation: Create'}
+{'text': '我的故乡是与西柏坡毗邻的夹峪村，<N>年我快乐地考入西柏坡完小学习。', 'predict': 'entity:我的故乡，西柏坡，夹峪村\nrelation:Located'}
+{'text': '我和伙伴们从水边摸来螺蛳，砸碎坚壳', 'predict': 'entity:我，伙伴们，水边，螺蛳\nrelation:Use'}
+{'text': '更无一人想起父亲干涉过自己的丁点小事，就连我们姊妹五人的婚姻大事', 'predict': 'entity:我们姊妹五人，婚姻大事\nrelation:Unknown'}
+{'text': '尔后又到银材图书室参观，并采访了有关创建图书室的初衷及捐资赠书情况(图书室是<N>年在村委和谢松生老人的大力支持下创建的)。', 'predict': 'entity:图书室，谢松生老人\nrelation:Ownership'}
+{'text': '西藏丰富的水资源，珍藏着无数的奥秘', 'predict': 'entity: 西藏，水资源\nrelation: Ownership'}
+{'text': '他由摆子而转伤寒，虽经抢救，但<N>天后仍然永远的离开了他的战友，他在保护战友口粮的战斗中用生命与暴风雨作了最后的斗争。', 'predict': 'entity:他，战友，口粮，生命，暴风雨\nrelation:Part-Whole'}
+{'text': '爱，她并不希望只有孤独相伴。在大姐毛彦文出资安排和亲友的帮助下', 'predict': 'entity:她，大姐毛彦文，亲友\nrelation:Social'}
+{'text': '，他有两个儿子都在上大学', 'predict': 'entity:他，两个儿子\nrelation:Unknown (there is no clear relation between the entities in this sentence)'}
+{'text': '黄河长江是中国最宝贵的河道，长江成为中国内河航运的大动脉，长江长<N>千米，水系河道<N>.<N>余万米。', 'predict': 'entity: 黄河长江，中国最宝贵的河道，长江\nrelation: General-Special'}
+{'text': '眼前便出现前后数进的明清建筑，天井里的几株古银杏和广玉兰，好像在静候昔日主人的归来。', 'predict': 'entity:明清建筑，天井里的几株古银杏和广玉兰\nrelation:Part-Whole'}
+{'text': '他由摆子而转伤寒，虽经抢救，但<N>天后仍然永远的离开了他的战友，他在保护战友口粮的战斗中用生命与暴风雨作了最后的斗争。', 'predict': 'entity:他，他的战友\nrelation:Unknown'}
+{'text': '但长城到底有多长?据史料记载：明长城长：<N>.<N>千米。', 'predict': 'entity:长城，明长城\nrelation:Ownership'}
+{'text': '在大姐毛彦文出资安排和亲友的帮助下，毛辅文已经和她的父母亲在西山的坟茔中团聚', 'predict': 'relation:Part-Whole'}
+{'text': '床铺上住着老鼠，灶台上住着蚂蚁，瘪了的稻囤被老鼠嚼得稀巴烂', 'predict': 'entity:床铺，老鼠\nrelation:Part-Whole'}
+{'text': '他与岐伯(甘肃庆城县人)两个多才多艺', 'predict': 'entity: 他，岐伯，甘肃庆城县人\nrelation: Unknown'}
+{'text': '乡里从村里选拔文艺骨干参加县里的汇演，他俩就是那时认识的。他会拉，她会唱;她台上', 'predict': 'entity:他，她\nrelation:Create'}
+{'text': '电梯公寓，书房坐落在北面，整爿墙为窗玻璃，太阳直射，阳光普照。我坐在电脑桌前凝望窗外的天空', 'predict': 'relation:Located'}
+{'text': '巴老住院期间，家人把敞廊加上门窗', 'predict': 'entity:敞廊，门窗\nrelation:Part-Whole'}
+{'text': '有一户姓苟的船民常年在淮河行船做生意。家里有妻子和一个呆傻的儿子。', 'predict': 'entity:姓苟的船民，淮河，妻子\nrelation:Located, Family'}
+{'text': '足够一年吃的;还有一满甏腌得淌黄油的咸鸭蛋。', 'predict': 'entity:一年的食物，咸鸭蛋，黄油\nrelation:Part-Whole'}
+{'text': '我与老伴带上外孙，去体育中心锻炼。外孙最喜欢爬高和爬太空球', 'predict': 'entity:我，老伴，外孙，体育中心，太空球\nrelation:General-Special, Family, Located'}
+{'text': '用两块一尺多长见方玻璃固定在墙上', 'predict': 'relation: Part-Whole'}
+{'text': '而后大叔和大婶两个人就点了一盏小马灯', 'predict': 'entity:大叔，大婶，小马灯\nrelation:Create'}
+{'text': '我的奶妈牵着我的小手奔向嘉陵江边。', 'predict': 'entity:我的奶妈，嘉陵江边\nrelation:Located'}
+{'text': '女士似乎觉得腿疼，撩起裙子一看，两腿摔得青一块紫一块', 'predict': 'entity:女士\nrelation:Unknown (there is no clear relationship between the two entities in this sentence)'}
+{'text': '张继善坚信，靠一双手一切艰难困苦都会改变。', 'predict': 'entity: 张继善，一双手\nrelation: Ownership'}
+{'text': '有人说大衣铺在受伤的林业工人担架上了', 'predict': 'entity:大衣，受伤的林业工人，担架\nrelation:Unknown'}
+{'text': '绿荫中有了红葩的点染', 'predict': 'entity:绿荫，红葩\nrelation:Part-Whole'}
+{'text': '丈夫将王氏狠狠地揍了一顿。婆婆挨了揍出了丑，怀疑是蔡妮坏了自己的好事', 'predict': 'entity:王氏，婆婆，蔡妮\nrelation:Unknown (there is no clear relation between the entities in this sentence)'}
+{'text': '“春天像刚落地的娃娃，从头到脚都是新的”', 'predict': 'entity: 春天，娃娃\nrelation: Comparison'}
+{'text': '我看见母亲那颗苦涩的心在滴血，在呻吟。', 'predict': 'entity:母亲，心\nrelation:Unknown'}
+{'text': '鱼米之乡(岷江、沱江、青衣江均在犍为郡)、佳茗之乡、美酒之乡(今酒城、酒都、茅台等均属犍为郡)、丝绸之乡、旅游之乡(峨眉山、瓦屋山、彭祖山等山川均在犍为郡)', 'predict': 'relation:General-Special'}
+{'text': '那时候，母亲工作很忙。她总是黎明前就起床煮饭。我常常在清晨睁开朦胧的眼睛，看见她在灶前烧火', 'predict': 'relation:Part-Whole (母亲和灶台的关系)'}
+{'text': '门厅右手边是餐厅，左手是厨房。', 'predict': 'entity: 门厅，餐厅，厨房\nrelation: Part-Whole'}
+{'text': '它们经历千百年风刀沙斧的讨伐，有的头断臂折，有的皮撕肉裂', 'predict': 'entity:它们\nrelation:Unknown (There is no clear relation between the entities mentioned in the sentence)'}
+{'text': '是用电锯、电子、电钻等现代木工工具，省工省时效率高', 'predict': 'entity: 电锯，电子，电钻，现代木工工具\nrelation: Use'}
+{'text': '我想我做好了准备，体育练就了一双有力的双臂，强得可以把爱的份量捧起', 'predict': 'relation:Create'}
+{'text': '它们经历千百年风刀沙斧的讨伐，有的头断臂折', 'predict': 'entity:它们\nrelation:Unknown'}
+{'text': '江面映闪着蓝天白云，两岸散布着绿树丛草。', 'predict': 'relation:Located'}
+{'text': '生产队长娇守云对我说：这几天东南沟蜂场有黑瞎子搬蜂箱', 'predict': 'entity:生产队长娇守云，我，东南沟蜂场，黑瞎子，蜂箱\nrelation:Unknown'}
+{'text': '在它的下端弯成一个小钩，并将小钩磨得尖尖的。然后将上端绑在一根长长的竹杆上(河水越深用的竹杆就越长)。', 'predict': 'entity:下端，小钩，上端，竹杆\nrelation:Create'}
+{'text': '当我的双脚踏上澳大利亚时', 'predict': 'entity:我，澳大利亚\nrelation:Located'}
+{'text': '我深深的感觉到你仍炽热的心，我热爱的事业和你生命一起。', 'predict': 'entity:我，你\nrelation:Unknown'}
+{'text': '翻过那个小山头不远处地上有一滩血，黑瞎子曾在这里歇气。', 'predict': 'entity:小山头，地上，黑瞎子\nrelation:Located'}
+{'text': '山湾湾里、溪水两旁和房前房后都是一丛丛青青的黄竹，它们与青山绿水组成绿色的海洋', 'predict': 'relation:Part-Whole'}
+{'text': '为了爬上公盂背顶峰，我们几乎是徒手攀岩，手脚并用，甚至借助于自备的绳索', 'predict': 'entity:公盂背顶峰\nrelation:Part-Whole'}
+{'text': '一天辛辛苦苦伐不多少;而现在使用油锯、割灌机伐木头，归楞、装车用装载机，快捷省力省时间，现代的林业工人是幸福的。', 'predict': 'entity:割灌机，装载机\nrelation:Use'}
+{'text': '真像是一块镶嵌在雪峰绿坡间的硕大翡翠。', 'predict': 'entity:一块镶嵌在雪峰绿坡间的硕大翡翠，雪峰绿坡间\nrelation:Located'}
+{'text': '门口挂着彩球和大红灯笼，棚里电灯通明，摆了<N>张圆桌，每张桌上已放了<N>个冷菜盘', 'predict': 'entity:冷菜盘，每张桌\nrelation:Part-Whole'}
+{'text': '最突出的就是村前村后的两座山，村前靠南边的山叫前门山，是瓶窑人的宝库。', 'predict': 'entity:村前村后的两座山，前门山，瓶窑人\nrelation:Located,Ownership'}
+{'text': '他头发胡子显然得到了修整。穿一件毛领黄色皮大衣，戴一顶翻毛黄军帽，再蹬一双翻毛黄皮鞋，俨然一副军官相。他手指上还钩着一个“保温杯”', 'predict': 'entity:他，保温杯\nrelation:Ownership'}
+{'text': '我来到我的邻居好友、资深画家朱介堂家', 'predict': 'entity: 我，邻居好友、资深画家朱介堂\nrelation: Located'}
+{'text': '甄黛玉的儿子、儿媳、女儿、女婿得知母亲住院，都蜂拥似的赶到医院探视。女儿哭诉着对高梓泰说：“我们兄妹几岁，父亲就去世了', 'predict': 'entity:甄黛玉的儿子、儿媳、女儿、女婿，父亲\nrelation:Family'}
+{'text': '鱼米之乡(岷江、沱江、青衣江均在犍为郡)、佳茗之乡、美酒之乡(今酒城、酒都、茅台等均属犍为郡)、丝绸之乡、旅游之乡(峨眉山、瓦屋山、彭祖山等山川均在犍为郡)', 'predict': 'relation:General-Special'}
+{'text': '同时胎儿也是幸福的;刚翻身时的孕妇生育，掀开炕席铺上草，孩子哇一生落草而生', 'predict': 'entity:孕妇，草\nrelation:Use'}
+{'text': '东南院里(王恩典的前院)是小学一年级', 'predict': 'entity: 东南院里，小学一年级\nrelation: Located'}
+{'text': '那个时候的我对于这种商场策略性的营销已经很反感了，但是母亲却还是每次都乐在其中', 'predict': 'relation:Unknown'}
+{'text': '我也和上。心想：你牛儿<N>挂零了吧!当初我们同在一个生产队里挣工分', 'predict': 'entity:我，牛儿\nrelation:Unknown'}
+{'text': '盼望五爷、五奶能看到他。', 'predict': 'entity:他，五爷，五奶\nrelation:Unknown'}
+{'text': '鱼米之乡(岷江、沱江、青衣江均在犍为郡)、佳茗之乡、美酒之乡(今酒城、酒都、茅台等均属犍为郡)、丝绸之乡、旅游之乡(峨眉山、瓦屋山、彭祖山等山川均在犍为郡)', 'predict': 'relation:General-Special'}
+{'text': '倏忽，银色灯光在舞台左侧刷地齐明', 'predict': 'entity:银色灯光，舞台左侧\nrelation:Located'}
+{'text': '我坚强地安慰妈妈说:“没事，我脚并没有感觉冷。”其实我是多么渴望有一双雨靴啊!还有一次，我去邻镇的小姑家', 'predict': 'entity:我，雨靴，邻镇的小姑家\nrelation:Unknown'}
+{'text': '更令我震惊的是最下端有四位阿拉伯数字：“<N>!”', 'predict': 'entity:最下端，四位阿拉伯数字\nrelation:Unknown'}
+{'text': '老先生在殡仪馆为老太太梳头时', 'predict': 'entity:老先生，老太太\nrelation:Unknown'}
+{'text': '恰好河底下有一只河蚬正张开双两个贝壳，蔡妮的舌头不偏不歪的掉在贝壳中', 'predict': 'relation:Part-Whole'}
+{'text': '呼唤着我们从土壤中张开有力的臂膀来保护您;因为', 'predict': 'Unknown (there is no clear entity-relation pair in this sentence)'}
+{'text': '当母亲牵着我的手走进亮堂堂的客厅的一刻', 'predict': 'entity:母亲，我，客厅，手\nrelation:Unknown'}
+{'text': '家里每年在腊月都腌一大坛子咸腊肉', 'predict': 'entity:家里，坛子，咸腊肉\nrelation:Part-Whole'}
+{'text': '也不宽，路旁栽着法国梧桐树，人行道上铺着红白相间的砖', 'predict': 'relation:Located'}
+{'text': '漫望天外云卷云舒', 'predict': "entity: 天外，云\nrelation: Unknown (This sentence doesn't have a clear entity-relation structure)"}
+{'text': '树腰生出一股粗大的根，垂直向下窜入泥土之中', 'predict': 'entity:树腰，粗大的根\nrelation:Part-Whole'}
+{'text': '唐大工像调皮孩子拉住我的手小声说道', 'predict': 'entity:唐大工，我，手\nrelation:Unknown'}
+{'text': '他栽的有枣树、桃树、杏树、晋农一号优种核桃、刺槐、曲柳、毛白杨等数十个树种。', 'predict': 'relation:Part-Whole'}
+{'text': '听到他打呼噜，她就轻轻搡他一把，声音就会戛然而止', 'predict': 'entity:他，呼噜\nrelation:Unknown'}
+{'text': '鱼米之乡(岷江、沱江、青衣江均在犍为郡)、佳茗之乡、美酒之乡(今酒城、酒都、茅台等均属犍为郡)、丝绸之乡、旅游之乡(峨眉山、瓦屋山、彭祖山等山川均在犍为郡)', 'predict': 'relation:General-Special'}
+{'text': '近来，老张头添了毛病，晚上睡觉打呼噜，并且越打越厉害，呼――!呼――!连吃带喝。有时那声音一直往上拔', 'predict': 'entity:老张头，睡觉\nrelation:Located'}
+{'text': '文革中<N>年，成千上万北京知青，也乘着排成长龙的汽车，离开北京长途跋涉来到广阔天地――内蒙古大草原的情景历历在目。', 'predict': 'The relation between the entities is not clear in this sentence.'}
+{'text': '就像蜡烛水状摊涂在矮墙上', 'predict': 'entity:蜡烛水，矮墙\nrelation:Located'}
+{'text': '缓缓而行，脚下发出孜孜声音，蓦地闪现出一个奇异的联想：这世界上有多少片树叶?恐怕要比人类多多少倍吧?据说', 'predict': 'entity:世界，树叶\nrelation:General-Special'}
+{'text': '而我的信念之力在平凡中决意地回归便是源于爷爷的党费箱。', 'predict': 'entity:我，爷爷的党费箱\nrelation:Ownership'}
+{'text': '目睹有的老年拉着拐棍行走', 'predict': 'entity:老年，拐棍\nrelation:Unknown (there is no clear relationship between the two entities in this sentence)'}
+{'text': '乌鸦，这破嘴的鸟，扑棱着翅膀', 'predict': 'entity:乌鸦，翅膀\nrelation:Part-Whole'}
+{'text': '父亲逝世后，母亲黯然失神.在南充举目无亲的情况下', 'predict': 'entity:父亲，母亲，南充\nrelation:Located, Family'}
+{'text': '恰好河底下有一只河蚬正张开双两个贝壳，蔡妮的舌头不偏不歪的掉在贝壳中', 'predict': 'relation:Part-Whole'}
+{'text': '瀑布两侧石岩上，杂草丛生', 'predict': 'entity:瀑布两侧石岩，杂草\nrelation:Part-Whole'}
+{'text': '近来，老张头添了毛病，晚上睡觉打呼噜，并且越打越厉害，呼――!呼――!连吃带喝。有时那声音一直往上拔', 'predict': 'entity:老张头，睡觉\nrelation:Part-Whole'}
+{'text': '现在有许多瓶窑人成了富翁做了大老板', 'predict': 'entity:瓶窑人，大老板\nrelation:Ownership'}
+{'text': '雕像好像是泥塑的', 'predict': 'relation: Part-Whole'}
+{'text': '各方面条件挺好，我们希望你来绥化铁路司机学校学习。”', 'predict': 'entity:我们，绥化铁路司机学校\nrelation:Ownership'}
+{'text': '一个人坐在房间里，吹着空调的冷风', 'predict': 'entity:一个人，房间，空调，冷风\nrelation:Part-Whole, Use'}
+{'text': '波丽娜全家乔迁德国的巴登，屠格涅夫不顾家人的反对跟到了巴登', 'predict': 'entity:波丽娜全家，德国的巴登，屠格涅夫，家人\nrelation:Unknown (there is no clear relation between the entities mentioned in the sentence)'}
+{'text': '我和哥哥盛面的是大碗', 'predict': 'entity:我，哥哥，面，大碗\nrelation:Unknown (there is no clear relationship between the entities in this sentence)'}
+{'text': '生产队长娇守云对我说：这几天东南沟蜂场有黑瞎子搬蜂箱', 'predict': 'relation:Unknown'}
+{'text': '上百年土木结构的建筑群，多合院的老房子保留完整，无声地记录着岁月的痕迹，甚至有泥墙垒砌的猪圈，至今还养着猪。', 'predict': 'relation:Ownership'}
+{'text': '我常忆难忘那里的水。', 'predict': 'entity:那里的水\nrelation:Located'}
+{'text': '靠着火车站是一座小巧玲珑的小山，约百米多高。', 'predict': 'entity: 火车站，一座小巧玲珑的小山\nrelation: Near'}
+{'text': '这是一七九一年由奥地利天才作曲家莫扎特作曲、奥弗贝克作词的一首原为德文的童声合唱曲，表达了作者对春天的无限憧憬和热爱之情。', 'predict': 'entity:莫扎特，奥弗贝克\nrelation:Create'}
+{'text': '我想到许多，部长和助理的话一次次在我脑海中闪过', 'predict': 'Sorry, there seems to be a missing relation in the sentence you provided. Could you please provide more context or information?'}
+{'text': '因看到香港《文汇报》上刊登的鲁光牛画集挂历，托人向鲁光索牛画。', 'predict': 'entity:香港《文汇报》，鲁光\nrelation:Unknown'}
+{'text': '我听母亲讲述过离开南充的情形：父亲的骸骨掩埋在南充郊外后', 'predict': 'relation:Located'}
+{'text': '是对疼她、关心她的人给以无情的伤害和打击。我想，这种人要自救', 'predict': 'entity:疼她、关心她的人，这种人\nrelation:Unknown'}
+{'text': '思念之情如洪水猛兽，一股暖流在周身涌动', 'predict': 'entity:思念之情，周身\nrelation:Unknown'}
+{'text': '弄堂里散落着林林总总的店铺，卖吃食的', 'predict': 'relation: Part-Whole'}
+{'text': '客人呷茶张望，焦急以待男人与坐议事。', 'predict': 'entity:客人，男人\nrelation:Unknown (There is no clear relation between the two entities in this sentence.)'}
+{'text': '有一家的门楣上已经挂上了新的白底蓝字的招牌：“中国移动通信、中国联通电信”', 'predict': 'entity:中国移动通信，中国联通电信\nrelation:Ownership'}
+{'text': '泪花在口中是咸的', 'predict': 'relation: Unknown'}
+{'text': '我和伙伴们从水边摸来螺蛳，砸碎坚壳，放在竹篮里钓虾', 'predict': 'Part-Whole'}
+{'text': '小径躲在树林里，人们躲在小径里，寻找属于自己的一片天地，似乎只有在这里才能完美和静化自己…', 'predict': 'entity:小径，人们\nrelation:Near'}
+{'text': '饱含着母亲的爱心和希望，我不禁泪如雨下。', 'predict': 'entity:母亲，我\nrelation:Unknown'}
+{'text': '暴雨倾盆，街上的行人本能地双手护头', 'predict': 'entity:街上的行人，双手\nrelation:Unknown'}
+{'text': '于是我又利用我在华港镇担任工商联副主席、姜堰市私营协会理事的机会，发动、组织了不少有爱心的工商户投身到公益事业', 'predict': 'relation:Ownership'}
+{'text': '春夏交接时，我们几个小女孩经常跟大男孩一起，用畚箕捕捞鱼虾', 'predict': 'relation:Use'}
+{'text': '黎明时分，鸟儿们在枝头七嘴八舌地议论起来。', 'predict': 'entity:鸟儿们，枝头\nrelation:Located'}
+{'text': '他成为山西省作家协会会员，一批在读者间广泛流传的文学作品', 'predict': 'entity:文学作品，读者\nrelation:Ownership'}
+{'text': '客厅里放着图像清晰的液晶电视，书房里有电脑、有音响', 'predict': 'entity:客厅，液晶电视\nrelation:Located'}
+{'text': '幸好<N>年重庆水轮机厂到璧山招工，母亲闻讯后急急忙忙连夜跑到乡政府，向乡政府领导诉说自己年轻时如何失去丈夫，而今生活如何艰难', 'predict': 'entity:重庆水轮机厂，璧山，乡政府\nrelation:Located'}
+{'text': '篾匠们就用这些黑色的水竹篾编出大喜字', 'predict': 'entity:篾匠们，水竹篾，大喜字\nrelation:Create'}
+{'text': '我就迫不及待地穿在身上，双手插入下面的衣袋，仰起头', 'predict': 'entity:我，身上的衣服，双手，下面的衣袋\nrelation:Part-Whole'}
+{'text': '只见他将长长的竹杆插入河底三捣两捣就能钩上一只蚬子', 'predict': 'entity:他，竹杆，河底，蚬子\nrelation:Use'}
+{'text': '从柜内翻出一瓶泸州特曲。', 'predict': 'entity:柜内，一瓶泸州特曲\nrelation:Part-Whole'}
+{'text': '而后，母亲用一个箩筐，自己动手', 'predict': 'entity:箩筐，母亲\nrelation:Use'}
+{'text': '临湖的一株桂树下，随便地摆放着一张极为简约的小茶几', 'predict': 'entity:小茶几，桂树\nrelation:Located'}
+{'text': '春夏交接时，我们几个小女孩经常跟大男孩一起，用畚箕捕捞鱼虾', 'predict': 'entity:小女孩，大男孩，畚箕，鱼虾\nrelation:General-Special'}
+{'text': '黄河丹峡位于三门峡市渑池县坡头乡境内，地处豫晋两省五县交界处。北临黄河，南依黛眉山', 'predict': 'relation:Located'}
+{'text': '尊岐伯为老师，一起共研医学其文献“黄帝内经”', 'predict': 'entity:尊岐伯，医学文献“黄帝内经”\nrelation:Create'}
+{'text': '效率极低;而现代的木工，是用电锯、电子、电钻等现代木工工具', 'predict': 'entity:现代的木工，电子，电钻\nrelation:Use'}
+{'text': '点兵的号角响起了，阿雄随军而去。而妻子阿梅煮了几斤大米饭', 'predict': 'relation:Unknown (There is no clear relation between the two entities mentioned in the sentence.)'}
+{'text': '我去市郊城南村参加了老曹孙子的婚礼。', 'predict': 'entity:我，老曹，孙子，婚礼\nrelation:General-Special'}
+{'text': '中华发源于黄河流域，远播世界各地的丝绸、陶器、针灸等为人类作出了不可磨灭的巨大贡献。黄水流淌<N>千米', 'predict': 'relation:Located'}
+{'text': '在无数个夜晚我想尽了你的容颜，还有那还没有发生的故事情节', 'predict': 'entity:你的容颜，故事情节\nrelation:Unknown'}
+{'text': '大概从没有这条小径的时候我的脚印就曾经在这里留下过长长的蜿蜒的蛛丝马迹。', 'predict': 'entity:这条小径，我的脚印\nrelation:Unknown'}
+{'text': '因为害怕排很长的队，母亲早早地就准备好了，带着我乘车去百货商场了。', 'predict': 'entity:母亲，我，车，百货商场\nrelation:General-Special'}
