@@ -18,7 +18,7 @@ def create_chat(message):
     )
     return response
 
-def chatGPT_input(prompt,text):
+def chatGPT_runse(prompt,text):
     '''
     :param text: 输入测试提示，文本内容
     :return:ChatGPT输出结果
