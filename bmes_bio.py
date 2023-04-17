@@ -4,21 +4,16 @@ sentence = []
 label_set=set()
 cnt_line=0
 for line in f:
-    #print(line)
     cnt_line+=1
     if len(line)==0  or line[0]=="\n":
         if len(sentence) > 0:
             sentences.append(sentence)
-            #print(sentence)
+     
             sentence = []
         continue
     splits = line.split(' ')
     sentence.append([splits[0],splits[-1][:-1]])
     label_set.add(splits[-1])
-    if('\n' not in splits[-1]):
-        print(splits[0],splits[-1])
-        print(cnt_line)
-    #print([splits[0],splits[-1]])
 
 if len(sentence) >0:
     sentences.append(sentence)
